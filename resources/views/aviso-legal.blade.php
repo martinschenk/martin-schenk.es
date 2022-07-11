@@ -1,5 +1,9 @@
 <x-legal>
 
+    <x-slot:title>
+        Aviso Legal
+    </x-slot>
+
     <section class="w-full h-screen">
         <img
                 src="/img/martin-schenk-legal.jpg"
@@ -8,15 +12,13 @@
         />
     </section>
 
-    <x-slot:title>
-        Aviso Legal
-    </x-slot>
-
-    <section class="bg-yellow-300 p-4 mb-6">
+    <section class="bg-yellow-300 p-4 xmb-6">
         <div class="container text-black-900">
             hola
         </div>
     </section
+
+
 </x-legal>
 
 
