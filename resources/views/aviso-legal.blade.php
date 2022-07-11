@@ -1,4 +1,13 @@
 <x-legal>
+
+    <section class="w-full h-screen">
+        <img
+                src="/img/martin-schenk-legal.jpg"
+                class="object-cover w-full h-full"
+                alt="Image alt text"
+        />
+    </section>
+
     <x-slot:title>
         Aviso Legal
     </x-slot>
@@ -9,6 +18,8 @@
         </div>
     </section
 </x-legal>
+
+
 
 {{--
 @component('components.legal')
