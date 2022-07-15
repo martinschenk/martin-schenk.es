@@ -4,13 +4,22 @@
         Aviso Legal
     </x-slot>
 
-    <section class="w-full h-screen">
+    <section class="bg-indigo-300">
         <img
-                src="/img/martin-schenk-legal.jpg"
                 class="object-cover w-full h-full"
-                alt="Image alt text"
+                src="/img/aviso-legal-martin-schenk.png"
         />
     </section>
+
+
+{{--    <section class="w-full h-screen">--}}
+{{--        <img--}}
+{{--            src="/img/martin-schenk-legal.jpg"--}}
+{{--                src="/img/aviso-legal-martin-schenk.png"--}}
+{{--                class="object-cover w-full h-full"--}}
+{{--                alt="aviso legal martin schenk s.l."--}}
+{{--        />--}}
+{{--    </section>--}}
 
     <section class="bg-yellow-300 p-4 xmb-6">
         <div class="container text-black-900">
