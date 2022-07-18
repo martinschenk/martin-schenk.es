@@ -33,9 +33,7 @@
             <h1 class="h1-normal">Aviso Legal</h1>
 
 
-
-
-                <h2>Identificación y Titularidad</h2>
+                <h2 class="h2-normal" >Identificación y Titularidad</h2>
 
                 <p class="text-base">
                     En cumplimiento del artículo 10 de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y Comercio Electrónico, el Titular expone sus datos identificativos:
@@ -76,13 +74,13 @@
                 </ul>
                 </p>
 
-                <h2>Finalidad</h2>
+                <h2 class="h2-normal" >Finalidad</h2>
                 <p>
                     La finalidad del Sitio Web es: Servicios informáticos..
                 </p>
 
 
-                <h2>Condiciones de Uso</h2>
+                <h2 class="h2-normal" >Condiciones de Uso</h2>
                 <p>
                     La utilización del Sitio Web le otorga la condición de Usuario, e implica la aceptación completa de todas las cláusulas y condiciones de uso incluidas en las páginas:
                 <ul>
@@ -119,7 +117,7 @@
 
 
 
-                <h2>Medidas de seguridad</h2>
+                <h2 class="h2-normal" >Medidas de seguridad</h2>
                 <p>
                     Los datos personales que facilite al Titular pueden ser almacenados en bases de datos automatizadas o no, cuya titularidad corresponde en exclusiva al Titular, que asume todas las medidas de índole técnica, organizativa y de seguridad que garantizan la confidencialidad, integridad y calidad de la información contenida en las mismas de acuerdo con lo establecido en la normativa vigente en protección de datos.
                 </p>
@@ -128,12 +126,12 @@
                 </p>
 
 
-                <h2>Tratamiento de Datos Personales</h2>
+                <h2 class="h2-normal" >Tratamiento de Datos Personales</h2>
                 <p>
                     Puede consultar toda la información relativa al tratamiento de datos personales que recoge el Titular en la página de  <a href="https://www.martin-schenk.es/politica-de-privacidad/">Política de Privacidad</a>.
                 </p>
 
-                <h2>Contenidos</h2>
+                <h2 class="h2-normal" >Contenidos</h2>
                 <p>
                     El Titular ha obtenido la información, el contenido multimedia y los materiales incluidos en el Sitio Web de fuentes que considera fiables, pero, si bien ha tomado todas las medidas razonables para asegurar que la información contenida es correcta, el Titular no garantiza que sea exacta, completa o actualizada. El Titular declina expresamente cualquier responsabilidad por error u omisión en la información contenida en las páginas del Sitio Web.
                 </p>
@@ -155,13 +153,13 @@
                 </p>
 
 
-                <h2>Política de cookies</h2>
+                <h2 class="h2-normal" >Política de cookies</h2>
                 <p>
                     Puede consultar toda la información relativa a la política de recogida y tratamiento de las cookies en la página de  <a href="https://www.martin-schenk.es/politica-de-cookies/">Política de Cookies</a>.
                 </p>
 
 
-                <h2>Enlaces a otros sitios Web</h2>
+                <h2 class="h2-normal" >Enlaces a otros sitios Web</h2>
                 <p>
                     El Titular puede proporcionarle acceso a sitios Web de terceros mediante enlaces con la finalidad exclusiva de informar sobre la existencia de otras fuentes de información en Internet en las que podrá ampliar los datos ofrecidos en el Sitio Web.
                 </p>
@@ -181,7 +179,7 @@
 
 
 
-                <h2>Propiedad intelectual e industrial</h2>
+                <h2 class="h2-normal" >Propiedad intelectual e industrial</h2>
                 <p>
                     Todos los derechos están reservados.
                 </p>
@@ -190,7 +188,7 @@
                 </p>
 
 
-                <h2>Limitación de responsabilidad</h2>
+                <h2 class="h2-normal" >Limitación de responsabilidad</h2>
                 <p>
                     El Titular declina cualquier responsabilidad en caso de que existan interrupciones o un mal funcionamiento de los Servicios o contenidos ofrecidos en Internet, cualquiera que sea su causa. Asimismo, el Titular no se hace responsable por caídas de la red, pérdidas de negocio a consecuencia de dichas caídas, suspensiones temporales de fluido eléctrico o cualquier otro tipo de daño indirecto que te pueda ser causado por causas ajenas a el Titular.
                 </p>
@@ -200,13 +198,13 @@
 
 
 
-                <h2>Jurisdicción</h2>
+                <h2 class="h2-normal" >Jurisdicción</h2>
                 <p>
                     Este Aviso Legal se rige íntegramente por la legislación española.
                 </p>
 
 
-                <h2>Contacto</h2>
+                <h2 class="h2-normal" >Contacto</h2>
                 <p>
                     En caso de que usted tenga cualquier duda acerca de este Aviso Legal o quiera realizar cualquier comentario sobre el Sitio Web, puede enviar un mensaje de correo electrónico a la dirección: contacto@martin-schenk.es
                 </p>
