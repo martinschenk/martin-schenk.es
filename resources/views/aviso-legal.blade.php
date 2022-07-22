@@ -21,9 +21,16 @@
 {{--        />--}}
 {{--    </section>--}}
 
-    <section class="bg-yellow-300 p-4 mb-4">
-        <div class="container text-black-900">
-            <h1 class="h1-normal font-title">Aviso Legal</h1>
+    <section class="bg-white p-4">
+        <img class="w-24 mb-2" src="/img/logo-schenk-v1.png" alt="Martin Schenk S.L.">
+        <div class="text-gray-700 font-thin text-sm"  >
+            Programación, Alojamiento, Mantenimiento.
+        </div>
+    </section>
+
+    <section class="bg-red-800 p-4 mb-4">
+        <div class="container text-white">
+            <h1 class="h1-normal font-title text-white">Aviso Legal</h1>
         </div>
     </section>
 
