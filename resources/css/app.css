@@ -9,4 +9,7 @@
     .h2-normal {
         @apply font-medium leading-tight text-2xl mt-2 mb-2 text-black;
     }
+    .p-normal {
+         @apply my-1 ;
+     }
 }
