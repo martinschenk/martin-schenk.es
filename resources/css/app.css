@@ -1,15 +1,27 @@
+/*Google Font*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer components {
     .h1-normal {
-        @apply font-medium leading-tight text-4xl mt-2 mb-2 text-black;
+        @apply font-title leading-tight text-4xl mt-2 mb-2 text-gray-900;
     }
     .h2-normal {
-        @apply font-medium leading-tight text-2xl mt-2 mb-2 text-black;
+        @apply font-title leading-tight text-2xl mt-3 mb-2 text-gray-900;
     }
     .p-normal {
-         @apply my-1 ;
+         @apply mt-2 mb-4 ;
      }
+    .ul-normal {
+        @apply mb-4 list-disc list-inside;
+    }
+    .li-normal {
+        @apply mb-1;
+    }
+    .a-normal {
+        @apply underline
+    }
 }

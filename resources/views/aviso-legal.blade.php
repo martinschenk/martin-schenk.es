@@ -21,54 +21,54 @@
 {{--        />--}}
 {{--    </section>--}}
 
-    <section class="bg-yellow-300 p-4 xmb-6">
+    <section class="bg-yellow-300 p-4 mb-4">
         <div class="container text-black-900">
-            <h1 class="h1-normal">Aviso Legal</h1>
+            <h1 class="h1-normal font-title">Aviso Legal</h1>
         </div>
     </section>
 
     <section class="">
-        <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl
-        p-8 text-gray-900 antialiased bg-white">
+        <div class="font-sans text-gray-900 antialiased
+        max-w-md mx-auto shadow-lg
+        rounded-lg md:max-w-2xl
+        px-8 py-4  ">
 
 
                 <h2 class="h2-normal" >Identificación y Titularidad</h2>
 
-                <p class="text-base">
+                <p class="p-normal">
                     En cumplimiento del artículo 10 de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y Comercio Electrónico, el Titular expone sus datos identificativos:
                 </p>
 
                 <p class="p-normal" >
-                <ul>
-                    <li>
+                <ul class="ul-normal" >
+                    <li class="li-normal" >
                         <b>Titular:</b>&nbsp;
                         Martin Schenk S.L..
 
                     </li>
 
-                    <li>
+                    <li class="li-normal" >
                         <b>NIF:</b>&nbsp;B84645654
-
-                        <br/>
-                        Inscrita en el registro mercantil de Madrid, tomo 22655, libro 0, sección 8, folio 71, hoja M-405160, inscripción .
+                        <div class="ml-6">Inscrita en el registro mercantil de Madrid, tomo 22655, libro 0, sección 8, folio 71, hoja M-405160, inscripción .</div>
 
                     </li>
 
 
-                    <li>
+                    <li class="li-normal" >
                         <b>Domicilio:</b>&nbsp;
                         Calle Claudio Coello 14,  Madrid - España.
                     </li>
 
-                    <li>
+                    <li class="li-normal" >
                         <b>Correo electrónico:</b>&nbsp;
                         contacto@martin-schenk.es
                     </li>
 
 
-                    <li>
+                    <li class="li-normal" >
                         <b>Sitio Web:</b>&nbsp;
-                        <a href="https://www.martin-schenk.es">https://www.martin-schenk.es</a>
+                        <a class="a-normal"  href="https://www.martin-schenk.es">https://www.martin-schenk.es</a>
                     </li>
                 </ul>
                 </p>
@@ -82,10 +82,10 @@
                 <h2 class="h2-normal" >Condiciones de Uso</h2>
                 <p class="p-normal" >
                     La utilización del Sitio Web le otorga la condición de Usuario, e implica la aceptación completa de todas las cláusulas y condiciones de uso incluidas en las páginas:
-                <ul>
-                    <li><a href="https://www.martin-schenk.es/aviso-legal/">Aviso Legal</a></li>
-                    <li><a href="https://www.martin-schenk.es/politica-de-privacidad/">Política de Privacidad</a></li>
-                    <li><a href="https://www.martin-schenk.es/politica-de-cookies/">Política de Cookies</a></li>
+                <ul class="ul-normal" >
+                    <li class="li-normal" ><a class="a-normal"  href="https://www.martin-schenk.es/aviso-legal/">Aviso Legal</a></li>
+                    <li class="li-normal" ><a class="a-normal"  href="https://www.martin-schenk.es/politica-de-privacidad/">Política de Privacidad</a></li>
+                    <li class="li-normal" ><a class="a-normal"  href="https://www.martin-schenk.es/politica-de-cookies/">Política de Cookies</a></li>
                 </ul>
                 </p>
 
@@ -127,7 +127,7 @@
 
                 <h2 class="h2-normal" >Tratamiento de Datos Personales</h2>
                 <p class="p-normal" >
-                    Puede consultar toda la información relativa al tratamiento de datos personales que recoge el Titular en la página de  <a href="https://www.martin-schenk.es/politica-de-privacidad/">Política de Privacidad</a>.
+                    Puede consultar toda la información relativa al tratamiento de datos personales que recoge el Titular en la página de  <a class="a-normal"  href="https://www.martin-schenk.es/politica-de-privacidad/">Política de Privacidad</a>.
                 </p>
 
                 <h2 class="h2-normal" >Contenidos</h2>
@@ -154,7 +154,7 @@
 
                 <h2 class="h2-normal" >Política de cookies</h2>
                 <p class="p-normal" >
-                    Puede consultar toda la información relativa a la política de recogida y tratamiento de las cookies en la página de  <a href="https://www.martin-schenk.es/politica-de-cookies/">Política de Cookies</a>.
+                    Puede consultar toda la información relativa a la política de recogida y tratamiento de las cookies en la página de  <a class="a-normal"  href="https://www.martin-schenk.es/politica-de-cookies/">Política de Cookies</a>.
                 </p>
 
 

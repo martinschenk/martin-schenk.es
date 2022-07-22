@@ -2,7 +2,6 @@
 
 const defaultTheme = require('tailwindcss/defaultTheme');
 
-/** @type {import('tailwindcss').Config} */
 module.exports = {
     content: [
         './vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php',
@@ -11,9 +10,13 @@ module.exports = {
     ],
 
     theme: {
+        fontFamily: {
+            sans: ['"Source Sans Pro"', 'sans-serif']
+        },
         extend: {
             fontFamily: {
-                sans: ['Nunito', ...defaultTheme.fontFamily.sans],
+                title: ['Playfair Display', ...defaultTheme.fontFamily.sans],
+                // nunito: ['Nunito', ...defaultTheme.fontFamily.sans],
             },
             colors: {
                 transparent: 'transparent',
