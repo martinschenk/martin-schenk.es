@@ -6,14 +6,17 @@
 @tailwind utilities;
 
 @layer components {
+    body {
+        @apply text-lg text-gray-500;
+    }
     .h1-normal {
-        @apply font-title leading-tight text-4xl mt-2 mb-2 text-gray-900;
+        @apply font-title text-gray-900 leading-normal text-5xl mt-2 mb-2 ;
     }
     .h2-normal {
-        @apply font-title leading-tight text-2xl mt-3 mb-2 text-gray-900;
+        @apply font-title text-gray-700 leading-normal font-bold text-3xl mt-3 mb-2 ;
     }
     .p-normal {
-         @apply mt-2 mb-4 ;
+        @apply mt-2 mb-4 ;
      }
     .ul-normal {
         @apply mb-4 list-disc list-inside;

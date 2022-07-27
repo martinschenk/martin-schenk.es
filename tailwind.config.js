@@ -11,11 +11,12 @@ module.exports = {
 
     theme: {
         fontFamily: {
-            sans: ['"Source Sans Pro"', 'sans-serif']
+            sans: ['"Source Sans Pro"', 'Helvetica', 'Arial' ,'sans-serif']
         },
         extend: {
             fontFamily: {
-                title: ['Playfair Display', ...defaultTheme.fontFamily.sans],
+                title: ['"Source Sans Pro"', 'Helvetica', 'Arial' ,'sans-serif']
+                //title: ['Playfair Display', ...defaultTheme.fontFamily.sans],
                 // nunito: ['Nunito', ...defaultTheme.fontFamily.sans],
             },
             colors: {

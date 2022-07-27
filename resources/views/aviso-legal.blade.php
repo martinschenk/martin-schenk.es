@@ -22,7 +22,7 @@
 {{--    </section>--}}
 
     <section class="bg-white p-4">
-        <img class="w-24 mb-2" src="/img/logo-schenk-v1.png" alt="Martin Schenk S.L.">
+        <img class="w-16 md:w-32 lg:w-48 mb-2" src="/img/Logo-Martin-Schenk-white-bg.png" alt="Martin Schenk S.L.">
         <div class="text-gray-700 font-thin text-sm"  >
             Programación, Alojamiento, Mantenimiento.
         </div>
@@ -35,7 +35,7 @@
     </section>
 
     <section class="">
-        <div class="font-sans text-gray-900 antialiased
+        <div class="font-sans antialiased
         max-w-md mx-auto shadow-lg
         rounded-lg md:max-w-2xl
         px-8 py-4  ">
