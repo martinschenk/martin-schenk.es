@@ -21,7 +21,7 @@
 {{--        />--}}
 {{--    </section>--}}
 
-    <section class="bg-hellblau-unten-rund p-4 ">
+    <section class="bg-hellblau bg-cover p-5 w-full h-full">
         <img class="w-24 md:w-32 lg:w-44 xmb-2" src="/img/Logo-Martin-Schenk-white-bg.png" alt="Martin Schenk S.L.">
 {{--        <div class="text-gray-700 font-thin text-sm"  >--}}
 {{--            Programación, Alojamiento, Mantenimiento.--}}
@@ -30,13 +30,14 @@
             <h1 class="h1-normal font-title">Aviso Legal</h1>
         </div>
     </section>
-    <div class="rounded-b-[]  h-5 w-full  bg-hellblau "></div>
+    <section>
+        <img class="w-full h-6  object-fill object-center" src="/img/bottom-rund-hellblau.png">
+    </section>
 
 
     <section class="">
         <div class="font-sans antialiased
-        max-w-md mx-auto shadow-lg
-        rounded-lg md:max-w-2xl
+        max-w-md mx-auto md:max-w-2xl
         px-8 py-4  ">
 
 
@@ -81,7 +82,7 @@
 
                 <h2 class="h2-normal" >Finalidad</h2>
                 <p class="p-normal" >
-                    La finalidad del Sitio Web es: Servicios informáticos..
+                    La finalidad del Sitio Web es: Servicios informáticos.
                 </p>
 
 
@@ -89,7 +90,7 @@
                 <p class="p-normal" >
                     La utilización del Sitio Web le otorga la condición de Usuario, e implica la aceptación completa de todas las cláusulas y condiciones de uso incluidas en las páginas:
                 <ul class="ul-normal" >
-                    <li class="li-normal" ><a class="a-normal"  href="https://www.martin-schenk.es/aviso-legal/">Aviso Legal</a></li>
+                    <li class="li-normal" ><a class="a-normal"  href="https://legal.martin-schenk.es">Aviso Legal</a></li>
                     <li class="li-normal" ><a class="a-normal"  href="https://www.martin-schenk.es/politica-de-privacidad/">Política de Privacidad</a></li>
                     <li class="li-normal" ><a class="a-normal"  href="https://www.martin-schenk.es/politica-de-cookies/">Política de Cookies</a></li>
                 </ul>
