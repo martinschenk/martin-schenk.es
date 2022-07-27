@@ -21,18 +21,17 @@
 {{--        />--}}
 {{--    </section>--}}
 
-    <section class="bg-white p-4">
-        <img class="w-16 md:w-32 lg:w-48 mb-2" src="/img/Logo-Martin-Schenk-white-bg.png" alt="Martin Schenk S.L.">
-        <div class="text-gray-700 font-thin text-sm"  >
-            Programación, Alojamiento, Mantenimiento.
+    <section class="bg-hellblau-unten-rund p-4 ">
+        <img class="w-24 md:w-32 lg:w-44 xmb-2" src="/img/Logo-Martin-Schenk-white-bg.png" alt="Martin Schenk S.L.">
+{{--        <div class="text-gray-700 font-thin text-sm"  >--}}
+{{--            Programación, Alojamiento, Mantenimiento.--}}
+{{--        </div>--}}
+        <div class="text-dunkelgruen text-center ">
+            <h1 class="h1-normal font-title">Aviso Legal</h1>
         </div>
     </section>
+    <div class="rounded-b-[]  h-5 w-full  bg-hellblau "></div>
 
-    <section class="bg-red-800 p-4 mb-4">
-        <div class="container text-white">
-            <h1 class="h1-normal font-title text-white">Aviso Legal</h1>
-        </div>
-    </section>
 
     <section class="">
         <div class="font-sans antialiased

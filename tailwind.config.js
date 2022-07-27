@@ -22,11 +22,16 @@ module.exports = {
             colors: {
                 transparent: 'transparent',
                 current: 'currentColor',
-                'msgelb': '#EDD947',
-                'msrot': '#C42217',
-                'msmarmor': '#F2EDDB',
-                'msgruen': '#1D7151',
-                'msblau': '#2B46BD',
+                'dunkelgruen': '#1A3336',
+                'gruen': '#24CD9C',
+                'hellblau': '#f5faff',
+                'schwarz': '#1D2120',
+                'grau': '#D6D6D6',
+                'hellgrau': '#F9F9F9',
+
+            },
+            backgroundImage: {
+                'hellblau-unten-rund': "url('/img/bg-hellblau-gerundet.jpg')",
             },
         },
     },
