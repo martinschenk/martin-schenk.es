@@ -1,23 +1,23 @@
 <footer class="bg-hellgrau p-5 pb-4 pt-4">
     <div class="container">
-        {{ $slot }}
+{{--        {{ $slot }}--}}
         <img class="mb-6 pt-4 w-24 md:w-32 lg:w-40 xmb-2" src="/img/Logo-Martin-Schenk-white-bg.png" alt="Martin Schenk S.L.">
 
 
-        <div class="flex flex-wrap justify-start md:justify-center whitespace-nowrap text-sm text-textkleingrau">
-            <div class="mb-4 mr-6">
+        <div class="flex items-center justify-start md:justify-center whitespace-nowrap text-sm text-textkleingrau mb-3">
+            <div class=" mr-6">
                 <a class="whitespace-nowrap" href="/">Condiciones de uso</a>
             </div>
-            <div class="mb-4 mr-6 ">
+            <div class=" mr-6 ">
                 <a class="" href="/">Política de Privacidad</a>
             </div>
-            <div class="mb-4  ">
+            <div class="  ">
                 <a class=" align-bottom" href="/">Política de Cookies</a>
             </div>
 
         </div>
 
-        <div class="mb-4 text-xs text-start md:text-center text-gray-500">
+        <div class="mb-4 text-xs text-left md:text-center text-gray-500">
             © 2022 Martin Schenk S.L.
         </div>
 
