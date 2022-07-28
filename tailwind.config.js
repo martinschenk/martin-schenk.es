@@ -28,6 +28,7 @@ module.exports = {
                 'schwarz': '#1D2120',
                 'grau': '#D6D6D6',
                 'hellgrau': '#F9F9F9',
+                'textkleingrau': '#575A59',
             },
         },
     },
