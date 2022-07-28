@@ -11,7 +11,7 @@
             <div class="mb-4 mr-6 ">
                 <a class="" href="/">Política de Privacidad</a>
             </div>
-            <div class="mb-4 mr-6 ">
+            <div class="mb-4  ">
                 <a class=" align-bottom" href="/">Política de Cookies</a>
             </div>
 
