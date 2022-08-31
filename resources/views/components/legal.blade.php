@@ -14,10 +14,11 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body>
+
 <div>
     {{ $slot }}
 </div>
-
+@include('cookie-consent::index')
 </body>
 </html>
 
