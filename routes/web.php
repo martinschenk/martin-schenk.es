@@ -13,9 +13,19 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+//Route::get('/', function () {
+//    //return view('welcome');
+//    return view('aviso-legal');
+//});
+
+Route::get('/aviso-legal', function () {
     //return view('welcome');
     return view('aviso-legal');
+});
+
+Route::get('/politica-privacidad', function () {
+    //return view('welcome');
+    return view('politica-privacidad');
 });
 
 Route::get('/dashboard', function () {

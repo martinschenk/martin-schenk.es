@@ -75,7 +75,7 @@
 
                     <li class="li-normal" >
                         <b>Sitio Web:</b>&nbsp;
-                        <a class="a-normal"  href="https://www.martin-schenk.es">https://www.martin-schenk.es</a>
+                        <a class="a-normal"  href="https://www.martin-schenk.es">www.martin-schenk.es</a>
                     </li>
                 </ul>
                 </p>
@@ -90,9 +90,14 @@
                 <p class="p-normal" >
                     La utilización del Sitio Web le otorga la condición de Usuario, e implica la aceptación completa de todas las cláusulas y condiciones de uso incluidas en las páginas:
                 <ul class="ul-normal" >
-                    <li class="li-normal" ><a class="a-normal"  href="https://legal.martin-schenk.es">Aviso Legal</a></li>
-                    <li class="li-normal" ><a class="a-normal"  href="https://www.martin-schenk.es/politica-de-privacidad/">Política de Privacidad</a></li>
-                    <li class="li-normal" ><a class="a-normal"  href="https://www.martin-schenk.es/politica-de-cookies/">Política de Cookies</a></li>
+
+                    @php
+                        $linkurl = env('APP_URL');
+                    @endphp
+
+                    <li class="li-normal" ><a class="a-normal"  href="{{ $linkurl }}aviso-legal">Aviso Legal</a></li>
+                    <li class="li-normal" ><a class="a-normal"  href="{{ $linkurl }}politica-privacidad/">Política de Privacidad</a></li>
+                    <li class="li-normal" ><a class="a-normal"  href="{{ $linkurl }}politica-de-cookies/">Política de Cookies</a></li>
                 </ul>
                 </p>
 

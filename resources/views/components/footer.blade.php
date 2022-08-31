@@ -1,3 +1,7 @@
+@php
+    $linkurl = env('APP_URL');
+@endphp
+
 <footer class="bg-hellgrau p-5 pb-4 pt-4">
     <div class="container">
 {{--        {{ $slot }}--}}
@@ -6,13 +10,13 @@
 
         <div class="flex items-center justify-start md:justify-center whitespace-nowrap text-sm text-textkleingrau mb-3">
             <div class=" mr-6">
-                <a class="whitespace-nowrap" href="/">Condiciones de uso</a>
+                <a class="whitespace-nowrap" href="{{ $linkurl }}aviso-legal">Condiciones de uso</a>
             </div>
             <div class=" mr-6 ">
-                <a class="" href="/">Política de Privacidad</a>
+                <a class="" href="{{ $linkurl }}politica-privacidad">Política de Privacidad</a>
             </div>
             <div class="  ">
-                <a class=" align-bottom" href="/">Política de Cookies</a>
+                <a class=" align-bottom" href="{{ $linkurl }}politica-cookies">Política de Cookies</a>
             </div>
 
         </div>
