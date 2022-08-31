@@ -26,18 +26,9 @@
 {{--        />--}}
 {{--    </section>--}}
 
-    <section class="bg-hellblau bg-cover p-5 w-full h-full">
-        <img class="w-24 md:w-32 lg:w-40 xmb-2" src="/img/Logo-Martin-Schenk-white-bg.png" alt="Martin Schenk S.L.">
-{{--        <div class="text-gray-700 font-thin text-sm"  >--}}
-{{--            Programación, Alojamiento, Mantenimiento.--}}
-{{--        </div>--}}
-        <div class="text-dunkelgruen text-center ">
-            <h1 class="h1-normal font-title">Política de Privacidad</h1>
-        </div>
-    </section>
-    <section>
-        <img class="w-full h-6  object-fill object-center" src="/img/bottom-rund-hellblau.png">
-    </section>
+        <x-header title="Política de Privacidad"/>
+
+
 
 
     <section class="">
@@ -50,7 +41,7 @@
 
                 <p class="p-normal">
                     El Titular le informa sobre su Política de Privacidad respecto del tratamiento y protección de los datos de carácter personal de los usuarios que puedan ser recabados durante la navegación a través del Sitio Web:
-                    <a  class="a-normal"  href="https://www.martin-schenk.es">https://www.martin-schenk.es</a>.
+                    <a class="a-normal"   class="a-normal"  href="https://www.martin-schenk.es">https://www.martin-schenk.es</a>.
                 </p>
 
                 <p class="p-normal">
@@ -64,7 +55,7 @@
 
             <h2 class="h2-normal">Identidad del Responsable</h2>
             <p class="p-normal">
-            <ul class="ul-normal">
+            <ul class="ul-normal"  class="ul-normal">
                 <li class="li-normal">
                     <b>Responsable:</b>&nbsp;
                     Martin Schenk S.L..
@@ -93,7 +84,7 @@
 
                 <li class="li-normal">
                     <b>Sitio Web:</b>&nbsp;
-                    <a  class="a-normal"  href="">https://www.martin-schenk.es</a>
+                    <a class="a-normal"   class="a-normal"  href="">https://www.martin-schenk.es</a>
                 </li>
             </ul>
             </p>
@@ -105,7 +96,7 @@
             </p>
 
             <p class="p-normal">
-            <ul class="ul-normal">
+            <ul class="ul-normal"  class="ul-normal">
                 <li class="li-normal">
                     Principio de licitud, lealtad y transparencia: El Titular siempre requerirá el consentimiento para el tratamiento de los datos personales que puede ser para uno o varios fines específicos sobre los que el Titular informará al Usuario previamente con absoluta transparencia.
                 </li>
@@ -132,7 +123,7 @@
                 Los casos en los que usted sí proporciona sus datos personales son los siguientes:
             </p>
             <p class="p-normal">
-            <ul class="ul-normal">
+            <ul class="ul-normal"  class="ul-normal">
                 <li class="li-normal">Al contactar a través de los formularios de contacto o enviar un correo electrónico.</li>
                 <li class="li-normal">Al realizar un comentario en un artículo o en una página.</li>
             </ul>
@@ -143,7 +134,7 @@
                 El Titular le informa que sobre sus datos personales tiene derecho a:
             </p>
             <p class="p-normal">
-            <ul class="ul-normal">
+            <ul class="ul-normal"  class="ul-normal">
                 <li class="li-normal">Solicitar el acceso a los datos almacenados.</li>
                 <li class="li-normal">Solicitar una rectificación o la supresión.</li>
                 <li class="li-normal">Solicitar la limitación de su tratamiento.</li>
@@ -180,12 +171,12 @@
 
                 &mdash;
                 sólo como se describe en las páginas:
-            <ul class="ul-normal">
+            <ul class="ul-normal"  class="ul-normal">
 
 
 
-                <li class="li-normal" ><a class="a-normal"  href="{{ $linkurl }}aviso-legal">Aviso Legal</a></li>
-                <li class="li-normal" ><a class="a-normal"  href="{{ $linkurl }}politica-privacidad/">Política de Privacidad</a></li>
+                <li class="li-normal" ><a class="a-normal"  class="a-normal"  href="{{ $linkurl }}aviso-legal">Aviso Legal</a></li>
+                <li class="li-normal" ><a class="a-normal"  class="a-normal"  href="{{ $linkurl }}politica-privacidad/">Política de Privacidad</a></li>
 
             </ul>
             </p>
@@ -193,7 +184,7 @@
                 Los datos personales y la finalidad del tratamiento por parte del Titular es diferente según el sistema de captura de información:
             </p>
             <p class="p-normal">
-            <ul class="ul-normal">
+            <ul class="ul-normal"  class="ul-normal">
                 <li class="li-normal">
                     Formularios de contacto: El Titular solicita datos personales entre los que pueden estar: nombre y apellidos, dirección de correo electrónico, número de teléfono y dirección de sitio web con la finalidad de responder las consultas de los Usuarios.<br>
                     Por ejemplo, el Titular utiliza esos datos para dar respuesta a mensajes, dudas, quejas, comentarios o inquietudes que pueden tener los Usuarios relativas a la información incluida en el sitio Web, el tratamiento de los datos personales, cuestiones referentes a los textos legales incluidos en el Sitio Web, así como cualquier otra consulta que el Usuario pueda tener y que no esté sujeta a las condiciones del sitio Web.
@@ -207,7 +198,7 @@
                 Existen otras finalidades por las que el Titular trata datos personales:
             </p>
             <p class="p-normal">
-            <ul class="ul-normal">
+            <ul class="ul-normal"  class="ul-normal">
                 <li class="li-normal">
                     Para garantizar el cumplimiento de las condiciones recogidas en la página de Aviso Legal y de  la ley aplicable. Esto puede incluir el desarrollo de herramientas y algoritmos que ayuden al Sitio Web a garantizar la confidencialidad de los datos personales que recoge.
                 </li>
@@ -215,7 +206,7 @@
                     Para apoyar y mejorar los servicios que ofrece este Sitio Web.
                 </li>
                 <li class="li-normal">
-                    Para analizar la navegación de los usuarios. El Titular recoge otros datos no identificativos que se obtienen mediante el uso de cookies que se descargan en el ordenador del Usuario cuando navega por el Sitio Web cuyas características y finalidad están detalladas en la página de  <a class="a-normal" href="{{ $linkurl }}politica-cookies/">Política de Cookies</a>.
+                    Para analizar la navegación de los usuarios. El Titular recoge otros datos no identificativos que se obtienen mediante el uso de cookies que se descargan en el ordenador del Usuario cuando navega por el Sitio Web cuyas características y finalidad están detalladas en la página de  <a class="a-normal"  class="a-normal" href="{{ $linkurl }}politica-cookies/">Política de Cookies</a>.
                 </li>
             </ul>
             </p>
@@ -252,7 +243,7 @@
                 Para que este sitio Web funcione correctamente necesita utilizar cookies, que es una información que se almacena en su navegador web.
 
             <p class="p-normal">
-                Puede consultar toda la información relativa a la política de recogida y tratamiento de las cookies en la página de  <a  class="a-normal"  href="{{ $linkurl }}politica-cookies/">Política de Cookies</a>.
+                Puede consultar toda la información relativa a la política de recogida y tratamiento de las cookies en la página de  <a class="a-normal"   class="a-normal"  href="{{ $linkurl }}politica-cookies/">Política de Cookies</a>.
             </p>
             </p>
 
@@ -261,7 +252,7 @@
             <h2 class="h2-normal">Legitimación para el tratamiento de datos</h2>
             <p class="p-normal">
                 La base legal para el tratamiento de sus datos es:
-            <ul class="ul-normal">
+            <ul class="ul-normal"  class="ul-normal">
                 <li class="li-normal">
                     El consentimiento del interesado.
                 </li>
@@ -274,7 +265,7 @@
                 Las categorías de datos personales que trata el Titular son:
             </p>
             <p class="p-normal">
-            <ul class="ul-normal">
+            <ul class="ul-normal"  class="ul-normal">
                 <li class="li-normal">Datos identificativos.</li>
                 <li class="li-normal">No se tratan categorías de datos especialmente protegidos.</li>
             </ul>
@@ -290,26 +281,26 @@
             <div id="destinatarios">
                 <h2 class="h2-normal">Destinatarios de datos personales</h2>
                 <p class="p-normal">
-                <ul class="ul-normal">
+                <ul class="ul-normal"  class="ul-normal">
                     <li class="li-normal">
                         <b>Google Analytics</b> es un servicio de analítica web prestado por Google, Inc., una compañía de Delaware cuya oficina principal está en 1600 Amphitheatre Parkway, Mountain View (California), CA 94043, Estados Unidos (&quot;Google&quot;).
                         <br>Google Analytics utiliza &quot;cookies&quot;, que son archivos de texto ubicados en tu ordenador, para ayudar al Titular a analizar el uso que hacen los Usuarios del sitio Web. La información que genera la cookie acerca del uso del sitio Web (incluyendo la dirección IP) será directamente transmitida y archivada por Google en los servidores de Estados Unidos.
-                        <br>Más información en:&nbsp;<a href="https://policies.google.com/privacy?hl=es-ES" rel="nofollow" target="_blank">https://analytics.google.com</a>
+                        <br>Más información en:&nbsp;<a class="a-normal"  href="https://policies.google.com/privacy?hl=es-ES" rel="nofollow" target="_blank">https://analytics.google.com</a>
                     </li>
                 </ul>
                 </p>
             </div>
 
             <p class="p-normal">
-                Puede consultar como Google gestiona la privacidad en lo que respecta al uso de las cookies y otra información en la página de Política de privacidad de Google:&nbsp;<a target="_blank" href="https://policies.google.com/privacy?hl=es" rel="nofollow">https://policies.google.com/privacy?hl=es</a>
+                Puede consultar como Google gestiona la privacidad en lo que respecta al uso de las cookies y otra información en la página de Política de privacidad de Google:&nbsp;<a class="a-normal"  target="_blank" href="https://policies.google.com/privacy?hl=es" rel="nofollow">https://policies.google.com/privacy?hl=es</a>
             </p>
 
             <p class="p-normal">
                 También puede ver una lista de los tipos de cookies que utiliza Google y sus colaboradores y toda la información relativa al uso que hacen de las cookies publicitarias en:
             </p>
-            <ul class="ul-normal">
-                <li class="li-normal"><a  class="a-normal"  target="_blank" href="https://policies.google.com/technologies/types?hl=es" rel="nofollow">Tipos de cookies que utiliza Google</a></li>
-                <li class="li-normal"><a  class="a-normal" target="_blank" rel="nofollow" href="https://policies.google.com/technologies/ads?hl=es">Cómo utiliza Google las cookies en publicidad</a>.</li>
+            <ul class="ul-normal"  class="ul-normal">
+                <li class="li-normal"><a class="a-normal"   class="a-normal"  target="_blank" href="https://policies.google.com/technologies/types?hl=es" rel="nofollow">Tipos de cookies que utiliza Google</a></li>
+                <li class="li-normal"><a class="a-normal"   class="a-normal" target="_blank" rel="nofollow" href="https://policies.google.com/technologies/ads?hl=es">Cómo utiliza Google las cookies en publicidad</a>.</li>
             </ul>
 
 
@@ -323,7 +314,7 @@
             </p>
 
             <p class="p-normal">
-            <ul class="ul-normal">
+            <ul class="ul-normal"  class="ul-normal">
                 <li class="li-normal">Google Analytics.</li>
 
 

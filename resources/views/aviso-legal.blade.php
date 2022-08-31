@@ -21,18 +21,7 @@
 {{--        />--}}
 {{--    </section>--}}
 
-    <section class="bg-hellblau bg-cover p-5 w-full h-full">
-        <img class="w-24 md:w-32 lg:w-40 xmb-2" src="/img/Logo-Martin-Schenk-white-bg.png" alt="Martin Schenk S.L.">
-{{--        <div class="text-gray-700 font-thin text-sm"  >--}}
-{{--            Programación, Alojamiento, Mantenimiento.--}}
-{{--        </div>--}}
-        <div class="text-dunkelgruen text-center ">
-            <h1 class="h1-normal font-title">Aviso Legal</h1>
-        </div>
-    </section>
-    <section>
-        <img class="w-full h-6  object-fill object-center" src="/img/bottom-rund-hellblau.png">
-    </section>
+    <x-header title="Aviso Legal"/>
 
 
     <section class="">
@@ -48,7 +37,7 @@
                 </p>
 
                 <p class="p-normal" >
-                <ul class="ul-normal" >
+                <ul class="ul-normal"  class="ul-normal" >
                     <li class="li-normal" >
                         <b>Titular:</b>&nbsp;
                         Martin Schenk S.L..
@@ -75,7 +64,7 @@
 
                     <li class="li-normal" >
                         <b>Sitio Web:</b>&nbsp;
-                        <a class="a-normal"  href="https://www.martin-schenk.es">www.martin-schenk.es</a>
+                        <a class="a-normal"  class="a-normal"  href="https://www.martin-schenk.es">www.martin-schenk.es</a>
                     </li>
                 </ul>
                 </p>
@@ -89,15 +78,15 @@
                 <h2 class="h2-normal" >Condiciones de Uso</h2>
                 <p class="p-normal" >
                     La utilización del Sitio Web le otorga la condición de Usuario, e implica la aceptación completa de todas las cláusulas y condiciones de uso incluidas en las páginas:
-                <ul class="ul-normal" >
+                <ul class="ul-normal"  class="ul-normal" >
 
                     @php
                         $linkurl = env('APP_URL');
                     @endphp
 
-                    <li class="li-normal" ><a class="a-normal"  href="{{ $linkurl }}aviso-legal">Aviso Legal</a></li>
-                    <li class="li-normal" ><a class="a-normal"  href="{{ $linkurl }}politica-privacidad/">Política de Privacidad</a></li>
-                    <li class="li-normal" ><a class="a-normal"  href="{{ $linkurl }}politica-de-cookies/">Política de Cookies</a></li>
+                    <li class="li-normal" ><a class="a-normal"  class="a-normal"  href="{{ $linkurl }}aviso-legal/">Aviso Legal</a></li>
+                    <li class="li-normal" ><a class="a-normal"  class="a-normal"  href="{{ $linkurl }}politica-privacidad/">Política de Privacidad</a></li>
+                    <li class="li-normal" ><a class="a-normal"  class="a-normal"  href="{{ $linkurl }}politica-cookies/">Política de Cookies</a></li>
                 </ul>
                 </p>
 
@@ -139,7 +128,7 @@
 
                 <h2 class="h2-normal" >Tratamiento de Datos Personales</h2>
                 <p class="p-normal" >
-                    Puede consultar toda la información relativa al tratamiento de datos personales que recoge el Titular en la página de  <a class="a-normal"  href="https://www.martin-schenk.es/politica-de-privacidad/">Política de Privacidad</a>.
+                    Puede consultar toda la información relativa al tratamiento de datos personales que recoge el Titular en la página de  <a class="a-normal"  class="a-normal"  href="https://www.martin-schenk.es/politica-de-privacidad/">Política de Privacidad</a>.
                 </p>
 
                 <h2 class="h2-normal" >Contenidos</h2>
@@ -166,7 +155,7 @@
 
                 <h2 class="h2-normal" >Política de cookies</h2>
                 <p class="p-normal" >
-                    Puede consultar toda la información relativa a la política de recogida y tratamiento de las cookies en la página de  <a class="a-normal"  href="https://www.martin-schenk.es/politica-de-cookies/">Política de Cookies</a>.
+                    Puede consultar toda la información relativa a la política de recogida y tratamiento de las cookies en la página de  <a class="a-normal"  class="a-normal"  href="https://www.martin-schenk.es/politica-de-cookies/">Política de Cookies</a>.
                 </p>
 
 

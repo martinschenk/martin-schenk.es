@@ -12,13 +12,13 @@
 
         <div class="flex items-center justify-start md:justify-center whitespace-nowrap text-sm text-textkleingrau mb-3">
             <div class=" mr-6">
-                <a class="whitespace-nowrap" href="{{ $linkurl }}aviso-legal">Condiciones de uso</a>
+                <a class="underline"  class="whitespace-nowrap" href="{{ $linkurl }}aviso-legal">Condiciones de uso</a>
             </div>
             <div class=" mr-6 ">
-                <a class="" href="{{ $linkurl }}politica-privacidad">Política de Privacidad</a>
+                <a class="underline"  class="" href="{{ $linkurl }}politica-privacidad">Política de Privacidad</a>
             </div>
             <div class="  ">
-                <a class=" align-bottom" href="{{ $linkurl }}politica-cookies">Política de Cookies</a>
+                <a class="underline"  class=" align-bottom" href="{{ $linkurl }}politica-cookies">Política de Cookies</a>
             </div>
 
         </div>
