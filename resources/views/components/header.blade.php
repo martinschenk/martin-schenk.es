@@ -5,10 +5,19 @@
 <header>
 
     <section class="bg-hellblau bg-cover p-5 w-full h-full">
-        <img class="w-24 md:w-32 lg:w-40 xmb-2" src="/img/Logo-Martin-Schenk-white-bg.png" alt="Martin Schenk S.L.">
-        {{--        <div class="text-gray-700 font-thin text-sm"  >--}}
-        {{--            Programación, Alojamiento, Mantenimiento.--}}
-        {{--        </div>--}}
+        <div class="flex items-start">
+            <img class="w-24 md:w-32 lg:w-40 xmb-2" src="/img/Logo-Martin-Schenk-white-bg.png" alt="Martin Schenk S.L.">
+            {{--        <div class="text-gray-700 font-thin text-sm"  >--}}
+            {{--            Programación, Alojamiento, Mantenimiento.--}}
+            {{--        </div>--}}
+
+            <div class="space-y-2">
+                <div class="w-8 h-0.5 bg-gray-600"></div>
+                <div class="w-8 h-0.5 bg-gray-600"></div>
+                <div class="w-8 h-0.5 bg-gray-600"></div>
+            </div>
+        </div>
+
         <div class="text-dunkelgruen text-center ">
             <h1 class="h1-normal font-title">{{ $title }}</h1>
         </div>
