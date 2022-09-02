@@ -11,11 +11,13 @@
             {{--            Programación, Alojamiento, Mantenimiento.--}}
             {{--        </div>--}}
 
-{{--            <div class="space-y-2">--}}
-{{--                <div class="w-8 h-0.5 bg-gray-600"></div>--}}
-{{--                <div class="w-8 h-0.5 bg-gray-600"></div>--}}
-{{--                <div class="w-8 h-0.5 bg-gray-600"></div>--}}
-{{--            </div>--}}
+{{--            <a class="ml-auto" href="">--}}
+{{--                <div class="space-y-2">--}}
+{{--                    <div class="w-8 h-0.5 bg-gray-600"></div>--}}
+{{--                    <div class="w-8 h-0.5 bg-gray-600"></div>--}}
+{{--                    <div class="w-8 h-0.5 bg-gray-600"></div>--}}
+{{--                </div>--}}
+{{--            </a>--}}
         </div>
 
         <div class="text-dunkelgruen text-center ">
