@@ -22,6 +22,7 @@ Route::get('/', function () {
     return redirect('/aviso-legal');
 });
 
+
 Route::get('/aviso-legal', function () {
     return view('aviso-legal');
 });
