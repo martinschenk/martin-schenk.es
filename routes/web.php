@@ -18,6 +18,10 @@ use Illuminate\Support\Facades\Route;
 //    return view('aviso-legal');
 //});
 
+Route::get('/', function () {
+    return redirect('/aviso-legal');
+});
+
 Route::get('/aviso-legal', function () {
     return view('aviso-legal');
 });
