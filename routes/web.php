@@ -13,14 +13,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-//Route::get('/', function () {
-//    //return view('welcome');
-//    return view('aviso-legal');
-//});
-
 Route::get('/', function () {
-    return redirect('/aviso-legal');
+    return view('home');
 });
+
+//Route::get('/', function () {
+//    return redirect('/aviso-legal');
+//});
 
 
 Route::get('/aviso-legal', function () {
