@@ -35,8 +35,8 @@ Route::get('/politica-cookies', function () {
     return view('politica-cookies');
 });
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth'])->name('dashboard');
-
-require __DIR__.'/auth.php';
+//Route::get('/dashboard', function () {
+//    return view('dashboard');
+//})->middleware(['auth'])->name('dashboard');
+//
+//require __DIR__.'/auth.php';
