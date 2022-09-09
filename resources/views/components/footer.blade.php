@@ -4,7 +4,7 @@
 
 <footer class="bg-hellgrau p-5 pb-4 pt-4">
 
-    <div class="container">
+
 
 {{--        {{ $slot }}--}}
         <img class="mb-6 pt-4 w-24 md:w-32 lg:w-40 xmb-2" src="/img/Logo-Martin-Schenk-white-bg.png" alt="Martin Schenk S.L.">
@@ -27,9 +27,5 @@
             © 2022 Martin Schenk S.L.
         </div>
 
-
-
-
-
-    </div>
+    
 </footer>

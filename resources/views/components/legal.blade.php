@@ -18,8 +18,10 @@
 </head>
 <body>
 
-<div>
+<div class="flex flex-col h-screen justify-between">
+
     {{ $slot }}
+
 </div>
 @include('cookie-consent::index')
 </body>
