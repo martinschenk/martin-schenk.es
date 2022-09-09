@@ -21,9 +21,10 @@
 <div class="flex flex-col h-screen justify-between">
 
     {{ $slot }}
+    @include('cookie-consent::index')
 
 </div>
-@include('cookie-consent::index')
+
 </body>
 </html>
 

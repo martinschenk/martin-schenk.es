@@ -10,7 +10,7 @@
         @apply text-lg text-gray-600;
     }
     .h1-normal {
-        @apply font-title text-gray-900 leading-normal text-4xl mt-2 mb-1 ;
+        @apply font-title text-gray-900 leading-normal text-3xl mt-2 mb-1 ;
     }
     .h2-normal {
         @apply font-title text-gray-700 leading-normal font-bold text-2xl mt-8 mb-2 ;
