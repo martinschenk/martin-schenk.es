@@ -4,7 +4,7 @@
 
 <header>
 
-    <section class="bg-hellblau bg-cover p-5 w-full h-full">
+    <section class="bg-hellblau bg-cover pt-5 pl-5 pr-5 pb-2 bp-0 w-full" >
         <div class="flex items-start">
             <a href="/">
                 <img class="w-24 md:w-32 lg:w-40 xmb-2" src="/img/Logo-Martin-Schenk-white-bg.png" alt="Martin Schenk S.L.">
@@ -23,7 +23,7 @@
         </div>
 
         <div class="text-dunkelgruen text-center ">
-            <h1 class="h1-normal font-title">{{ $title }}</h1>
+            <h1 class="h1-normal font-title mt-0 mb-0">{{ $title }}</h1>
         </div>
     </section>
 
