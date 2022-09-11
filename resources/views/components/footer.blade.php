@@ -7,7 +7,10 @@
 
 
 {{--        {{ $slot }}--}}
-        <img class="mb-6 pt-4 w-24 md:w-32 lg:w-40 xmb-2" src="/img/Logo-Martin-Schenk-white-bg.png" alt="Martin Schenk S.L.">
+        <a href="/">
+            <img class="mb-6 pt-4 w-24 md:w-32 lg:w-40 xmb-2" src="/img/Logo-Martin-Schenk-white-bg.png"
+            alt="Martin Schenk S.L.">
+        </a>
 
 
         <div class="flex items-center justify-start md:justify-center whitespace-nowrap text-sm text-textkleingrau mb-3">

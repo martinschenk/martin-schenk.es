@@ -9,25 +9,25 @@
     body {
         @apply text-lg text-gray-600;
     }
-    .h1-normal {
+    h1, .h1-normal {
         @apply font-title text-gray-900 leading-normal text-3xl mt-2 mb-1 ;
     }
-    .h2-normal {
+    h2, .h2-normal {
         @apply font-title text-gray-700 leading-normal font-bold text-2xl mt-8 mb-2 ;
     }
-    .h4-normal {
+    h4, .h4-normal {
         @apply font-title text-gray-600 leading-normal font-bold text-xl mt-8 mb-2 ;
     }
-    .p-normal {
+    p, .p-normal {
         @apply mt-2 mb-4 ;
      }
-    .ul-normal {
+    ul, .ul-normal {
         @apply mb-4 list-disc list-inside;
     }
-    .li-normal {
+    li, .li-normal {
         @apply mb-1;
     }
-    .a-normal {
+    a, .a-normal {
         @apply underline text-gruen;
     }
 }

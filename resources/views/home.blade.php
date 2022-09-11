@@ -21,13 +21,23 @@
 {{--        />--}}
 {{--    </section>--}}
 
-    <x-header title="Agencia Digital"/>
+    <x-header title="Desarrollo de software para Startups"/>
 
 
     <section class="">
         <div class="font-sans antialiased
         max-w-md mx-auto md:max-w-2xl
         px-8 py-4  ">
+
+            <h2>De la idea al software</h2>
+            <p>
+                Somos especialistas en el desarrollo y mantenimiento de software para Startups gracias a nuestra amplia experiencia y comprensión de distintas gamas. Estaremos a su lado en cada etapa, desde el diseño, el desarrollo, el lanzamiento, hasta la fase operativa, desarrollo de nuevos módulos y el mantenimiento.
+            </p>
+
+            <h2>Experiencia</h2>
+            <p>
+                Llevamos más de 20 años desarrollando con éxito software para nuevas ideas de negocio. En aquel entonces, la palabra "startup" ni siquiera existía. Sabemos lo que importa.
+            </p>
 
             <h2 class="h2-normal" >Servicios</h2>
             <p class="p-normal" >
@@ -69,7 +79,7 @@
             </p>
 
             <p class="p-normal" >
-                Palimpalem es un constructor de sitios web en línea que se ha utilizado para crear más de 1.400.000 sitios web. En los mejores tiempos, se creaban unas 500 páginas web nuevas con Palimpalem cada día. Actualmente estoy trabajando en una nueva y versión que va a salir con otro dominio diferente.
+                Palimpalem es un constructor de sitios web en línea que se ha utilizado para crear más de 1.400.000 sitios web. Se han creado hasta 500 nuevas páginas web cada día. Actualmente estoy trabajando en una nueva y versión que va a salir con otro dominio diferente.
             </p>
 
 
