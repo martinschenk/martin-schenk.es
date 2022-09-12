@@ -33,7 +33,15 @@
             <p>
                 <ul>
 
-                    <li>Especializado en el desarrollo y mantenimiento de software para Startups. Siempre a su lado en cada etapa, desde el diseño, el desarrollo, el lanzamiento, hasta la fase operativa, desarrollo de nuevos módulos y el mantenimiento.</li>
+                    <li>Nos dedicamos al desarrollo y mantenimiento de aplicaciones web y SaaS. Le acompañamos en cada etapa:
+                        <ul class="ml-6 list-inside list-decimal">
+                            <li class="ml-6 mb-1 mt-3">Planificación</li>
+                            <li class="ml-6 mb-1">Diseño</li>
+                            <li class="ml-6 mb-1">Desarrollo</li>
+                            <li class="ml-6 mb-1">Lanzamiento</li>
+                            <li class="ml-6 mb-1">Nuevos módulos</li>
+                        </ul>
+                    </li>
                     <li>Cada cliente tiene unas necesidades específicas y para pymes y empresas más grandes es muy difícil que una solución Standard se adapte al 100% a sus necesidades.</li>
                     <li>Muchas veces la parametrización de un sistema standard es más costosa y tiene más inconvenientes que el desarrollo de un software a medida que, con un costo similar, se adaptará perfectamente a las especificaciones del cliente.</li>
                     <li>Más de 30 años de experiencia en convertir ideas en aplicaciones web estables y fiables. SAAS (Software as a Service) es nuestra pasión.</li>
@@ -50,17 +58,20 @@
                 </li>
             </ul>
 
-            <h2>Mantenimiento</h2>
+            <h2>Mantenimiento y adaptación</h2>
             <p>
                 <ul>
+                    <li>Todos que estamos acostumbrados de implementar nuevo Software, sabemos que los programas no son una cosa estática. Como son una imagen de la realidad, requieren constantes adaptaciones y actualizaciones. Pueden ser motivados por cambios del mercado, la competencia, razónes de seguridad o por otros motivos como un cambio de estrategia.</li>
                     <li>Ofrecemos soluciones personalizadas para el mantenimiento y las actualizaciones de sus programas. El software debe mantenerse al día, ya que, de lo contrario, es fácil que se produzcan fallos de seguridad y rendimiento. Es más barato y seguro mantener el software al día que reescribir un software completamente obsoleto.
                     </li>
+
                 </ul>
             </p>
 
             <h2>Alquiler de servidores VPS y Dedicados</h2>
             <p>
                 <ul>
+                    <li>Como llevamos propias aplicaciones web SaaS, sabemos que tipo de servidor requieren programas, que tienen cientos de nuevos usuarios por día y miles de logins. Solemos empezar nuevos proyectos con servidores pequeños en nuestra nube, que podemos ampliar a más procesadores, discos y RAM en cualquier momento.</li>
                     <li>Elegimos su VPS o servidor dedicado exactamente a su medida.</li>
                     <li>Opcionalmente puede ser con Mantenimiento completo por nuestra parte.</li>
                     <li>Trabajamos con el panel Plesk desde hace ya casi 20 años. Lo conocemos profundamente.</li>

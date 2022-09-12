@@ -25,7 +25,7 @@
         @apply mb-4 list-disc list-inside;
     }
     li, .li-normal {
-        @apply mb-1;
+        @apply mb-3;
     }
     a, .a-normal {
         @apply underline text-gruen;
