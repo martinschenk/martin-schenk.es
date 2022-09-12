@@ -21,7 +21,7 @@
 {{--        />--}}
 {{--    </section>--}}
 
-    <x-header title="Desarrollo de software para Startups"/>
+    <x-header title="Servicios Informáticos"/>
 
 
     <section class="">
@@ -29,43 +29,46 @@
         max-w-md mx-auto md:max-w-2xl
         px-8 py-4  ">
 
-            <h2>De la idea al software</h2>
+            <h2>Desarrollo de software a medida</h2>
             <p>
-                Somos especialistas en el desarrollo y mantenimiento de software para Startups gracias a nuestra amplia experiencia y comprensión de distintas gamas. Estaremos a su lado en cada etapa, desde el diseño, el desarrollo, el lanzamiento, hasta la fase operativa, desarrollo de nuevos módulos y el mantenimiento.
+                <ul>
+                    <li>Más de 30 años de experiencia en convertir ideas en aplicaciones web estables y fiables. SAAS (Software as a Service) es nuestra pasión.</li>
+                    <li>Especializado en el desarrollo y mantenimiento de software para Startups. Siempre a su lado en cada etapa, desde el diseño, el desarrollo, el lanzamiento, hasta la fase operativa, desarrollo de nuevos módulos y el mantenimiento.</li>
+                    <li>Cada cliente tiene unas necesidades específicas y para pymes y empresas más grandes es muy difícil que una solución Standard se adapte al 100% a sus necesidades.</li>
+                    <li>Muchas veces la parametrización de un sistema standard es más costosa y tiene más inconvenientes que el desarrollo de un software a medida que, con un costo similar, se adaptará perfectamente a las especificaciones del cliente.</li>
+                </ul>
             </p>
 
-            <h2>Experiencia</h2>
-            <p>
-                Llevamos más de 20 años desarrollando con éxito software para nuevas ideas de negocio. En aquel entonces, la palabra "startup" ni siquiera existía. Sabemos lo que importa.
-            </p>
+            <h2>Outsourcing - hosting/alojamiento de sus aplicaciónes y páginas web</h2>
+            <ul>
+                <li>La mayoría de las aplicaciones que desarrollamos para nuestros clientes se alojan y mantienen en nuestros servidores en la nube, lo que les libera de tener que instalar y mantener nada ellos mismos.
+                </li>
+                <li>Para la mayoría de las empresas, la externalización de la infraestructura y las aplicaciones (outsourcing) de TI se ha convertido en la norma. Sencillamente, es más rentable y eficiente dejar que otra persona se encargue de los detalles del mantenimiento y las actualizaciones. Ahí es donde entramos nosotros. La mayoría de las aplicaciones que desarrollamos para nuestros clientes se alojan y mantienen en nuestros servidores en la nube, lo que les libera de tener que instalar y mantener nada ellos mismos. Nosotros nos encargamos de todo para que ellos puedan centrarse en sus objetivos empresariales. Y si alguna vez hay algún problema, nuestro equipo está a sólo una llamada de distancia. Así que si está pensando en externalizar sus necesidades de TI, llámenos. Estaremos encantados de charlar sobre cómo podemos ayudarle a liberar su tiempo y sus recursos.
 
-            <h2 class="h2-normal" >Servicios</h2>
-            <p class="p-normal" >
-                Desarrollo de aplicaciónes web.
-            </p>
-            <p class="p-normal" >
-                <ul class="ul-normal"  class="ul-normal" >
-                    <li class="li-normal" >
-                        <a class="a-normal" href="https://programador-php.martin-schenk.es/">programador-php.martin-schenk.es</a>
-                    </li>
-                    <li class="li-normal" >
-                        <a class="a-normal" href="https://desarrollador-aplicaciones-web.martin-schenk.es">desarrollador-aplicaciones-web.martin-schenk.es</a>
+
+                </li>
+            </ul>
+
+            <h2>Mantenimiento</h2>
+            <p>
+                <ul>
+                    <li>Ofrecemos soluciones personalizadas para el mantenimiento y las actualizaciones de sus programas. El software debe mantenerse al día, ya que, de lo contrario, es fácil que se produzcan fallos de seguridad y rendimiento. Es más barato y seguro mantener el software al día que reescribir un software completamente obsoleto.
                     </li>
                 </ul>
             </p>
 
-            <p class="p-normal" >
-                Alojamiento y Mantenimiento, páginas y aplicaciónes web.
-            </p>
-            <p class="p-normal" >
-            <ul class="ul-normal"  class="ul-normal" >
-                <li class="li-normal" >
-                    <a class="a-normal" href="http://paginas-web.martin-schenk.es/">Mantenimiento y Alojamiento</a>
-                </li>
+            <h2>Años de experiencia en consultoría de SaaS y aplicaciones web</h2>
+            <p>
+                Hoy en día, muchas empresas están haciendo el cambio del software tradicional a las aplicaciones SaaS (Software as a Service). El SAAS ofrece una serie de ventajas con respecto al software tradicional, como costes más bajos, un mantenimiento más sencillo y una mayor flexibilidad. Sin embargo, hacer el cambio a SAAS también puede ser una tarea desalentadora, ya que hay muchos factores a tener en cuenta. Nuestro equipo tiene muchos años de experiencia asesorando a empresas sobre SaaS y aplicaciones web, y podemos ayudarle a recorrer el proceso de principio a fin. Podemos ayudarle a evaluar sus necesidades y objetivos, calcular los costes del cambio a SaaS y encontrar las soluciones técnicas adecuadas para su empresa. Hacer el cambio a SaaS no tiene por qué ser abrumador: con nuestra ayuda, podrá hacer una transición suave que le ahorrará tiempo y dinero a largo plazo.
 
-            </ul>
+
+
             </p>
 
+            <h2>Experiencia</h2>
+            <p>
+                Con más de 20 años desarrollando con éxito aplicaciónes web y SaaS, sabemos perfectamente lo que importa. Contamos con clientes de España y varios países de Europa; desde empresas familiares, medianas, hasta grupos corporativos.
+            </p>
 
 
             <h2 class="h2-normal" >Propias Aplicaciónes Web</h2>
@@ -79,7 +82,7 @@
             </p>
 
             <p class="p-normal" >
-                Palimpalem es un constructor de sitios web en línea que se ha utilizado para crear más de 1.400.000 sitios web. Se han creado hasta 500 nuevas páginas web cada día. Actualmente estoy trabajando en una nueva y versión que va a salir con otro dominio diferente.
+                Palimpalem es un constructor de sitios web en línea que se ha utilizado para crear más de 1.400.000 sitios web. Se han creado hasta 500 nuevas páginas web cada día. Actualmente estamos trabajando en una nueva y versión que va a salir bajo otra marca.
             </p>
 
 
