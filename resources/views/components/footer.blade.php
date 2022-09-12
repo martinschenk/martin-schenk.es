@@ -13,7 +13,7 @@
         </a>
 
         <p class="text-center text-sm text-textkleingrau">
-            Contacto: hola@martin-schenk.es ó tel: 669 686 832
+            Contacto email: hola@martin-schenk.es ó tel: 669 686 832
         </p>
 
 
@@ -31,7 +31,7 @@
         </div>
 
         <div class="mb-4 text-xs text-center text-gray-500">
-            © 1999 - 2022 Martin Schenk S.L., Madrid, España
+            © 1999 - 2022 Martin Schenk S.L.
         </div>
 
     
