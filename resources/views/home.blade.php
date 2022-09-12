@@ -32,10 +32,11 @@
             <h2>Desarrollo de software a medida</h2>
             <p>
                 <ul>
-                    <li>Más de 30 años de experiencia en convertir ideas en aplicaciones web estables y fiables. SAAS (Software as a Service) es nuestra pasión.</li>
+
                     <li>Especializado en el desarrollo y mantenimiento de software para Startups. Siempre a su lado en cada etapa, desde el diseño, el desarrollo, el lanzamiento, hasta la fase operativa, desarrollo de nuevos módulos y el mantenimiento.</li>
                     <li>Cada cliente tiene unas necesidades específicas y para pymes y empresas más grandes es muy difícil que una solución Standard se adapte al 100% a sus necesidades.</li>
                     <li>Muchas veces la parametrización de un sistema standard es más costosa y tiene más inconvenientes que el desarrollo de un software a medida que, con un costo similar, se adaptará perfectamente a las especificaciones del cliente.</li>
+                    <li>Más de 30 años de experiencia en convertir ideas en aplicaciones web estables y fiables. SAAS (Software as a Service) es nuestra pasión.</li>
                 </ul>
             </p>
 
