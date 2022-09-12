@@ -12,7 +12,7 @@
             alt="Martin Schenk S.L.">
         </a>
 
-        <p class="text-center">
+        <p class="text-center text-sm text-textkleingrau">
             Contacto: hola@martin-schenk.es ó tel: 669 686 832
         </p>
 
