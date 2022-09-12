@@ -12,14 +12,14 @@
             alt="Martin Schenk S.L.">
         </a>
 
-        <p class="text-center text-sm text-textkleingrau">
+        <p class="text-center text-sm text-textkleingrau mb-3">
             Contacto email: hola@martin-schenk.es ó tel: 669 686 832
         </p>
 
 
         <div class="flex items-center justify-center whitespace-nowrap text-sm text-textkleingrau mb-3">
             <div class=" mr-6">
-                <a class="underline"  class="whitespace-nowrap" href="{{ $linkurl }}aviso-legal">Condiciones de uso</a>
+                <a class="underline"  class="whitespace-nowrap" href="{{ $linkurl }}aviso-legal">Aviso Legal</a>
             </div>
             <div class=" mr-6 ">
                 <a class="underline"  class="" href="{{ $linkurl }}politica-privacidad">Política de Privacidad</a>
