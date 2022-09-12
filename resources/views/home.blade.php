@@ -57,6 +57,16 @@
                 </ul>
             </p>
 
+            <h2>Alquiler de servidores VPS y Dedicados</h2>
+            <p>
+                <ul>
+                    <li>Elegimos su VPS o servidor dedicado exactamente a su medida.</li>
+                    <li>Opcionalmente puede ser con Mantenimiento completo por nuestra parte.</li>
+                    <li>Trabajamos con el panel Plesk desde hace ya casi 20 años. Lo conocemos profundamente.</li>
+                    <li>Ofrecemos mudanzas gratuitas desde su Empresa de hosting actual hacia nuestros servidores.</li>
+                </ul>
+            </p>
+
             <h2>Años de experiencia en consultoría de SaaS y aplicaciones web</h2>
             <p>
                 Hoy en día, muchas empresas están haciendo el cambio del software tradicional a las aplicaciones SaaS (Software as a Service). El SAAS ofrece una serie de ventajas con respecto al software tradicional, como costes más bajos, un mantenimiento más sencillo y una mayor flexibilidad. Sin embargo, hacer el cambio a SAAS también puede ser una tarea desalentadora, ya que hay muchos factores a tener en cuenta. Nuestro equipo tiene muchos años de experiencia asesorando a empresas sobre SaaS y aplicaciones web, y podemos ayudarle a recorrer el proceso de principio a fin. Podemos ayudarle a evaluar sus necesidades y objetivos, calcular los costes del cambio a SaaS y encontrar las soluciones técnicas adecuadas para su empresa. Hacer el cambio a SaaS no tiene por qué ser abrumador: con nuestra ayuda, podrá hacer una transición suave que le ahorrará tiempo y dinero a largo plazo.
