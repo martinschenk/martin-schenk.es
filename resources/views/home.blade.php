@@ -88,7 +88,7 @@
 
             <h2>Experiencia</h2>
             <p>
-                Con más de 20 años desarrollando con éxito aplicaciónes web y SaaS, sabemos perfectamente lo que importa. Contamos con clientes de España y varios países de Europa; desde empresas familiares, medianas, hasta grupos corporativos.
+                Con más de 20 años desarrollando, alojando y manteniendo aplicaciones web, sabemos perfectamente lo que importa. Contamos con clientes de España y varios países de Europa; desde empresas familiares, medianas, hasta grupos corporativos.
             </p>
 
 
