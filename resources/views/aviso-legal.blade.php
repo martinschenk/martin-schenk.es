@@ -84,9 +84,9 @@
                         $linkurl = env('APP_URL');
                     @endphp
 
-                    <li class="li-normal" ><a class="a-normal"  class="a-normal"  href="{{ $linkurl }}aviso-legal/">Aviso Legal</a></li>
-                    <li class="li-normal" ><a class="a-normal"  class="a-normal"  href="{{ $linkurl }}politica-privacidad/">Política de Privacidad</a></li>
-                    <li class="li-normal" ><a class="a-normal"  class="a-normal"  href="{{ $linkurl }}politica-cookies/">Política de Cookies</a></li>
+                    <li class="li-normal" ><a class="a-normal"  class="a-normal"  href="{{ $linkurl }}aviso-legal">Aviso Legal</a></li>
+                    <li class="li-normal" ><a class="a-normal"  class="a-normal"  href="{{ $linkurl }}politica-privacidad">Política de Privacidad</a></li>
+                    <li class="li-normal" ><a class="a-normal"  class="a-normal"  href="{{ $linkurl }}politica-cookies">Política de Cookies</a></li>
                 </ul>
                 </p>
 

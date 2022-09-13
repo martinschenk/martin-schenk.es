@@ -176,7 +176,7 @@
 
 
                 <li class="li-normal" ><a class="a-normal"  class="a-normal"  href="{{ $linkurl }}aviso-legal">Aviso Legal</a></li>
-                <li class="li-normal" ><a class="a-normal"  class="a-normal"  href="{{ $linkurl }}politica-privacidad/">Política de Privacidad</a></li>
+                <li class="li-normal" ><a class="a-normal"  class="a-normal"  href="{{ $linkurl }}politica-privacidad">Política de Privacidad</a></li>
 
             </ul>
             </p>
@@ -206,7 +206,7 @@
                     Para apoyar y mejorar los servicios que ofrece este Sitio Web.
                 </li>
                 <li class="li-normal">
-                    Para analizar la navegación de los usuarios. El Titular recoge otros datos no identificativos que se obtienen mediante el uso de cookies que se descargan en el ordenador del Usuario cuando navega por el Sitio Web cuyas características y finalidad están detalladas en la página de  <a class="a-normal"  class="a-normal" href="{{ $linkurl }}politica-cookies/">Política de Cookies</a>.
+                    Para analizar la navegación de los usuarios. El Titular recoge otros datos no identificativos que se obtienen mediante el uso de cookies que se descargan en el ordenador del Usuario cuando navega por el Sitio Web cuyas características y finalidad están detalladas en la página de  <a class="a-normal"  class="a-normal" href="{{ $linkurl }}politica-cookies">Política de Cookies</a>.
                 </li>
             </ul>
             </p>
@@ -243,7 +243,7 @@
                 Para que este sitio Web funcione correctamente necesita utilizar cookies, que es una información que se almacena en su navegador web.
 
             <p class="p-normal">
-                Puede consultar toda la información relativa a la política de recogida y tratamiento de las cookies en la página de  <a class="a-normal"   class="a-normal"  href="{{ $linkurl }}politica-cookies/">Política de Cookies</a>.
+                Puede consultar toda la información relativa a la política de recogida y tratamiento de las cookies en la página de  <a class="a-normal"   class="a-normal"  href="{{ $linkurl }}politica-cookies">Política de Cookies</a>.
             </p>
             </p>
 
