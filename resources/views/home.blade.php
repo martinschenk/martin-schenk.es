@@ -1,27 +1,16 @@
 <x-legal>
 
-    <x-slot:title>
-
-    </x-slot>
-
-{{--    <section class="bg-msmarmor">--}}
-{{--        <img--}}
-{{--                class="object-cover w-full h-full"--}}
-{{--                src="/img/aviso-legal-martin-schenk.png"--}}
-{{--        />--}}
-{{--    </section>--}}
-
-
-{{--    <section class="w-full h-screen">--}}
-{{--        <img--}}
-{{--            src="/img/martin-schenk-legal.jpg"--}}
-{{--                src="/img/aviso-legal-martin-schenk.png"--}}
-{{--                class="object-cover w-full h-full"--}}
-{{--                alt="aviso legal martin schenk s.l."--}}
-{{--        />--}}
-{{--    </section>--}}
+    <x-slot:title></x-slot>
 
     <x-header title="Servicios Informáticos"/>
+
+    @php
+        $title1 = 'Desarrollo de software a medida';
+        $title2 = 'Hosting/alojamiento de sus aplicaciónes y webs';
+        $title3 = 'Mantenimiento y adaptación';
+        $title4 = 'Alquiler de servidores VPS y Dedicados';
+        $title5 = 'Consultoría SaaS y aplicaciones web';
+    @endphp
 
 
     <section class="">
@@ -29,7 +18,16 @@
         max-w-md mx-auto md:max-w-2xl
         px-8 py-4  ">
 
-            <h2>Desarrollo de software a medida</h2>
+            <p>En Martin Schenk estamos ofreciendo los siguientes servicios informáticos:</p>
+            <ul>
+                <li><a href="#{{ Str::slug($title1, '-') }}">{{$title1}}</a></li>
+                <li><a href="#{{ Str::slug($title2, '-') }}">{{$title2}}</a></li>
+                <li><a href="#{{ Str::slug($title3, '-') }}">{{$title3}}</a></li>
+                <li><a href="#{{ Str::slug($title4, '-') }}">{{$title4}}</a></li>
+                <li><a href="#{{ Str::slug($title5, '-') }}">{{$title5}}</a></li>
+            </ul>
+
+            <h2 id="{{ Str::slug($title1, '-') }}">{{ $title1 }}</h2>
             <p>
                 <ul>
                     <li>Nos dedicamos al desarrollo y mantenimiento de aplicaciones web y SaaS. Le acompañamos en cada etapa:
@@ -48,7 +46,7 @@
                 </ul>
             </p>
 
-            <h2>Outsourcing - hosting/alojamiento de sus aplicaciónes y páginas web</h2>
+            <h2 id="{{ Str::slug($title2, '-') }}">{{ $title2 }}</h2>
             <ul>
                 <li>La mayoría de las aplicaciones que desarrollamos para nuestros clientes se alojan y mantienen en nuestros servidores en la nube, lo que les libera de tener que instalar y mantener nada ellos mismos.
                 </li>
@@ -58,7 +56,7 @@
                 </li>
             </ul>
 
-            <h2>Mantenimiento y adaptación</h2>
+            <h2  id="{{ Str::slug($title3, '-') }}">{{ $title3 }}</h2>
             <p>
                 <ul>
                     <li>Todos que estamos acostumbrados de implementar nuevo Software, sabemos que los programas no son una cosa estática. Como son una imagen de la realidad, requieren constantes adaptaciones y actualizaciones. Pueden ser motivados por cambios del mercado, la competencia, razónes de seguridad o por otros motivos como un cambio de estrategia.</li>
@@ -68,7 +66,7 @@
                 </ul>
             </p>
 
-            <h2>Alquiler de servidores VPS y Dedicados</h2>
+            <h2  id="{{ Str::slug($title4, '-') }}">{{ $title4 }}</h2>
             <p>
                 <ul>
                     <li>Como llevamos propias aplicaciones web SaaS, sabemos que tipo de servidor requieren programas, que tienen cientos de nuevos usuarios por día y miles de logins. Solemos empezar nuevos proyectos con servidores pequeños en nuestra nube, que podemos ampliar a más procesadores, discos y RAM en cualquier momento.</li>
@@ -79,9 +77,10 @@
                 </ul>
             </p>
 
-            <h2>Años de experiencia en consultoría de SaaS y aplicaciones web</h2>
+            <h2  id="{{ Str::slug($title5, '-') }}">{{ $title5 }}</h2>
             <p>
-                Hoy en día, muchas empresas están haciendo el cambio del software tradicional a las aplicaciones SaaS (Software as a Service). El SAAS ofrece una serie de ventajas con respecto al software tradicional, como costes más bajos, un mantenimiento más sencillo y una mayor flexibilidad. Sin embargo, hacer el cambio a SAAS también puede ser una tarea desalentadora, ya que hay muchos factores a tener en cuenta. Nuestro equipo tiene muchos años de experiencia asesorando a empresas sobre SaaS y aplicaciones web, y podemos ayudarle a recorrer el proceso de principio a fin. Podemos ayudarle a evaluar sus necesidades y objetivos, calcular los costes del cambio a SaaS y encontrar las soluciones técnicas adecuadas para su empresa. Hacer el cambio a SaaS no tiene por qué ser abrumador: con nuestra ayuda, podrá hacer una transición suave que le ahorrará tiempo y dinero a largo plazo.
+                En Martin Schenk trabajamos estrechamente con nuestros clientes para crear productos SaaS y aplicaciones web de éxito que aborden sus retos empresariales y sus necesidades latentes. Asesoramos sobre la pila tecnológica más adecuada para traducir la visión de un cliente en un producto innovador sin dificultades técnicas ni problemas de arquitectura en el camino, ¡y todo ello cumpliendo estrictamente las normas del sector!
+                Nos enorgullece enormemente poder ofrecer soluciones tecnológicas de vanguardia adaptadas específicamente para satisfacer las demandas únicas de cada empresa; no hay dos clientes iguales, lo que significa que nunca habrá una talla única cuando se trata de qué tipo de servicio requieren de nosotros en esta etapa.
 
 
 
