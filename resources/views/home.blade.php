@@ -32,7 +32,6 @@
             <h2>Desarrollo de software a medida</h2>
             <p>
                 <ul>
-
                     <li>Nos dedicamos al desarrollo y mantenimiento de aplicaciones web y SaaS. Le acompañamos en cada etapa:
                         <ul class="ml-6 list-inside list-decimal">
                             <li class="ml-6 mb-1 mt-3">Planificación</li>
@@ -42,8 +41,9 @@
                             <li class="ml-6 mb-1">Nuevos módulos</li>
                         </ul>
                     </li>
-                    <li>Cada cliente tiene unas necesidades específicas y para pymes y empresas más grandes es muy difícil que una solución Standard se adapte al 100% a sus necesidades.</li>
-                    <li>Muchas veces la parametrización de un sistema standard es más costosa y tiene más inconvenientes que el desarrollo de un software a medida que, con un costo similar, se adaptará perfectamente a las especificaciones del cliente.</li>
+                    <li>Cada cliente tiene unas necesidades específicas. Para pymes y empresas más grandes es muy difícil que una solución estándar se adapte al 100% a sus necesidades.
+                    </li>
+                    <li>Muchas veces la parametrización de un sistema modelizado es más costosa y tiene más inconvenientes que el desarrollo de un software a medida que, con un costo similar, se adaptará perfectamente a las especificaciones del cliente.</li>
                     <li>Más de 30 años de experiencia en convertir ideas en aplicaciones web estables y fiables. SAAS (Software as a Service) es nuestra pasión.</li>
                 </ul>
             </p>
@@ -104,7 +104,7 @@
             </p>
 
             <p class="p-normal" >
-                Palimpalem es un constructor de sitios web en línea que se ha utilizado para crear más de 1.400.000 sitios web. Se han creado hasta 500 nuevas páginas web cada día. Actualmente estamos trabajando en una nueva y versión que va a salir bajo otra marca.
+                Palimpalem es un constructor de sitios web en línea que se ha utilizado para crear más de 1.400.000 sitios web. Se han generado hasta 500 nuevas páginas web cada día. Actualmente, estamos trabajando en una nueva versión que va a salir bajo otra marca.
             </p>
 
 
