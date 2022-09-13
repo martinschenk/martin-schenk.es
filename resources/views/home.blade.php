@@ -8,7 +8,7 @@
         $title1 = 'Desarrollo de software a medida';
         $title2 = 'Hosting/alojamiento de sus aplicaciónes y webs';
         $title3 = 'Mantenimiento y adaptación';
-        $title4 = 'Alquiler de servidores VPS y Dedicados';
+        $title4 = 'Alquiler de servidores VPS y dedicados';
         $title5 = 'Consultoría SaaS y aplicaciones web';
     @endphp
 
