@@ -27,7 +27,17 @@
                 <li><a href="#{{ Str::slug($title5, '-') }}">{{$title5}}</a></li>
             </ul>
 
-            <h2 id="{{ Str::slug($title1, '-') }}">{{ $title1 }}</h2>
+            <p class="text-center text-5xl text-black font-black my-12" >
+                <span class="" style=" z-index: 1;position: relative;">
+                    <img style="width: 100%; position: absolute;top: 0;left: 0; z-index: -1; vertical-align: middle;max-width: 100%;" src="img/texto-circulo-big.svg" alt="texto-circulo-big" width="191" loading="lazy" >
+                    Simplifica
+                </span>
+                tu negocio
+            </p>
+
+
+            <h2 class="" id="{{ Str::slug($title1, '-') }}">{{ $title1 }}</h2>
+
             <p>
                 <ul>
                     <li>Nos dedicamos al desarrollo y mantenimiento de aplicaciones web y SaaS. Le acompañamos en cada etapa:
@@ -96,7 +106,7 @@
             <p class="p-normal" >
                 <ul class="ul-normal"  class="ul-normal" >
                     <li class="li-normal" >
-                        Herramienta para crear páginas web: <a class="a-normal" href="https://www.palimpalem.com">www.palimpalem.com</a>
+                        Herramienta para crear páginas web: <circ><a class="a-normal" href="https://www.palimpalem.com" target="_blank">www.palimpalem.com</a></circ>
                     </li>
                 </ul>
             </p>
@@ -119,13 +129,25 @@
 </x-legal>
 
 
+{{--<script type="module">--}}
+{{--    import { annotate } from 'https://unpkg.com/rough-notation?module';--}}
 
-{{--
-@component('components.legal')
+{{--    const n1 = document.querySelector('circ');--}}
+{{--    // const n2 = document.querySelector('strong');--}}
+{{--    // const n3 = document.querySelector('h1');--}}
+{{--    // const n4 = document.querySelector('span');--}}
+{{--    // const n5 = document.querySelector('#block');--}}
 
-    <section class="bg-yellow-300 p-4 mb-6">
-        <div class="container text-black-900">
-            hola 2
-        </div>
-    </section
-@endcomponent--}}
+{{--    const a1 = annotate(n1, { type: 'circle', color: '#24CD9C', padding: 8 });--}}
+{{--    // const a2 = annotate(n2, { type: 'circle', color: 'red', padding: 10 });--}}
+{{--    // const a3 = annotate(n3, { type: 'box', color: 'orange' });--}}
+{{--    // const a4 = annotate(n4, { type: 'highlight', color: 'yellow', iterations: 1, multiline: true });--}}
+{{--    // const a5 = annotate(n5, { type: 'bracket', color: 'red', padding: [2, 10], brackets: ['left', 'right'], strokeWidth: 3 })--}}
+
+{{--    a1.show();--}}
+{{--    // a2.show();--}}
+{{--    // a3.show();--}}
+{{--    // a4.show();--}}
+{{--    // a5.show();--}}
+
+{{--</script>--}}
