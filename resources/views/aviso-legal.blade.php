@@ -21,7 +21,7 @@
 {{--        />--}}
 {{--    </section>--}}
 
-    <x-header title="Aviso Legal"/>
+    <x-header headertitle="Aviso Legal"/>
 
 
     <section class="">

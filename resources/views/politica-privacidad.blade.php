@@ -26,7 +26,7 @@
 {{--        />--}}
 {{--    </section>--}}
 
-        <x-header title="Política de Privacidad"/>
+        <x-header headertitle="Política de Privacidad"/>
 
 
 

@@ -23,7 +23,7 @@
         </div>
 
         <div class="text-dunkelgruen text-center ">
-            <h1 class="h1-normal font-title mt-0 mb-0">{{ $title }}</h1>
+            <h1 class="h1-normal font-title mt-1 mb-0">{{ $headertitle }}</h1>
         </div>
     </section>
 

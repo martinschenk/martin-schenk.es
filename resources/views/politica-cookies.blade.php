@@ -21,7 +21,7 @@
 {{--        />--}}
 {{--    </section>--}}
 
-    <x-header title="Política de Cookies"/>
+    <x-header headertitle="Política de Cookies"/>
 
 
     <section class="">
