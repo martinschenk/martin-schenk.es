@@ -125,7 +125,7 @@
             <p class="p-normal" >
                 <ul class="ul-normal"  class="ul-normal" >
                     <li class="li-normal" >
-                        Herramienta para crear páginas web: <circ><a class="a-normal" href="https://www.palimpalem.com" target="_blank">www.palimpalem.com</a></circ>
+                        Herramienta para crear páginas web: <a class="a-normal" href="https://www.palimpalem.com" target="_blank">www.palimpalem.com</a>
                     </li>
                 </ul>
             </p>
