@@ -79,8 +79,7 @@
 
             <h2  id="{{ Str::slug($title5, '-') }}">{{ $title5 }}</h2>
             <p>
-                En Martin Schenk trabajamos estrechamente con nuestros clientes para crear productos SaaS y aplicaciones web de éxito que aborden sus retos empresariales y sus necesidades latentes. Asesoramos sobre la pila tecnológica más adecuada para traducir la visión de un cliente en un producto innovador sin dificultades técnicas ni problemas de arquitectura en el camino, ¡y todo ello cumpliendo estrictamente las normas del sector!
-                Nos enorgullece enormemente poder ofrecer soluciones tecnológicas de vanguardia adaptadas específicamente para satisfacer las demandas únicas de cada empresa; no hay dos clientes iguales, lo que significa que nunca habrá una talla única cuando se trata de qué tipo de servicio requieren de nosotros en esta etapa.
+                En Martin Schenk trabajamos estrechamente con nuestros clientes para crear productos SaaS y aplicaciones web de éxito que aborden sus retos empresariales y sus necesidades latentes. Asesoramos sobre el modelo tecnológico más adecuado para convertir la visión de un cliente en un producto innovador sin dificultades técnicas ni problemas de arquitectura en el camino, ¡y todo ello cumpliendo estrictamente las normas del sector! Nos enorgullece enormemente poder ofrecer soluciones tecnológicas de vanguardia adaptadas específicamente para satisfacer las demandas únicas de cada empresa; no hay dos clientes iguales, lo que significa que nunca habrá un modelo único cuando se trata de qué tipo de servicio requieren de nosotros en esta etapa.
 
 
 
