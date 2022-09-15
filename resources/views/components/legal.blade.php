@@ -11,21 +11,16 @@
     <link rel="shortcut icon" type="image/png" href="{{ asset('/img/martin-schenk-favicon.png') }}">
     <link rel="shortcut icon" sizes="192x192" href="{{ asset('/img/martin-schenk-favicon.png') }}">
 
-{{--    <!-- Fonts -->--}}
-{{--    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">--}}
-
-    <!-- Scripts -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body>
 
-<div class="flex flex-col h-screen justify-between">
+    <div class="flex flex-col h-screen justify-between">
 
-    {{ $slot }}
+        {{ $slot }}
 
-
-</div>
-@include('cookie-consent::index')
+    </div>
+    @include('cookie-consent::index')
 </body>
 </html>
 

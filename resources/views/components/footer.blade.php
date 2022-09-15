@@ -13,7 +13,7 @@
         </a>
 
         <p class="text-center text-sm text-textkleingrau mb-3">
-            Contacto email: hola@martin-schenk.es ó tel: 669 686 832
+            Contacto email: hola@martin-schenk.es ó tel: (+34) 669 686 832
         </p>
 
 

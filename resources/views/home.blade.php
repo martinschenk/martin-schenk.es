@@ -5,10 +5,10 @@
 
     @php
         $title1 = 'Desarrollo de software a medida';
-        $title2 = 'Hosting/alojamiento de sus aplicaciónes y webs';
-        $title3 = 'Mantenimiento y adaptación';
-        $title4 = 'Alquiler de servidores VPS y dedicados';
-        $title5 = 'Consultoría SaaS y aplicaciones web';
+        $title2 = 'Hosting/alojamiento';
+        $title3 = 'Mantenimiento';
+        $title4 = 'Alquiler de servidores';
+        $title5 = 'Consultoría tecnológica';
     @endphp
 
     @component('components.header')
@@ -39,14 +39,6 @@
                 <li><a href="#{{ Str::slug($title4, '-') }}">{{$title4}}</a></li>
                 <li><a href="#{{ Str::slug($title5, '-') }}">{{$title5}}</a></li>
             </ul>
-
-{{--            <p class="text-center text-5xl text-black font-black my-12" >--}}
-{{--                <span class="" style=" z-index: 1;position: relative;">--}}
-{{--                    <img style="width: 100%; position: absolute;top: 0;left: 0; z-index: -1; vertical-align: middle;max-width: 100%;" src="img/texto-circulo-big.svg" alt="texto-circulo-big" width="191" loading="lazy" >--}}
-{{--                    Simplifica--}}
-{{--                </span>--}}
-{{--                tu negocio--}}
-{{--            </p>--}}
 
 
             <h2 class="" id="{{ Str::slug($title1, '-') }}">{{ $title1 }}</h2>
@@ -135,7 +127,6 @@
 
 
     <x-footer></x-footer>
-
 
 
 
