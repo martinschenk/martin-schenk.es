@@ -2,11 +2,6 @@
 
     <x-slot:title></x-slot>
 
-        <?php
-        $titlex = <<<EOD
-        <div>SOME HTML</div>
-        EOD;
-        ?>
 
     @php
         $title1 = 'Desarrollo de software a medida';
@@ -16,7 +11,6 @@
         $title5 = 'Consultoría SaaS y aplicaciones web';
     @endphp
 
-{{--    <x-header title="{!! $titlex !!}"/>--}}
     @component('components.header')
         @slot('headertitle')
             <p class="text-4xl sm:text-5xl text-black font-black mt-6">
