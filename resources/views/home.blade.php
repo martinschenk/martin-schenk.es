@@ -114,17 +114,17 @@
             </p>
 
 
-            <h2 class="h2-normal" >Propias Aplicaciónes Web</h2>
+            <h2 >Propias Aplicaciónes Web</h2>
 
-            <p class="p-normal" >
-                <ul class="ul-normal"  class="ul-normal" >
-                    <li class="li-normal" >
-                        Herramienta para crear páginas web: <a class="a-normal" href="https://www.palimpalem.com" target="_blank">www.palimpalem.com</a>
+            <p >
+                <ul  >
+                    <li >
+                        Herramienta para crear páginas web: <a href="https://www.palimpalem.com" target="_blank">www.palimpalem.com</a>
                     </li>
                 </ul>
             </p>
 
-            <p class="p-normal" >
+            <p >
                 Palimpalem es un constructor de sitios web en línea que se ha utilizado para crear más de 1.400.000 sitios web. Se han generado hasta 500 nuevas páginas web cada día. Actualmente, estamos trabajando en una nueva versión que va a salir bajo otra marca.
             </p>
 
