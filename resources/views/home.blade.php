@@ -5,7 +5,7 @@
 
     @php
         $title1 = 'Desarrollo de software a medida';
-        $title2 = 'Hosting/alojamiento';
+        $title2 = 'Hosting/alojamiento, dominios, cuentas email';
         $title3 = 'Mantenimiento';
         $title4 = 'Alquiler de servidores';
         $title5 = 'Consultoría tecnológica';
