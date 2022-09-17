@@ -1,3 +1,5 @@
+![](https://raw.githubusercontent.com/martinschenk/martin-schenk.es/master/martin-schenk.es-banner.png)
+
 # The source code of martin-schenk.es
 
 This repo contains the source code of [our company website](https://www.martin-schenk.es).
