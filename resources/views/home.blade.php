@@ -31,7 +31,7 @@
         max-w-md mx-auto md:max-w-2xl
         px-8 py-4  ">
 
-            <p>En Martin Schenk estamos ofreciendo los siguientes servicios informáticos:</p>
+            <p>En Martin Schenk te ayudamos a simplificar los procesos de tu negocio con los siguientes servicios informáticos:</p>
             <ul>
                 <li><a href="#{{ Str::slug($title1, '-') }}">{{$title1}}</a></li>
                 <li><a href="#{{ Str::slug($title2, '-') }}">{{$title2}}</a></li>
