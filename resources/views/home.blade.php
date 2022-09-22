@@ -45,7 +45,7 @@
 
             <p>
                 <ul>
-                    <li>Nos dedicamos al desarrollo y mantenimiento de aplicaciones web y SaaS. Le acompañamos en cada etapa:
+                    <li>Nos dedicamos al desarrollo y mantenimiento de aplicaciones web y SaaS. Te acompañamos en cada etapa:
                         <ul class="ml-6 list-inside list-decimal">
                             <li class="ml-6 mb-1 mt-3">Planificación</li>
                             <li class="ml-6 mb-1">Diseño</li>
@@ -54,7 +54,7 @@
                             <li class="ml-6 mb-1">Nuevos módulos</li>
                         </ul>
                     </li>
-                    <li>Cada cliente tiene unas necesidades específicas. Para pymes y empresas más grandes es muy difícil que una solución estándar se adapte al 100% a sus necesidades.
+                    <li>Cada cliente tiene unas necesidades específicas. Para pymes y empresas más grandes es muy difícil que una solución estándar se adapte al 100% a tus necesidades.
                     </li>
                     <li>Muchas veces la parametrización de un sistema modelizado es más costosa y tiene más inconvenientes que el desarrollo de un software a medida que, con un costo similar, se adaptará perfectamente a las especificaciones del cliente.</li>
                     <li>Más de 30 años de experiencia en convertir ideas en aplicaciones web estables y fiables. SAAS (Software as a Service) es nuestra pasión.</li>
@@ -65,7 +65,7 @@
             <ul>
                 <li>La mayoría de las aplicaciones que desarrollamos para nuestros clientes se alojan y mantienen en nuestros servidores en la nube, lo que les libera de tener que instalar y mantener nada ellos mismos.
                 </li>
-                <li>Para la mayoría de las empresas, la externalización de la infraestructura y las aplicaciones (outsourcing) de TI se ha convertido en la norma. Sencillamente, es más rentable y eficiente dejar que otra persona se encargue de los detalles del mantenimiento y las actualizaciones. Ahí es donde entramos nosotros. La mayoría de las aplicaciones que desarrollamos para nuestros clientes se alojan y mantienen en nuestros servidores en la nube, lo que les libera de tener que instalar y mantener nada ellos mismos. Nosotros nos encargamos de todo para que ellos puedan centrarse en sus objetivos empresariales. Y si alguna vez hay algún problema, nuestro equipo está a sólo una llamada de distancia. Así que si está pensando en externalizar sus necesidades de TI, llámenos. Estaremos encantados de charlar sobre cómo podemos ayudarle a liberar su tiempo y sus recursos.
+                <li>Para la mayoría de las empresas, la externalización de la infraestructura y las aplicaciones (outsourcing) de TI se ha convertido en la norma. Sencillamente, es más rentable y eficiente dejar que otra persona se encargue de los detalles del mantenimiento y las actualizaciones. Ahí es donde entramos nosotros. La mayoría de las aplicaciones que desarrollamos para nuestros clientes se alojan y mantienen en nuestros servidores en la nube, lo que les libera de tener que instalar y mantener nada ellos mismos. Nosotros nos encargamos de todo para que ellos puedan centrarse en sus objetivos empresariales. Y si alguna vez hay algún problema, nuestro equipo está a sólo una llamada de distancia. Así que si estás pensando en externalizar tus necesidades de TI, llámanos. Estaremos encantados de charlar sobre cómo podemos ayudarte a liberar tu tiempo y tus recursos.
 
 
                 </li>
@@ -74,8 +74,8 @@
             <h2  id="{{ Str::slug($title3, '-') }}">{{ $title3 }}</h2>
             <p>
                 <ul>
-                    <li>Todos que estamos acostumbrados de implementar nuevo Software, sabemos que los programas no son una cosa estática. Como son una imagen de la realidad, requieren constantes adaptaciones y actualizaciones. Pueden ser motivados por cambios del mercado, la competencia, razónes de seguridad o por otros motivos como un cambio de estrategia.</li>
-                    <li>Ofrecemos soluciones personalizadas para el mantenimiento y las actualizaciones de sus programas. El software debe mantenerse al día, ya que, de lo contrario, es fácil que se produzcan fallos de seguridad y rendimiento. Es más barato y seguro mantener el software al día que reescribir un software completamente obsoleto.
+                    <li>Todos los que estamos acostumbrados a implementar nuevo Software, sabemos que los programas no son una cosa estática. Como son una imagen de la realidad, requieren constantes adaptaciones y actualizaciones. Pueden ser motivados por cambios del mercado, la competencia, razones de seguridad o por otros motivos como un cambio de estrategia.</li>
+                    <li>Ofrecemos soluciones personalizadas para el mantenimiento y las actualizaciones de tus programas. El software debe mantenerse al día, ya que de lo contrario, es fácil que se produzcan fallos de seguridad y rendimiento. Es más barato y seguro mantener el software al día que reescribir un software completamente obsoleto.
                     </li>
 
                 </ul>
@@ -84,11 +84,11 @@
             <h2  id="{{ Str::slug($title4, '-') }}">{{ $title4 }}</h2>
             <p>
                 <ul>
-                    <li>Como llevamos propias aplicaciones web SaaS, sabemos que tipo de servidor requieren programas, que tienen cientos de nuevos usuarios por día y miles de logins. Solemos empezar nuevos proyectos con servidores pequeños en nuestra nube, que podemos ampliar a más procesadores, discos y RAM en cualquier momento.</li>
-                    <li>Elegimos su VPS o servidor dedicado exactamente a su medida.</li>
+                    <li>Como llevamos propias aplicaciones web SaaS, sabemos que tipo de servidor requieren programas que tienen cientos de nuevos usuarios por día y miles de logins. Solemos empezar nuevos proyectos con servidores pequeños en nuestra nube, que podemos ampliar a más procesadores, discos y RAM en cualquier momento.</li>
+                    <li>Elegimos tu VPS o servidor dedicado exactamente a tu medida.</li>
                     <li>Opcionalmente puede ser con Mantenimiento completo por nuestra parte.</li>
                     <li>Trabajamos con el panel Plesk desde hace ya casi 20 años. Lo conocemos profundamente.</li>
-                    <li>Ofrecemos mudanzas gratuitas desde su Empresa de hosting actual hacia nuestros servidores.</li>
+                    <li>Ofrecemos mudanzas gratuitas desde tu Empresa de hosting actual hacia nuestros servidores.</li>
                 </ul>
             </p>
 
