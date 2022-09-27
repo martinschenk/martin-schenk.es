@@ -9,7 +9,7 @@
           content="Simplifica tu negocio. Martin Schenk S.L., Madrid, España.">
     <meta property="og:description"
           content="En Martin Schenk te ayudamos a simplificar los procesos de tu negocio">
-    <meta property="og:image" content="{{env('APP_URL')}}/img/logo-martin-schenk-weiss.svg">
+    <meta property="og:image" content="{{env('APP_URL')}}/img/logo-martin-schenk-dunkel.svg">
     <meta property="og:image:width" content="1200">
 
     <title class="">{{ $title ?? 'Aviso Legal' }}  {{ config('app.name', 'Laravel') }}</title>
