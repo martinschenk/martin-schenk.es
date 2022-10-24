@@ -24,7 +24,7 @@
             <h4 >Cookies de sesión</h4>
             <p>Las cookies de sesión permiten a los usuarios ser reconocidos en el Sitio Web de forma que, cualquier cambio que realice el usuario, artículo que seleccione o dato que introduzca el usuario se recuerda de una a otra página dentro del Sitio Web.</p>
             <p>Este tipo de cookies se eliminan de su disco duro cuando Usted cierra su navegador.</p>
-            <h4 >Retargeting</h4>
+       {{--     <h4 >Retargeting</h4>
             <p>Nuestro Sitio Web utiliza tecnologías de <em>retargeting</em>. Esta herramienta nos permite, una vez el Usuario ha accedido a nuestro Sitio Web y se ha interesado por nuestros servicios, mostrar publicidad de nuestros servicios en los sitios webs de terceros asociados (que también son visitados por dichos usuarios).</p>
             <p>Esta publicidad en los sitios webs de terceros se puede realizar por el uso de cookies que almacenan el acceso y el uso realizado por el usuario de nuestro Sitio Web. Este tipo de publicidad se realiza totalmente anonimizada (bajo pseudónimos).</p>
             <p>La duración de estas cookies es de hasta un año.</p>
@@ -42,7 +42,7 @@
             <p>(Infórmese sobre la herramienta Google Analytics Opt-out Add-on y otra información sobre privacidad de Google Analytics <a href="http://www.google.com/privacy_ads.html#toc-faq" rel="noopener" target="_blank">http://www.google.com/privacy_ads.html#toc-faq</a>”.</p>
             <p>2. A través del navegador, tal y como se detalla más abajo.</p>
             <p>Martin Schenk informa a sus usuarios de que (i) la captación de información sobre el uso de este sitio Web por nuestros usuarios a través de Google Analitycs sólo la hace Google en su propio nombre, no teniendo Martin Schenk en ningún momento acceso a tal información (sino tan solo a información agregada que no está asociada a ninguna dirección IP); (ii) Google es quien determina la finalidad del tratamiento y uso de la información captada por Google Analytics en todo momento, así como el funcionamiento y duración de las cookies; (iii) conforme a la información proporcionada por Google, el usuario puede evitar la captación de esa información, rechazando la instalación de cookies, configurando su navegador para ello; y (iv) únicamente los países de la Unión Europea comparten –como regla general- estándares similares en materia de cookies y protección de datos de carácter personal.</p>
-            <p>Martin Schenk no puede controlar ni se hace responsable del contenido y veracidad de los términos y condiciones y las políticas de privacidad de Google referenciadas en esta política de cookies.</p>
+            <p>Martin Schenk no puede controlar ni se hace responsable del contenido y veracidad de los términos y condiciones y las políticas de privacidad de Google referenciadas en esta política de cookies.</p>--}}
             <h3>Enlaces a Sitios Web de terceros (cookies)</h3>
             <p>Es posible que el Sitio Web contenga enlaces a otros sitios web. Martin Schenk no controla ni es responsable de las cookies utilizadas por estos sitios Webs externos. Para más información sobre las cookies de los sitios webs de terceros, recomendamos revisar su política de cookies.</p>
             <h2>3. ¿Cómo puedo desactivar las cookies?</h2>
