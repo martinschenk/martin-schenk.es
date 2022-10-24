@@ -1,6 +1,7 @@
 <?php
 
 return [
-    'message' => 'Su experiencia en este sitio será mejorada con el uso de cookies.',
+    'message' => 'Este portal web únicamente utiliza cookies propias con finalidad técnica, no recaba ni cede datos de carácter personal de los usuarios sin su conocimiento.
+',
     'agree' => 'Aceptar',
 ];
