@@ -39,6 +39,7 @@
                 <li><a href="#{{ Str::slug($title4, '-') }}">{{$title4}}</a></li>
                 <li><a href="#{{ Str::slug($title5, '-') }}">{{$title5}}</a></li>
             </ul>
+            <p>Hablamos Español, Aleman e Ingles.</p>
 
 
             <h2 class="" id="{{ Str::slug($title1, '-') }}">{{ $title1 }}</h2>
