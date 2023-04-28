@@ -13,13 +13,14 @@
 
     @component('components.header')
         @slot('headertitle')
-            <p class="text-4xl sm:text-5xl text-black font-black mt-6">
+            <p class="md:text-3xl text-2xl text-['#1A3336'] font-black mt-6">
                 <span class="" style=" z-index: 1;position: relative;">
-                    <img style="width: 100%; position: absolute;top: 0;left: 0; z-index: -1; vertical-align: middle;max-width: 100%;" src="img/texto-circulo-big.svg" alt="" width="191" loading="lazy" >
-                     Simplifica
+
+                    <img style="margin-left: 56%; width: 50%; position: absolute;top:-10px; left: 0; z-index: -1; vertical-align: middle;max-width: 100%;" src="img/texto-circulo-big.svg" alt="" width="" loading="lazy" >
+                     Software a medida, que funciona.
                 </span>
-                tu negocio
             </p>
+            {{--<p class="ml-[40%] md:text-3xl text-2xl text-['#1A3336'] font-black ">Desde 1999</p>--}}
         @endslot
     @endcomponent
 
