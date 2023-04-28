@@ -31,7 +31,7 @@
             </div>
 
             <div class="mb-4 text-xs text-center text-gray-500">
-                © 1999 - 2022 Martin Schenk S.L., Madrid, España
+                © 1999 - 2023 Martin Schenk S.L., Madrid, España
             </div>
 
 
