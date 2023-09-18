@@ -46,66 +46,60 @@
             <h2 class="" id="{{ Str::slug($title1, '-') }}">{{ $title1 }}</h2>
 
             <p>
-                <ul>
-                    <li>Nos dedicamos al desarrollo y mantenimiento de aplicaciones web y SaaS. Te acompañamos en cada etapa:
-                        <ul class="ml-6 list-inside list-decimal">
-                            <li class="ml-6 mb-1 mt-3">Planificación</li>
-                            <li class="ml-6 mb-1">Diseño</li>
-                            <li class="ml-6 mb-1">Desarrollo</li>
-                            <li class="ml-6 mb-1">Lanzamiento</li>
-                            <li class="ml-6 mb-1">Nuevos módulos</li>
-                        </ul>
-                    </li>
-                    <li>Cada cliente tiene unas necesidades específicas. Para pymes y empresas más grandes es muy difícil que una solución estándar se adapte al 100% a tus necesidades.
-                    </li>
-                    <li>Muchas veces la parametrización de un sistema modelizado es más costosa y tiene más inconvenientes que el desarrollo de un software a medida que, con un costo similar, se adaptará perfectamente a las especificaciones del cliente.</li>
-                    <li>Más de 30 años de experiencia en convertir ideas en aplicaciones web estables y fiables. SAAS (Software as a Service) es nuestra pasión.</li>
-                </ul>
+            <ul>
+                <li>Me dedico al desarrollo y mantenimiento de aplicaciones web y SaaS, acompañándote en cada etapa:
+                    <ul class="ml-6 list-inside list-decimal">
+                        <li class="ml-6 mb-1 mt-3">Planificación</li>
+                        <li class="ml-6 mb-1">Diseño</li>
+                        <li class="ml-6 mb-1">Desarrollo</li>
+                        <li class="ml-6 mb-1">Lanzamiento</li>
+                        <li class="ml-6 mb-1">Incorporación de nuevos módulos</li>
+                    </ul>
+                </li>
+                <li>Cada empresa es única y tiene requisitos específicos que no siempre pueden ser satisfechos por soluciones estándar, especialmente para PYMEs y corporaciones más grandes.
+                </li>
+                <li>Frecuentemente, desarrollar software personalizado puede ser más accesible y ajustado a las necesidades del cliente que adaptar un sistema preexistente.</li>
+                <li>Con más de 30 años de experiencia, convierto ideas en aplicaciones web estables y fiables. SAAS es mi pasión.</li>
+            </ul>
             </p>
 
             <h2 id="{{ Str::slug($title2, '-') }}">{{ $title2 }}</h2>
             <ul>
-                <li>La mayoría de las aplicaciones que desarrollamos para nuestros clientes se alojan y mantienen en nuestros servidores en la nube, lo que les libera de tener que instalar y mantener nada ellos mismos.
+                <li>La mayoría de las aplicaciones que desarrollo se alojan y mantienen en servidores en la nube propios, liberando a los clientes de la carga del mantenimiento técnico.
                 </li>
-                <li>Para la mayoría de las empresas, la externalización de la infraestructura y las aplicaciones (outsourcing) de TI se ha convertido en la norma. Sencillamente, es más rentable y eficiente dejar que otra persona se encargue de los detalles del mantenimiento y las actualizaciones. Ahí es donde entramos nosotros. La mayoría de las aplicaciones que desarrollamos para nuestros clientes se alojan y mantienen en nuestros servidores en la nube, lo que les libera de tener que instalar y mantener nada ellos mismos. Nosotros nos encargamos de todo para que ellos puedan centrarse en sus objetivos empresariales. Y si alguna vez hay algún problema, nuestro equipo está a sólo una llamada de distancia. Así que si estás pensando en externalizar tus necesidades de TI, llámanos. Estaremos encantados de charlar sobre cómo podemos ayudarte a liberar tu tiempo y tus recursos.
-
-
+                <li>La externalización de servicios de TI es una estrategia eficiente y rentable consolidada en el sector. Facilito este proceso, encargándome del mantenimiento y actualizaciones, para que puedas enfocarte plenamente en tus metas empresariales. Estoy a una llamada de distancia para ofrecer soporte constante. Contáctame para descubrir cómo puedo ayudarte a optimizar tiempo y recursos.
                 </li>
             </ul>
 
             <h2  id="{{ Str::slug($title3, '-') }}">{{ $title3 }}</h2>
             <p>
-                <ul>
-                    <li>Todos los que estamos acostumbrados a implementar nuevo Software, sabemos que los programas no son una cosa estática. Como son una imagen de la realidad, requieren constantes adaptaciones y actualizaciones. Pueden ser motivados por cambios del mercado, la competencia, razones de seguridad o por otros motivos como un cambio de estrategia.</li>
-                    <li>Ofrecemos soluciones personalizadas para el mantenimiento y las actualizaciones de tus programas. El software debe mantenerse al día, ya que de lo contrario, es fácil que se produzcan fallos de seguridad y rendimiento. Es más barato y seguro mantener el software al día que reescribir un software completamente obsoleto.
-                    </li>
-
-                </ul>
+            <ul>
+                <li>En el mundo del software, sabemos que la adaptación y actualización constante es fundamental. Esta puede ser motivada por diversos factores como cambios en el mercado, competencia, o modificaciones estratégicas.</li>
+                <li>Ofrezco soluciones personalizadas para el mantenimiento y actualización de tus programas, garantizando seguridad y rendimiento óptimo, y evitando obsolescencia.</li>
+            </ul>
             </p>
 
             <h2  id="{{ Str::slug($title4, '-') }}">{{ $title4 }}</h2>
             <p>
-                <ul>
-                    <li>Como llevamos propias aplicaciones web SaaS, sabemos que tipo de servidor requieren programas que tienen cientos de nuevos usuarios por día y miles de logins. Solemos empezar nuevos proyectos con servidores pequeños en nuestra nube, que podemos ampliar a más procesadores, discos y RAM en cualquier momento.</li>
-                    <li>Elegimos tu VPS o servidor dedicado exactamente a tu medida.</li>
-                    <li>Opcionalmente puede ser con Mantenimiento completo por nuestra parte.</li>
-                    <li>Trabajamos con el panel Plesk desde hace ya casi 20 años. Lo conocemos profundamente.</li>
-                    <li>Ofrecemos mudanzas gratuitas desde tu Empresa de hosting actual hacia nuestros servidores.</li>
-                </ul>
+            <ul>
+                <li>Gestiono aplicaciones web SaaS y sé exactamente qué tipo de servidor necesitas, pudiendo adaptar los recursos según la demanda del proyecto.</li>
+                <li>Selecciono el VPS o servidor dedicado que mejor se ajuste a tus necesidades.</li>
+                <li>Ofrezco la opción de mantenimiento completo.</li>
+                <li>Llevo casi 20 años trabajando con el panel Plesk, conociéndolo a fondo.</li>
+                <li>Realizo traslados gratuitos desde tu actual empresa de hosting hacia mis servidores.</li>
+            </ul>
             </p>
 
             <h2  id="{{ Str::slug($title5, '-') }}">{{ $title5 }}</h2>
             <p>
-                En Martin Schenk trabajamos estrechamente con nuestros clientes para crear productos SaaS y aplicaciones web de éxito que aborden sus retos empresariales y sus necesidades latentes. Asesoramos sobre el modelo tecnológico más adecuado para convertir la visión de un cliente en un producto innovador sin dificultades técnicas ni problemas de arquitectura en el camino, ¡y todo ello cumpliendo estrictamente las normas del sector! Nos enorgullece enormemente poder ofrecer soluciones tecnológicas de vanguardia adaptadas específicamente para satisfacer las demandas únicas de cada empresa; no hay dos clientes iguales, lo que significa que nunca habrá un modelo único cuando se trata de qué tipo de servicio requieren de nosotros en esta etapa.
-
-
-
+                En Martin Schenk SL trabajo de manera estrecha con mis clientes para crear exitosos productos SaaS y aplicaciones web que respondan a sus desafíos empresariales y necesidades particulares. Brindo asesoramiento sobre el modelo tecnológico más apropiado para materializar tu visión sin inconvenientes técnicos ni problemas de arquitectura. Me enorgullece poder ofrecer soluciones tecnológicas de vanguardia que satisfacen las demandas únicas de cada empresa, siempre cumpliendo con las normativas del sector.
             </p>
 
             <h2>Experiencia</h2>
             <p>
-                Con más de 20 años desarrollando, alojando y manteniendo aplicaciones web, sabemos perfectamente lo que importa. Contamos con clientes de España y varios países de Europa; desde empresas familiares, medianas, hasta grupos corporativos.
+                Con una trayectoria de más de 20 años desarrollando, alojando y manteniendo aplicaciones web, tengo un profundo entendimiento de lo que realmente importa. Tengo una clientela que abarca desde España hasta varios países de Europa, incluyendo empresas familiares, medianas y grupos corporativos grandes.
             </p>
+
 
 
             <h2 >Propias Aplicaciónes Web</h2>
