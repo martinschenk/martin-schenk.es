@@ -2,43 +2,35 @@
     <x-slot:title></x-slot>
 
         @php
-            $title1 = 'Desarrollo de software a medida';
-            $title2 = 'Hosting/alojamiento, dominios, cuentas email';
-            $title3 = 'Mantenimiento';
-            $title4 = 'Alquiler de servidores';
-            $title5 = 'Consultoría tecnológica';
+            $title1 = __('Desarrollo de software a medida');
+            $title2 = __('Hosting/alojamiento, dominios, cuentas email');
+            $title3 = __('Mantenimiento');
+            $title4 = __('Alquiler de servidores');
+            $title5 = __('Consultoría tecnológica');
         @endphp
 
         @component('components.header')
             @slot('headertitle')
                 <p class="md:text-3xl text-2xl text-['#1A3336'] font-black mt-6">
-                <span class="" style=" z-index: 1;position: relative;">
-
-                    <img style="margin-left: 56%; width: 50%; position: absolute;top:-10px; left: 0; z-index: -1; vertical-align: middle;max-width: 100%;" src="img/texto-circulo-big.svg" alt="" width="" loading="lazy" >
-                     Software a medida, <span class="text-[#26CD9C]">que funciona</span>.
+                <span class="" style="z-index: 1;position: relative;">
+                    <img style="margin-left: 56%; width: 50%; position: absolute; top:-10px; left: 0; z-index: -1; vertical-align: middle; max-width: 100%;" src="img/texto-circulo-big.svg" alt="" width="" loading="lazy">
+                     {{ __('Software a medida, que funciona.') }}
                 </span>
                 </p>
-                {{--<p class="ml-[40%] md:text-3xl text-2xl text-['#1A3336'] font-black ">Desde 1999</p>--}}
             @endslot
         @endcomponent
 
         <section class="">
             <div class="font-sans antialiased max-w-md mx-auto md:max-w-2xl px-8 py-4">
-                <p>En mi empresa, Martin Schenk, estoy aquí para ayudarte a simplificar los procesos de tu negocio con
-                    los siguientes servicios informáticos:</p>
+                <p>{{ __('En mi empresa, Martin Schenk, estoy aquí para ayudarte a simplificar los procesos de tu negocio con los siguientes servicios informáticos:') }}</p>
                 <ul>
-                    <li><a href="#{{ Str::slug($title1, '-') }}" class="text-[#26CD9C] hover:underline">{{$title1}}</a>
-                    </li>
-                    <li><a href="#{{ Str::slug($title2, '-') }}" class="text-[#26CD9C] hover:underline">{{$title2}}</a>
-                    </li>
-                    <li><a href="#{{ Str::slug($title3, '-') }}" class="text-[#26CD9C] hover:underline">{{$title3}}</a>
-                    </li>
-                    <li><a href="#{{ Str::slug($title4, '-') }}" class="text-[#26CD9C] hover:underline">{{$title4}}</a>
-                    </li>
-                    <li><a href="#{{ Str::slug($title5, '-') }}" class="text-[#26CD9C] hover:underline">{{$title5}}</a>
-                    </li>
+                    <li><a href="#{{ Str::slug($title1, '-') }}" class="text-[#26CD9C] hover:underline">{{$title1}}</a></li>
+                    <li><a href="#{{ Str::slug($title2, '-') }}" class="text-[#26CD9C] hover:underline">{{$title2}}</a></li>
+                    <li><a href="#{{ Str::slug($title3, '-') }}" class="text-[#26CD9C] hover:underline">{{$title3}}</a></li>
+                    <li><a href="#{{ Str::slug($title4, '-') }}" class="text-[#26CD9C] hover:underline">{{$title4}}</a></li>
+                    <li><a href="#{{ Str::slug($title5, '-') }}" class="text-[#26CD9C] hover:underline">{{$title5}}</a></li>
                 </ul>
-                <p>Hablo Español, Alemán e Inglés.</p>
+                <p>{{ __('Hablo Español, Alemán e Inglés.') }}</p>
 
 
                 <h2 class="" id="{{ Str::slug($title1, '-') }}">{{ $title1 }}</h2>
