@@ -20,15 +20,20 @@
             @endslot
         @endcomponent
 
-        <section class="">
-            <div class="font-sans antialiased max-w-md mx-auto md:max-w-2xl px-8 py-4">
+        <section class="font-sans antialiased max-w-md mx-auto md:max-w-2xl px-8 py-4 leading-tight">
+            <div class="">
                 <p>{{ __('En Martin Schenk, estoy aquí para impulsar tu negocio hacia el futuro con soluciones de software personalizado.') }}</p>
                 <ul>
-                    <li><a href="#{{ Str::slug($title1, '-') }}" class="text-[#26CD9C] hover:underline">{{$title1}}</a></li>
-                    <li><a href="#{{ Str::slug($title2, '-') }}" class="text-[#26CD9C] hover:underline">{{$title2}}</a></li>
-                    <li><a href="#{{ Str::slug($title3, '-') }}" class="text-[#26CD9C] hover:underline">{{$title3}}</a></li>
-                    <li><a href="#{{ Str::slug($title4, '-') }}" class="text-[#26CD9C] hover:underline">{{$title4}}</a></li>
-                    <li><a href="#{{ Str::slug($title5, '-') }}" class="text-[#26CD9C] hover:underline">{{$title5}}</a></li>
+                    <li><a href="#{{ Str::slug($title1, '-') }}" class="text-[#26CD9C] hover:underline">{{$title1}}</a>
+                    </li>
+                    <li><a href="#{{ Str::slug($title2, '-') }}" class="text-[#26CD9C] hover:underline">{{$title2}}</a>
+                    </li>
+                    <li><a href="#{{ Str::slug($title3, '-') }}" class="text-[#26CD9C] hover:underline">{{$title3}}</a>
+                    </li>
+                    <li><a href="#{{ Str::slug($title4, '-') }}" class="text-[#26CD9C] hover:underline">{{$title4}}</a>
+                    </li>
+                    <li><a href="#{{ Str::slug($title5, '-') }}" class="text-[#26CD9C] hover:underline">{{$title5}}</a>
+                    </li>
                 </ul>
                 <p>{{ __('Hablo Español, Alemán e Inglés.') }}</p>
 
@@ -45,7 +50,6 @@
                         </ul>
                     </li>
                     <li>{{ __('Soy tu aliado estratégico en la creación de soluciones únicas que se ajustan a las necesidades específicas de tu negocio, evitando las limitaciones de los sistemas estándar.') }}</li>
-                    <!-- (Considera agregar ejemplos específicos de cómo has ayudado a otras empresas a alcanzar sus metas a través de soluciones personalizadas) -->
                 </ul>
                 </p>
 
@@ -55,7 +59,6 @@
                 <ul>
                     <li>{{ __('Tu dominio es tu dirección única en internet, te ayudo a seleccionar el nombre perfecto para tu negocio.') }}</li>
                     <li>{{ __('Hosting rápido y seguro, con garantía de tiempo de actividad del 99.9%, para que tu sitio esté siempre disponible.') }}</li>
-                    <!-- (Mencionar aquí otros beneficios clave del servicio de hosting y dominios que ofreces, como el soporte técnico, backups regulares, etc.) -->
                 </ul>
                 </p>
 
@@ -64,7 +67,6 @@
                 <ul>
                     <li>{{ __('Asegura el óptimo funcionamiento de tu sitio web con un mantenimiento regular.') }}</li>
                     <li>{{ __('Actualizaciones regulares para garantizar la seguridad y el rendimiento de tu sitio.') }}</li>
-                    <!-- (Detalla aquí otros servicios incluidos en el mantenimiento, como la optimización del SEO, supervisión de la salud del sitio, etc.) -->
                 </ul>
                 </p>
 
@@ -73,7 +75,6 @@
                 <ul>
                     <li>{{ __('Alquila servidores de alta calidad para un rendimiento sin igual.') }}</li>
                     <li>{{ __('Soporte técnico disponible para garantizar el máximo tiempo de actividad.') }}</li>
-                    <!-- (Podrías incluir información adicional sobre las especificaciones técnicas de los servidores y las ventajas competitivas que ofreces aquí.) -->
                 </ul>
                 </p>
 
@@ -82,39 +83,34 @@
                 <ul>
                     <li>{{ __('Asesoramiento experto para tomar las decisiones tecnológicas correctas para tu negocio.') }}</li>
                     <li>{{ __('Transforma tu negocio con soluciones tecnológicas avanzadas y personalizadas.') }}</li>
-                    <!-- (Mencionar aquí cómo tu experiencia puede ayudar a las empresas a evitar trampas comunes y a elegir las soluciones más efectivas.) -->
                 </ul>
                 </p>
             </div>
+
+
+            <!-- Saludos y Firma -->
+            <div class="mt-12">
+                <div class="text-lg">Saludos, Martin</div>
+                <img class="mt-2 w-[175px]" src="/img/martin-firma-500-azul.png" alt="Firma de Martin Schenk">
+            </div>
+
+            <!-- Footer con información de contacto -->
+            <div class="text-sm text-gray-600 mt-12 mb-5">
+                <hr>
+                <div>Martin Schenk</div>
+                <div class="mb-3">Diplom-Ingenieur Automatisierungstechnik (FH)</div>
+                <div>Martin Schenk S.L.</div>
+                <div>Calle de la Hiruela 3, 7–5</div>
+                <div>28035 Madrid</div>
+                <div>martin@martin-schenk.es</div>
+                <div>www.martin-schenk.es</div>
+                <div>Móvil 669 686 832</div>
+            </div>
         </section>
 
-    @component('components.footer')
-        @slot('footerText')
-            {{ __('© 2023 Martin Schenk - Todos los derechos reservados') }}
-        @endslot
-    @endcomponent
+    {{--@include('components.footer')--}}
+
+
 </x-legal>
 
 
-{{--<script type="module">--}}
-{{--    import { annotate } from 'https://unpkg.com/rough-notation?module';--}}
-
-{{--    const n1 = document.querySelector('circ');--}}
-{{--    // const n2 = document.querySelector('strong');--}}
-{{--    // const n3 = document.querySelector('h1');--}}
-{{--    // const n4 = document.querySelector('span');--}}
-{{--    // const n5 = document.querySelector('#block');--}}
-
-{{--    const a1 = annotate(n1, { type: 'circle', color: '#24CD9C', padding: 8 });--}}
-{{--    // const a2 = annotate(n2, { type: 'circle', color: 'red', padding: 10 });--}}
-{{--    // const a3 = annotate(n3, { type: 'box', color: 'orange' });--}}
-{{--    // const a4 = annotate(n4, { type: 'highlight', color: 'yellow', iterations: 1, multiline: true });--}}
-{{--    // const a5 = annotate(n5, { type: 'bracket', color: 'red', padding: [2, 10], brackets: ['left', 'right'], strokeWidth: 3 })--}}
-
-{{--    a1.show();--}}
-{{--    // a2.show();--}}
-{{--    // a3.show();--}}
-{{--    // a4.show();--}}
-{{--    // a5.show();--}}
-
-{{--</script>--}}

@@ -59,7 +59,7 @@
     </section>
 
 
-    <x-footer></x-footer>
+   {{-- <x-footer></x-footer>--}}
 
 
 

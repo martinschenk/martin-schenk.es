@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <meta name="description" content="En Martin Schenk te ayudamos a simplificar los procesos de tu negocio con los nuestros servicios informáticos: Desarrollo de software a medida y SaaS, Hosting/alojamiento de sus aplicaciónes y webs, Mantenimiento y adaptación, Alquiler de servidores VPS y dedicados, Consultoría SaaS y aplicaciones web.">
+    <meta name="description"
+          content="En Martin Schenk te ayudamos a simplificar los procesos de tu negocio con los nuestros servicios informáticos: Desarrollo de software a medida y SaaS, Hosting/alojamiento de sus aplicaciónes y webs, Mantenimiento y adaptación, Alquiler de servidores VPS y dedicados, Consultoría SaaS y aplicaciones web.">
     <meta property="og:title"
           content="Simplifica tu negocio. Martin Schenk S.L., Madrid, España.">
     <meta property="og:description"
@@ -21,12 +22,17 @@
 </head>
 <body>
 
-    <div class="flex flex-col h-screen justify-between">
-
+<div class="flex flex-col h-screen justify-between">
+    <div class="flex-grow">
         {{ $slot }}
-
+        <x-footer></x-footer>
     </div>
-    @include('cookie-consent::index')
+</div>
+
+
+
+@include('cookie-consent::index')
+
 </body>
 </html>
 
