@@ -91,7 +91,7 @@
             <!-- Saludos y Firma -->
             <div class="mt-12">
                 <div class="text-lg">Saludos, Martin</div>
-                <img class="mt-2 w-[175px]" src="/img/martin-firma-500-azul.png" alt="Firma de Martin Schenk">
+                <img class="mt-2 w-[160px]" src="/img/martin-firma-500-azul.png" alt="Firma de Martin Schenk">
             </div>
 
             <!-- Footer con información de contacto -->
