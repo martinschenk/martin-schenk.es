@@ -1,57 +1,58 @@
+@php
+    $title1 = __('Desarrollo de Aplicaciones Web Avanzadas');
+    $title2 = __('Hosting y Dominios Seguros');
+    $title3 = __('Mantenimiento y Seguridad Web');
+    $title4 = __('Soluciones de Servidor Fiables');
+    $title5 = __('Consultoría y Estrategia Digital');
+@endphp
 <x-legal>
-    <x-slot:title></x-slot>
+    <x-slot:title>{{ __('Aplicaciones Web de Alto Impacto: Transformamos Ideas en Realidad') }}</x-slot>
 
-        @php
-            $title1 = __('Desarrollo de software personalizado');
-            $title2 = __('Hosting y dominios');
-            $title3 = __('Mantenimiento');
-            $title4 = __('Alquiler de servidores');
-            $title5 = __('Consultoría tecnológica');
-        @endphp
+        <x-header headertitle="{{ __('Aplicaciones Web de Alto Impacto: Transformamos Ideas en Realidad') }}"/>
 
-        <x-slot:title>
-            {{ __('Software a tu medida, creado con maestría.') }}
-            </x-slot>
-
-
-            <x-header headertitle="{{ __('Software a tu medida, creado con maestría.') }}"/>
-
-
-            <section class="font-sans antialiased max-w-md mx-auto md:max-w-2xl px-8 py-4 leading-tight">
+        <section class="font-sans antialiased max-w-md mx-auto md:max-w-2xl px-8 py-4 leading-tight">
             <div class="">
-                <p>{{ __('En Martin Schenk, estoy aquí para impulsar tu negocio hacia el futuro con soluciones de software personalizado.') }}</p>
-                <ul>
-                    <li><a href="#{{ Str::slug($title1, '-') }}" class="text-[#26CD9C] hover:underline">{{$title1}}</a>
-                    </li>
-                    <li><a href="#{{ Str::slug($title2, '-') }}" class="text-[#26CD9C] hover:underline">{{$title2}}</a>
-                    </li>
-                    <li><a href="#{{ Str::slug($title3, '-') }}" class="text-[#26CD9C] hover:underline">{{$title3}}</a>
-                    </li>
-                    <li><a href="#{{ Str::slug($title4, '-') }}" class="text-[#26CD9C] hover:underline">{{$title4}}</a>
-                    </li>
-                    <li><a href="#{{ Str::slug($title5, '-') }}" class="text-[#26CD9C] hover:underline">{{$title5}}</a>
-                    </li>
-                </ul>
-                <p>{{ __('Hablo Español, Alemán e Inglés.') }}</p>
+                <p>{{ __('Con más de 35 años de experiencia, me especializo en el desarrollo de aplicaciones web avanzadas. Mis proyectos incluyen desde sistemas de gestión hasta bases de conocimiento impulsadas por IA.') }}</p>
 
+                <!-- Proyectos de Referencia -->
+                <h2>{{ __('Proyectos de Referencia') }}</h2>
+                <p>{{ __('Con más de 1.4 millones de páginas web creadas en Palimpalem.com, y proyectos de IA como ChatKraft, mi portafolio es una prueba de la versatilidad y robustez de mis soluciones.') }}</p>
+
+                <!-- Desarrollo de Aplicaciones Web Avanzadas -->
                 <h2 class="" id="{{ Str::slug($title1, '-') }}">{{ $title1 }}</h2>
                 <p>
                 <ul>
-                    <li>{{ __('Tu proyecto, desde la idea hasta la ejecución, respaldado por más de 30 años de experiencia:') }}
+                    <li>{{ __('Su visión hecha realidad en la web, con un desarrollo ágil, seguro y completamente personalizado.') }}
                         <ul class="ml-6 list-inside list-decimal">
-                            <li class="ml-6 mb-1 mt-3">{{ __('Planificación estratégica') }}</li>
-                            <li class="ml-6 mb-1">{{ __('Diseño integral') }}</li>
-                            <li class="ml-6 mb-1">{{ __('Desarrollo a medida') }}</li>
-                            <li class="ml-6 mb-1">{{ __('Lanzamiento exitoso') }}</li>
-                            <li class="ml-6 mb-1">{{ __('Expansión con módulos adicionales') }}</li>
+                            <li class="ml-6 mb-1 mt-3">{{ __('Consultoría estratégica inicial') }}</li>
+                            <li class="ml-6 mb-1">{{ __('Diseño centrado en el usuario') }}</li>
+                            <li class="ml-6 mb-1">{{ __('Desarrollo a medida con tecnologías de vanguardia') }}</li>
+                            <li class="ml-6 mb-1">{{ __('Lanzamiento seguro y escalable') }}</li>
+                            <li class="ml-6 mb-1">{{ __('Integración transparente con sistemas existentes') }}</li>
                         </ul>
                     </li>
-                    <li>{{ __('Soy tu aliado estratégico en la creación de soluciones únicas que se ajustan a las necesidades específicas de tu negocio, evitando las limitaciones de los sistemas estándar.') }}</li>
                 </ul>
                 </p>
 
+                <!-- Logo and Technology Section -->
+                <h2>{{ __('Tecnologías y Herramientas') }}</h2>
+                <p>{{ __('Utilizo una variedad de tecnologías de vanguardia y lenguajes de programación para ofrecer soluciones eficientes y personalizadas.') }}</p>
+                <div class="flex flex-wrap space-x-10 mt-5">
+                    <img src="{{ asset('/img/logo-laravel.svg') }}" alt="Laravel" class="w-24">
+                    <img src="{{ asset('/img/logo-livewire.svg') }}" alt="Livewire" class="w-24">
+                    <img src="{{ asset('/img/logo-alpine.svg') }}" alt="Alpine" class="w-28">
+                    <img src="{{ asset('/img/logo-tailwind.svg') }}" alt="Tailwind" class="w-32">
+                    <img src="{{ asset('/img/logo-php.svg') }}" alt="PHP" class="w-[70px] h-20">
+                    <div class="w-20 h-20 transform scale-115">
+                        @include('svg.logo-filament', ['color' => 'black'])
+                    </div>
+                </div>
 
-                <h2 class="" id="{{ Str::slug($title2, '-') }}">{{ $title2 }}</h2>
+                <!-- Otros Servicios Section -->
+                <h2 class="">{{ __('Otros Servicios') }}</h2>
+
+                <!-- Hosting y dominios Section -->
+                <h3 class="" id="{{ Str::slug($title2, '-') }}">{{ $title2 }}</h3>
                 <p>
                 <ul>
                     <li>{{ __('Tu dominio es tu dirección única en internet, te ayudo a seleccionar el nombre perfecto para tu negocio.') }}</li>
@@ -59,7 +60,8 @@
                 </ul>
                 </p>
 
-                <h2 class="" id="{{ Str::slug($title3, '-') }}">{{ $title3 }}</h2>
+                <!-- Mantenimiento Section -->
+                <h3 class="" id="{{ Str::slug($title3, '-') }}">{{ $title3 }}</h3>
                 <p>
                 <ul>
                     <li>{{ __('Asegura el óptimo funcionamiento de tu sitio web con un mantenimiento regular.') }}</li>
@@ -67,7 +69,8 @@
                 </ul>
                 </p>
 
-                <h2 class="" id="{{ Str::slug($title4, '-') }}">{{ $title4 }}</h2>
+                <!-- Alquiler de servidores Section -->
+                <h3 class="" id="{{ Str::slug($title4, '-') }}">{{ $title4 }}</h3>
                 <p>
                 <ul>
                     <li>{{ __('Alquila servidores de alta calidad para un rendimiento sin igual.') }}</li>
@@ -75,11 +78,12 @@
                 </ul>
                 </p>
 
-                <h2 class="" id="{{ Str::slug($title5, '-') }}">{{ $title5 }}</h2>
+                <!-- Consultoría y estrategia digital Section -->
+                <h3 class="" id="{{ Str::slug($title5, '-') }}">{{ $title5 }}</h3>
                 <p>
                 <ul>
-                    <li>{{ __('Asesoramiento experto para tomar las decisiones tecnológicas correctas para tu negocio.') }}</li>
-                    <li>{{ __('Transforma tu negocio con soluciones tecnológicas avanzadas y personalizadas.') }}</li>
+                    <li>{{ __('Maximice el impacto de su negocio con soluciones tecnológicas actualizadas.') }}</li>
+                    <li>{{ __('Confíe en la experiencia y la visión para una estrategia digital sólida.') }}</li>
                 </ul>
                 </p>
             </div>
@@ -87,27 +91,26 @@
 
             <!-- Saludos y Firma -->
             <div class="mt-12">
-                <div class="text-lg">Saludos, Martin</div>
+                <div class="text-lg">{{ __('Saludos, Martin') }}</div>
                 <img class="mt-2 w-[160px]" src="{{ asset('/img/martin-firma-500-azul.png') }}"
-                     alt="Firma de Martin Schenk">
+                     alt="{{ __('Firma de Martin Schenk') }}">
             </div>
 
             <!-- Footer con información de contacto -->
             <div class="text-sm text-gray-600 mt-12 mb-5">
                 <hr>
-                <div>Martin Schenk</div>
-                <div class="mb-3">Diplom-Ingenieur Automatisierungstechnik (FH)</div>
-                <div>Martin Schenk S.L.</div>
-                <div>Calle de la Hiruela 3, 7–5</div>
-                <div>28035 Madrid</div>
-                <div>martin@martin-schenk.es</div>
-                <div>www.martin-schenk.es</div>
-                <div>Móvil 669 686 832</div>
+                <div>{{ __('Martin Schenk') }}</div>
+                <div class="mb-3">{{ __('Diplom-Ingenieur Automatisierungstechnik (FH)') }}</div>
+                <div>{{ __('Martin Schenk S.L.') }}</div>
+                <div>{{ __('Calle de la Hiruela 3, 7–5') }}</div>
+                <div>{{ __('28035 Madrid') }}</div>
+                <div>{{ __('martin@martin-schenk.es') }}</div>
+                <div>{{ __('www.martin-schenk.es') }}</div>
+                <div>{{ __('Móvil 669 686 832') }}</div>
             </div>
         </section>
 
     {{--@include('components.footer')--}}
-
 
 </x-legal>
 
