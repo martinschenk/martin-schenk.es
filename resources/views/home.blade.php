@@ -11,7 +11,7 @@
         <x-header headertitle="{{ __('Aplicaciones Web de Alto Impacto: Transformamos Ideas en Realidad') }}"/>
 
         <section class="font-sans antialiased max-w-md mx-auto md:max-w-2xl px-8 py-4 leading-tight">
-            <div class="">
+            <div class="mt-6">
                 <p>{{ __('Con más de tres décadas de experiencia profesional, mi enfoque se centra en la creación de soluciones web de alta complejidad. Desde bases de datos de conocimiento impulsadas por inteligencia artificial, hasta sistemas de gestión de reservas, ofrezco innovación y eficiencia en cada proyecto.') }}</p>
 
                 <!-- Proyectos de Referencia -->
