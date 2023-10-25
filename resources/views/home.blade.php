@@ -9,18 +9,15 @@
             $title5 = __('Consultoría tecnológica');
         @endphp
 
-        @component('components.header')
-            @slot('headertitle')
-                <p class="md:text-3xl text-2xl text-['#1A3336'] font-black mt-6">
-            <span class="" style="z-index: 1;position: relative;">
-                {{--<img style="margin-left: 50%; width: 50%; position: absolute; top:-10px; left: 0; z-index: -1; vertical-align: middle; max-width: 100%;" src="img/texto-circulo-big.svg" alt="" width="" loading="lazy">--}}
-                {{ __('Software a tu medida, creado con maestría.') }}
-            </span>
-                </p>
-            @endslot
-        @endcomponent
+        <x-slot:title>
+            {{ __('Software a tu medida, creado con maestría.') }}
+            </x-slot>
 
-        <section class="font-sans antialiased max-w-md mx-auto md:max-w-2xl px-8 py-4 leading-tight">
+
+            <x-header headertitle="{{ __('Software a tu medida, creado con maestría.') }}"/>
+
+
+            <section class="font-sans antialiased max-w-md mx-auto md:max-w-2xl px-8 py-4 leading-tight">
             <div class="">
                 <p>{{ __('En Martin Schenk, estoy aquí para impulsar tu negocio hacia el futuro con soluciones de software personalizado.') }}</p>
                 <ul>
@@ -91,7 +88,8 @@
             <!-- Saludos y Firma -->
             <div class="mt-12">
                 <div class="text-lg">Saludos, Martin</div>
-                <img class="mt-2 w-[160px]" src="/img/martin-firma-500-azul.png" alt="Firma de Martin Schenk">
+                <img class="mt-2 w-[160px]" src="{{ asset('/img/martin-firma-500-azul.png') }}"
+                     alt="Firma de Martin Schenk">
             </div>
 
             <!-- Footer con información de contacto -->
