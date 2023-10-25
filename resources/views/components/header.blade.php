@@ -21,7 +21,7 @@
 
         {{-- A hyperlink containing the logo of the site, positioned in the top-left corner. --}}
         <a href="{{ asset('/') }}" style="position: absolute; top: 5px; left: 5px;">
-            <img class="w-24 md:w-30 lg:w-36 xl:42 mt-3 ml-5" src="{{ asset('/img/logo-schenk-dunkel-transp-1999-2023v3.svg') }}" alt="{{ __('Martin Schenk S.L. desde 1999') }}">
+            <img class="w-22 md:w-30 lg:w-36 xl:42 mt-3 ml-5" src="{{ asset('/img/logo-schenk-dunkel-transp-1999-2023v3.svg') }}" alt="{{ __('Martin Schenk S.L. desde 1999') }}">
         </a>
 
         {{-- A centered text section for the header title. --}}
