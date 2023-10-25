@@ -12,7 +12,7 @@
 
         <section class="font-sans antialiased max-w-md mx-auto md:max-w-2xl px-8 py-4 leading-tight">
             <div class="">
-                <p>{{ __('Con más de 35 años de experiencia, me especializo en el desarrollo de aplicaciones web avanzadas. Mis proyectos incluyen desde sistemas de gestión hasta bases de conocimiento impulsadas por IA.') }}</p>
+                <p>{{ __('Con más de tres décadas de experiencia profesional, mi enfoque se centra en la creación de soluciones web de alta complejidad. Desde bases de datos de conocimiento impulsadas por inteligencia artificial, hasta sistemas de gestión de reservas, ofrezco innovación y eficiencia en cada proyecto.') }}</p>
 
                 <!-- Proyectos de Referencia -->
                 <h2>{{ __('Proyectos de Referencia') }}</h2>
@@ -92,8 +92,8 @@
             <!-- Saludos y Firma -->
             <div class="mt-12">
                 <div class="text-lg">{{ __('Saludos, Martin') }}</div>
-                <img class="mt-2 w-[160px]" src="{{ asset('/img/martin-firma-500-azul.png') }}"
-                     alt="{{ __('Firma de Martin Schenk') }}">
+                {{--<img class="mt-2 w-[160px]" src="{{ asset('/img/martin-firma-500-azul.png') }}"
+                     alt="{{ __('Firma de Martin Schenk') }}">--}}
             </div>
 
             <!-- Footer con información de contacto -->
