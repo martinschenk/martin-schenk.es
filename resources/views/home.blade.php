@@ -37,13 +37,13 @@
                 <!-- Logo and Technology Section -->
                 <h2>{{ __('Tecnologías y Herramientas') }}</h2>
                 <p>{{ __('Utilizo una variedad de tecnologías de vanguardia y lenguajes de programación para ofrecer soluciones eficientes y personalizadas.') }}</p>
-                <div class="flex flex-wrap space-x-10 mt-5">
+                <div class="flex flex-wrap space-x-6 mt-5">
                     <img src="{{ asset('/img/logo-laravel.svg') }}" alt="Laravel" class="w-24">
                     <img src="{{ asset('/img/logo-livewire.svg') }}" alt="Livewire" class="w-24">
                     <img src="{{ asset('/img/logo-alpine.svg') }}" alt="Alpine" class="w-28">
                     <img src="{{ asset('/img/logo-tailwind.svg') }}" alt="Tailwind" class="w-32">
                     <img src="{{ asset('/img/logo-php.svg') }}" alt="PHP" class="w-[70px] h-20">
-                    <div class="w-20 h-20 transform scale-115">
+                    <div class="w-20  transform scale-115">
                         @include('svg.logo-filament', ['color' => 'black'])
                     </div>
                 </div>
