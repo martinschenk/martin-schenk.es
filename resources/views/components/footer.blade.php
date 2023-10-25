@@ -8,7 +8,7 @@
 
     <!-- Logo de la empresa -->
     <a href="/">
-        <img class="w-24 md:w-32 lg:w-40 mb-6 pt-4 xmb-2" src="/img/Logo-Martin-Schenk-white-bg.png" alt="Martin Schenk S.L.">
+        <img class="w-20 md:w-30 lg:w-36 xl:42 mb-6 pt-4 xmb-2" src="/img/Logo-Martin-Schenk-white-bg.png" alt="Martin Schenk S.L.">
     </a>
 
     <!-- Información de contacto -->
