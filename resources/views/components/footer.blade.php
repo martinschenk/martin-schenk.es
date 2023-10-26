@@ -1,39 +1,42 @@
+{{-- Footer Blade --}}
 @php
-    // Definir la URL base de la aplicación para usarla en los enlaces del pie de página
     $linkurl = env('APP_URL');
 @endphp
 
-    <!-- Pie de página de la página web -->
-<footer class="bg-hellgrau p-5 pb-4 pt-4">
+<footer class="bg-no-repeat bg-right w-full flex flex-col items-center justify-center p-5 pb-4 pt-4 relative"
+        style="background-image: url('{{ asset('/img/robot4.png') }}'); background-color: #22C0A2; min-height: 120px; max-height: auto; background-size: auto 100%;">
 
-    <!-- Logo de la empresa -->
+    {{-- Company Logo --}}
     <a href="/">
-        <img class="w-20 md:w-30 lg:w-36 xl:42 mb-6 pt-4 xmb-2" src="/img/Logo-Martin-Schenk-white-bg.png" alt="Martin Schenk S.L.">
+        <img class="w-20 md:w-30 lg:w-36 xl:42 mb-6 pt-4"
+             src="{{ asset('/img/logo-schenk-dunkel-transp-1999-2023v3.svg') }}"
+             alt="{{ __('Martin Schenk S.L. desde 1999') }}">
     </a>
 
-    <!-- Información de contacto -->
-    <p class="text-center text-sm text-textkleingrau mb-3">
+    {{-- Contact Information --}}
+    <p class="text-center text-sm text-white mb-3">
         Contacto email: hola@martin-schenk.es ó tel: (+34) 669 686 832
     </p>
 
-    <!-- Enlaces legales en el pie de página -->
-    <div class="flex items-center justify-center whitespace-nowrap text-sm text-textkleingrau mb-3">
-        <!-- Aviso legal -->
+    {{-- Legal Links --}}
+    <div class="flex items-center justify-center whitespace-nowrap text-sm text-white mb-3">
+        {{-- Legal Notice --}}
         <div class="mr-6">
-            <a class="underline" href="{{ $linkurl }}aviso-legal">Aviso Legal</a>
+            <a class="underline text-gray-50" href="{{ $linkurl }}aviso-legal">{{ __('Aviso Legal') }}</a>
         </div>
-        <!-- Política de privacidad -->
+        {{-- Privacy Policy --}}
         <div class="mr-6">
-            <a class="underline" href="{{ $linkurl }}politica-privacidad">Política de Privacidad</a>
+            <a class="underline text-gray-50"
+               href="{{ $linkurl }}politica-privacidad">{{ __('Política de Privacidad') }}</a>
         </div>
-        <!-- Política de cookies -->
+        {{-- Cookie Policy --}}
         <div>
-            <a class="underline" href="{{ $linkurl }}politica-cookies">Política de Cookies</a>
+            <a class="underline text-gray-50" href="{{ $linkurl }}politica-cookies">{{ __('Política de Cookies') }}</a>
         </div>
     </div>
 
-    <!-- Derechos de autor y año -->
-    <div class="mb-4 text-xs text-center text-gray-500">
+    {{-- Copyright --}}
+    <div class="mb-4 text-xs text-center text-white">
         © 1999 - 2023 Martin Schenk S.L., Madrid, España
     </div>
 

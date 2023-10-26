@@ -4,14 +4,29 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
+
+    <!-- Descripción estándar para motores de búsqueda -->
     <meta name="description"
-          content="En Martin Schenk te ayudamos a simplificar los procesos de tu negocio con los nuestros servicios informáticos: Desarrollo de software a medida y SaaS, Hosting/alojamiento de sus aplicaciónes y webs, Mantenimiento y adaptación, Alquiler de servidores VPS y dedicados, Consultoría SaaS y aplicaciones web.">
+          content="{{ __('Martin Schenk: Experto en Aplicaciones Web de Alto Impacto y Bases de Conocimiento Potenciadas por IA') }}">
+
+    <!-- Open Graph para redes sociales -->
     <meta property="og:title"
-          content="Simplifica tu negocio. Martin Schenk S.L., Madrid, España.">
+          content="{{ __('Martin Schenk - Transforma tu negocio con Aplicaciones Web de Alto Impacto') }}">
     <meta property="og:description"
-          content="En Martin Schenk te ayudamos a simplificar los procesos de tu negocio">
-    <meta property="og:image" content="{{env('APP_URL')}}/img/logo-martin-schenk-dunkel.svg">
+          content="{{ __('Simplifica los procesos de tu negocio y mejora la experiencia del cliente con soluciones potenciadas por IA de Martin Schenk') }}">
+    <meta property="og:image" content="{{ asset('/img/logo-martin-schenk-dunkel.svg') }}">
     <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ url()->current() }}">
+
+    <!-- Tarjetas de Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ __('Martin Schenk - Desarrollador de Aplicaciones Web de Alto Impacto') }}">
+    <meta name="twitter:description"
+          content="{{ __('Revoluciona tu negocio con soluciones web personalizadas y potenciadas por IA de Martin Schenk') }}">
+    <meta name="twitter:image" content="{{ asset('/img/logo-martin-schenk-dunkel.svg') }}">
+
 
     <title class="">{{ $title ?? 'Aviso Legal' }}  {{ config('app.name', 'Laravel') }}</title>
 

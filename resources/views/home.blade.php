@@ -1,5 +1,6 @@
 @php
     $title1 = __('Desarrollo de Aplicaciones Web Avanzadas');
+    $title6 = __('Proyectos Representativos');
     $title2 = __('Hosting y Dominios Seguros');
     $title3 = __('Mantenimiento y Seguridad Web');
     $title4 = __('Soluciones de Servidor Fiables');
@@ -10,15 +11,50 @@
 
         <x-header headertitle="{{ __('Aplicaciones Web de Alto Impacto: Transformamos Ideas en Realidad') }}"/>
 
-        <section class="font-sans antialiased max-w-md mx-auto md:max-w-2xl px-8 py-4 leading-tight">
+        <section class="font-sans antialiased max-w-md mx-auto md:max-w-2xl px-8 py-4 xleading-tight">
             <div class="mt-8">
-                <p>{{ __('Con una trayectoria que abarca más de dos décadas, especializo en diseñar y desarrollar soluciones web de alta complejidad y impacto. Desde sistemas alimentados por inteligencia artificial como bases de datos de conocimiento, hasta aplicaciones especializadas como sistemas de gestión de reservas, cada proyecto que emprendo es un reflejo de mi compromiso con la innovación y la eficiencia."') }}</p>
+                <p>{{ __('Con una trayectoria que abarca más de dos décadas, especializo en diseñar y desarrollar soluciones web de alta complejidad y impacto. Desde sistemas alimentados por inteligencia artificial como bases de datos de conocimiento, hasta aplicaciones especializadas como sistemas de gestión de reservas, cada proyecto que emprendo es un reflejo de mi compromiso con la innovación y la eficiencia.') }}</p>
+
+
+
+
+                <!-- Desarrollo de Aplicaciones Web Avanzadas -->
+                <h2 class="mt-14" id="{{ Str::slug($title1, '-') }}">{{ $title1 }}</h2>
+                <div class="container mx-auto px-4">
+                    <ul>
+                        <li>{{ __('Su visión hecha realidad en la web, con un desarrollo ágil, seguro y completamente personalizado.') }}
+                            <ul class="ml-6 list-inside list-decimal">
+                                <li class="ml-6 mb-1 mt-3">{{ __('Consultoría estratégica inicial') }}</li>
+                                <li class="ml-6 mb-1">{{ __('Diseño centrado en el usuario') }}</li>
+                                <li class="ml-6 mb-1">{{ __('Desarrollo a medida con tecnologías de vanguardia') }}</li>
+                                <li class="ml-6 mb-1">{{ __('Lanzamiento seguro y escalable') }}</li>
+                                <li class="ml-6 mb-1">{{ __('Integración transparente con sistemas existentes') }}</li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <!-- Tecnologías y Herramientas -->
+                    <h3 class="mt-8">{{ __('Tecnologías y Herramientas') }}</h3>
+                    <div class="container mx-auto px-4">
+                        <p>{{ __('Utilizo una variedad de tecnologías de vanguardia y lenguajes de programación para ofrecer soluciones eficientes y personalizadas.') }}</p>
+                        <div class="flex flex-wrap space-x-6 mt-5 ">
+                            <img src="{{ asset('/img/logo-laravel.svg') }}" alt="Laravel" class="w-24 mr-2">
+                            <img src="{{ asset('/img/logo-livewire.svg') }}" alt="Livewire" class="w-24 mr-2">
+                            <img src="{{ asset('/img/logo-alpine.svg') }}" alt="Alpine" class="w-28 mr-2">
+                            <img src="{{ asset('/img/logo-tailwind.svg') }}" alt="Tailwind" class="w-32 mr-2">
+                            <img src="{{ asset('/img/logo-php.svg') }}" alt="PHP" class="w-[70px] h-20">
+                            <div class="w-20  transform scale-115">
+                                @include('svg.logo-filament', ['color' => 'black'])
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
                 <!-- Proyectos Representativos -->
-                <h2>{{ __('Proyectos Representativos') }}</h2>
+                <h2 class="mt-14" id="{{ Str::slug($title6, '-') }}">{{ $title6 }}</h2>
                 <div class="container mx-auto px-4">
                     <div
-                        class="text-xl font-semibold mb-4">{{ __('Mi experiencia en el campo del desarrollo de software es diversa y orientada a las necesidades individuales de cada cliente. Algunos proyectos destacados incluyen:') }}</div>
+                            class="text-xl font-semibold mb-4">{{ __('Mi experiencia en el campo del desarrollo de software es diversa y orientada a las necesidades individuales de cada cliente. Algunos proyectos destacados incluyen:') }}</div>
 
                     <ul class="list-disc pl-8">
 
@@ -61,38 +97,6 @@
                     </ul>
                 </div>
 
-
-                <!-- Desarrollo de Aplicaciones Web Avanzadas -->
-                <h2 class="mt-14" id="{{ Str::slug($title1, '-') }}">{{ $title1 }}</h2>
-                <div class="container mx-auto px-4">
-                    <ul>
-                        <li>{{ __('Su visión hecha realidad en la web, con un desarrollo ágil, seguro y completamente personalizado.') }}
-                            <ul class="ml-6 list-inside list-decimal">
-                                <li class="ml-6 mb-1 mt-3">{{ __('Consultoría estratégica inicial') }}</li>
-                                <li class="ml-6 mb-1">{{ __('Diseño centrado en el usuario') }}</li>
-                                <li class="ml-6 mb-1">{{ __('Desarrollo a medida con tecnologías de vanguardia') }}</li>
-                                <li class="ml-6 mb-1">{{ __('Lanzamiento seguro y escalable') }}</li>
-                                <li class="ml-6 mb-1">{{ __('Integración transparente con sistemas existentes') }}</li>
-                            </ul>
-                        </li>
-                    </ul>
-
-                    <!-- Logo and Technology Section -->
-                    <h3 class="mt-8">{{ __('Tecnologías y Herramientas') }}</h3>
-                    <div class="container mx-auto px-4">
-                        <p>{{ __('Utilizo una variedad de tecnologías de vanguardia y lenguajes de programación para ofrecer soluciones eficientes y personalizadas.') }}</p>
-                        <div class="flex flex-wrap space-x-6 mt-5 ">
-                            <img src="{{ asset('/img/logo-laravel.svg') }}" alt="Laravel" class="w-24 mr-2">
-                            <img src="{{ asset('/img/logo-livewire.svg') }}" alt="Livewire" class="w-24 mr-2">
-                            <img src="{{ asset('/img/logo-alpine.svg') }}" alt="Alpine" class="w-28 mr-2">
-                            <img src="{{ asset('/img/logo-tailwind.svg') }}" alt="Tailwind" class="w-32 mr-2">
-                            <img src="{{ asset('/img/logo-php.svg') }}" alt="PHP" class="w-[70px] h-20">
-                            <div class="w-20  transform scale-115">
-                                @include('svg.logo-filament', ['color' => 'black'])
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
 
                 <!-- Otros Servicios Section -->
