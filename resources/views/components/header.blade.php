@@ -17,7 +17,8 @@
 
     {{-- The header section has a background image (`robot4.png`) aligned to the right.
          The background color is set to `#22C0A2`. The minimum and maximum height of this section is set to 120px. --}}
-    <section class="bg-no-repeat bg-right w-full flex justify-center items-center relative" style="background-image: url('{{ asset('/img/robot4.png') }}'); background-color: #22C0A2; min-height: 120px; max-height: 120px; background-size: auto 100%;">
+    <section class="bg-no-repeat bg-right w-full flex justify-center items-center relative"
+             style="background-image: url('{{ asset('/img/robot-yellow-500x500-v1.png') }}'); background-color: #2D8471; min-height: 120px; max-height: 120px; background-size: auto 100%;">
 
         {{-- A hyperlink containing the logo of the site, positioned in the top-left corner. --}}
         <a href="{{ asset('/') }}" style="position: absolute; top: 5px; left: 5px;">
