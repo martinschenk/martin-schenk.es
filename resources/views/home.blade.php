@@ -1,4 +1,5 @@
 @php
+    $title0 = __('Impacto Digital: De la Idea a la Realidad');
     $title1 = __('Desarrollo de Aplicaciones Web Avanzadas');
     $title6 = __('Proyectos Representativos');
     $title2 = __('Hosting y Dominios Seguros');
@@ -7,13 +8,13 @@
     $title5 = __('Consultoría y Estrategia Digital');
 @endphp
 <x-legal>
-    <x-slot:title>{{ __('Aplicaciones Web de Alto Impacto: Transformamos Ideas en Realidad') }}</x-slot>
+    <x-slot:title>{{ $title0 }}</x-slot>
 
-        <x-header headertitle="{{ __('Aplicaciones Web de Alto Impacto: Transformamos Ideas en Realidad') }}"/>
+        <x-header headertitle="{{ $title0 }}"/>
 
         <section class="font-sans antialiased max-w-md mx-auto md:max-w-2xl px-8 py-4 xleading-tight">
             <div class="mt-8">
-                <p>{{ __('Con una trayectoria que abarca más de dos décadas, especializo en diseñar y desarrollar soluciones web de alta complejidad y impacto. Desde sistemas alimentados por inteligencia artificial como bases de datos de conocimiento, hasta aplicaciones especializadas como sistemas de gestión de reservas, cada proyecto que emprendo es un reflejo de mi compromiso con la innovación y la eficiencia.') }}</p>
+                <p>{{ __('Con más de 20 años de experiencia, me dedico a transformar ideas en soluciones web innovadoras y eficientes. Mi enfoque es simple: tu visión, hecha realidad.') }}</p>
 
 
 

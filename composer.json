@@ -6,10 +6,11 @@
     "license": "MIT",
     "require": {
         "php": "^8.1.0",
+        "doctrine/dbal": "^3.0",
         "guzzlehttp/guzzle": "^7.2",
+        "intervention/image": "^2.7",
         "laravel/framework": "^10.0",
         "laravel/sanctum": "^3.2",
-        "doctrine/dbal": "^3.0",
         "laravel/tinker": "^2.7",
         "spatie/laravel-backup": "^8.1",
         "spatie/laravel-cookie-consent": "^3.2",

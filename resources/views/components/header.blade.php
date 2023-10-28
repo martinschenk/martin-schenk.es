@@ -12,27 +12,38 @@
     }
 @endphp
 
-{{-- The header section of the webpage. --}}
-<header>
+    <!-- The header is set to be 100% of the viewport height, making it fullscreen. -->
+<!-- 'relative' sets the position relative so we can use absolute positioning within this element. -->
+<!-- 'bg-no-repeat' ensures the background image doesn't repeat. -->
+<!-- 'bg-cover' ensures the background image covers the entire header. -->
+<!-- 'bg-center' ensures the background image is centered. -->
+<header class="relative h-screen bg-no-repeat bg-cover bg-center"
+        style="background-image: url('{{ asset('/img/robot-yellow-500x500-v1.png') }}'); background-color: #2D8471;">
 
-    {{-- The header section has a background image (`robot4.png`) aligned to the right.
-         The background color is set to `#22C0A2`. The minimum and maximum height of this section is set to 120px. --}}
-    <section class="bg-no-repeat bg-right w-full flex justify-center items-center relative"
-             style="background-image: url('{{ asset('/img/robot-yellow-500x500-v1.png') }}'); background-color: #2D8471; min-height: 120px; max-height: 120px; background-size: auto 100%;">
+    <!-- 'absolute top-5 left-5' positions the logo at the top-left corner. -->
+    <!-- This anchor tag contains the site's logo. -->
+    <a href="{{ asset('/') }}" class="absolute top-5 left-5">
+        <!-- The image adjusts its size based on the screen size. -->
+        <img class="w-20 md:w-30 lg:w-36 xl:w-42 mt-3 ml-5"
+             src="{{ asset('/img/logo-schenk-hell-transp-1999-2023v7.svg') }}"
+             alt="{{ __('Martin Schenk S.L. desde 1999') }}">
+    </a>
 
-        {{-- A hyperlink containing the logo of the site, positioned in the top-left corner. --}}
-        <a href="{{ asset('/') }}" style="position: absolute; top: 5px; left: 5px;">
-            <img class="w-20 md:w-30 lg:w-36 xl:42 mt-3 ml-5" src="{{ asset('/img/logo-schenk-dunkel-transp-1999-2023v3.svg') }}" alt="{{ __('Martin Schenk S.L. desde 1999') }}">
-        </a>
+    <!-- 'flex items-center justify-center h-full' -->
+    <!-- This makes a flexbox container that vertically and horizontally centers its child. -->
+    <!-- 'h-full' ensures it takes up the full height of its parent, helping in centering. -->
+    <div class="flex items-center justify-center h-full">
 
-        {{-- A centered text section for the header title. --}}
+        <!-- The text is centered using 'text-center'. -->
         <div class="text-center">
-            {{-- Display the modified header title (`$headertitleModified`), which may include a line-break.
-                 The text size adjusts based on the screen size. --}}
-            <h1 class="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl mt-1 mb-0 text-gray-100 ">
+            <!-- Text size changes based on the screen size. -->
+            <!-- 'text-white' sets the text color to white. -->
+            <h1 class="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl text-white">
+                <!-- Output the modified header title which may contain a responsive line-break. -->
                 {!! $headertitleModified !!}
             </h1>
         </div>
-    </section>
+    </div>
 
 </header>
+
