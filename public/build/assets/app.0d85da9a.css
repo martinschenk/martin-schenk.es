@@ -448,12 +448,6 @@ select {
     width: 100%
 }
 
-@media (min-width: 475px) {
-    .container {
-        max-width: 475px
-    }
-}
-
 @media (min-width: 640px) {
     .container {
         max-width: 640px
@@ -481,12 +475,6 @@ select {
 @media (min-width: 1536px) {
     .container {
         max-width: 1536px
-    }
-}
-
-@media (min-width: 1920px) {
-    .container {
-        max-width: 1920px
     }
 }
 
@@ -1457,45 +1445,33 @@ a {
     transition-timing-function: cubic-bezier(.4, 0, 1, 1)
 }
 
-@media (min-width: 1920px) {
-    .header-bg {
-        background-image: url(/img/robot-yellow-1-1920w.jpg)
-    }
-}
-
 @media (min-width: 1536px) {
     .header-bg {
-        background-image: url(/img/robot-yellow-1-1536w.jpg)
+        background-image: url(https://www.martin-schenk.es/img/robot-yellow-1-1536w.jpg)
     }
 }
 
 @media (min-width: 1280px) {
     .header-bg {
-        background-image: url(/img/robot-yellow-1-1280w.jpg)
+        background-image: url(https://www.martin-schenk.es/img/robot-yellow-1-1280w.jpg)
     }
 }
 
 @media (min-width: 1024px) {
     .header-bg {
-        background-image: url(/img/robot-yellow-1-1024w.jpg)
+        background-image: url(https://www.martin-schenk.es/img/robot-yellow-1-1024w.jpg)
     }
 }
 
 @media (min-width: 768px) {
     .header-bg {
-        background-image: url(/img/robot-yellow-1-768w.jpg)
+        background-image: url(https://www.martin-schenk.es/img/robot-yellow-1-768w.jpg)
     }
 }
 
 @media (min-width: 640px) {
     .header-bg {
-        background-image: url(/img/robot-yellow-1-640w.jpg)
-    }
-}
-
-@media (min-width: 475px) {
-    .header-bg {
-        background-image: url(/img/robot-yellow-1-475w.jpg)
+        background-image: url(https://www.martin-schenk.es/img/robot-yellow-1-640w.jpg)
     }
 }
 

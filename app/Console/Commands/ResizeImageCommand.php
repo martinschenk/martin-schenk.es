@@ -68,13 +68,11 @@ class ResizeImageCommand extends Command
         $this->info("The resized images will be saved in the following folder: $outputFolder");
 
         $sizes = [
-            '475' => $baseFilename . '-475w.' . $outputFormat,
             '640' => $baseFilename . '-640w.' . $outputFormat,
             '768' => $baseFilename . '-768w.' . $outputFormat,
             '1024' => $baseFilename . '-1024w.' . $outputFormat,
             '1280' => $baseFilename . '-1280w.' . $outputFormat,
             '1536' => $baseFilename . '-1536w.' . $outputFormat,
-            '1920' => $baseFilename . '-1920w.' . $outputFormat,
         ];
 
         $spinnerChars = ['|', '/', '-', '\\'];

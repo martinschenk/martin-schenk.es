@@ -19,10 +19,6 @@ module.exports = {
                 //title: ['Playfair Display', ...defaultTheme.fontFamily.sans],
                 // nunito: ['Nunito', ...defaultTheme.fontFamily.sans],
             },
-            screens: {
-                'xs': '475px',  // Extra small screens
-                '3xl': '1920px', // Extra extra large screens
-            },
             colors: {
                 transparent: 'transparent',
                 current: 'currentColor',
