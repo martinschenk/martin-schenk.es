@@ -1,5 +1,5 @@
 @php
-    $title0 = __('Impacto Digital: De la Idea a la Realidad');
+    $title0 = __('De la Idea a la Realidad');
     $title1 = __('Desarrollo de Aplicaciones Web Avanzadas');
     $title6 = __('Proyectos Representativos');
     $title2 = __('Hosting y Dominios Seguros');

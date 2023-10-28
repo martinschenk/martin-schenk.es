@@ -3,33 +3,31 @@
     $words = explode(' ', $headertitle);
 
     // Check if there are more than 4 words in the title.
-    if (count($words) > 4) {
+    if (count($words) > 6) {
         // Insert a responsive line-break after the fourth word.
-        array_splice($words, 4, 0, '<span class="sm:inline md:hidden lg:hidden xl:hidden 2xl:hidden"><br></span>');
+        array_splice($words, 6, 0, '<span class="sm:inline md:hidden lg:hidden xl:hidden 2xl:hidden"><br></span>');
         $headerTitleModified = implode(' ', $words);
     } else {
         $headerTitleModified = $headertitle;
     }
 @endphp
 
-<header class="fixed top-0 left-0 w-full h-20 bg-mittelgruen z-50 flex items-center">
-    {{--logo--}}
+    <!-- Header -->
+<header
+    class="fixed top-0 left-0 w-full h-30 bg-mittelgruen z-50 flex items-center justify-start h-[80px] max-h-[80px] py-2">
+    <!-- Logo -->
     <a href="{{ asset('/') }}" class="ml-4">
-        <img class="w-28 sm:w-28 md:w-34 lg:w-40 xl:w-44 2xl:w-48 "
+        <img class="w-28 sm:w-28 md:w-34 lg:w-40 xl:w-44 2xl:w-48"
              src="{{ asset('/img/logo-schenk-hell-transp-1999-2023v7.svg') }}"
              alt="{{ __('Martin Schenk S.L.') }}">
     </a>
 
-    {{--navigation--}}
-
-    {{--header text--}}
-    <div class="absolute inset-0 flex items-center justify-center">
+    <!-- Header text -->
+    <div class="absolute inset-x-0 bottom-0 flex items-center justify-center mt-2">
         <h1 class="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl text-white">
             {!! $headerTitleModified !!}
         </h1>
     </div>
-
-
 </header>
 
 <!-- image under fixed header, which fills rest of screen -->
@@ -43,4 +41,3 @@
         </div>
     </div>
 </div>
-
