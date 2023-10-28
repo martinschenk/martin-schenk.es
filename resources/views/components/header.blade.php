@@ -15,7 +15,7 @@
 <header class="fixed top-0 left-0 w-full h-20 bg-mittelgruen z-50 flex items-center">
     {{--logo--}}
     <a href="{{ asset('/') }}" class="ml-4">
-        <img class="w-28 sm:w-28 md:w-44 lg:w-48 xl:w-52 2xl:w-56"
+        <img class="w-28 sm:w-28 md:w-34 lg:w-40 xl:w-44 2xl:w-48"
              src="{{ asset('/img/logo-schenk-hell-transp-1999-2023v7.svg') }}"
              alt="{{ __('Martin Schenk S.L.') }}">
     </a>
