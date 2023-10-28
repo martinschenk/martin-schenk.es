@@ -17,8 +17,8 @@
 <!-- 'bg-no-repeat' ensures the background image doesn't repeat. -->
 <!-- 'bg-cover' ensures the background image covers the entire header. -->
 <!-- 'bg-center' ensures the background image is centered. -->
-<header class="relative h-screen bg-no-repeat bg-cover bg-center"
-        style="background-image: url('{{ asset('/img/robot-yellow-500x500-v1.png') }}'); background-color: #2D8471;">
+<header class="header-bg relative h-screen bg-no-repeat bg-cover bg-center"
+        style="background-color: #2D8471;">
 
     <!-- 'absolute top-5 left-5' positions the logo at the top-left corner. -->
     <!-- This anchor tag contains the site's logo. -->

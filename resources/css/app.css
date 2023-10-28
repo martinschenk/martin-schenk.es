@@ -35,3 +35,40 @@
         @apply underline text-gruen;
     }
 }
+
+@screen 3xl {
+    .header-bg {
+        background-image: url('https://www.martin-schenk.es/img/robot-yellow-1-1920w.jpg');
+    }
+}
+@screen 2xl {
+    .header-bg {
+        background-image: url('https://www.martin-schenk.es/img/robot-yellow-1-1536w.jpg');
+    }
+}
+@screen xl {
+    .header-bg {
+        background-image: url('https://www.martin-schenk.es/img/robot-yellow-1-1280w.jpg');
+    }
+}
+@screen lg {
+    .header-bg {
+        background-image: url('https://www.martin-schenk.es/img/robot-yellow-1-1024w.jpg');
+    }
+}
+@screen md {
+    .header-bg {
+        background-image: url('https://www.martin-schenk.es/img/robot-yellow-1-768w.jpg');
+    }
+}
+@screen sm {
+    .header-bg {
+        background-image: url('https://www.martin-schenk.es/img/robot-yellow-1-640w.jpg');
+    }
+}
+@screen xs {
+    .header-bg {
+        background-image: url('https://www.martin-schenk.es/img/robot-yellow-1-475w.jpg');
+    }
+}
+
