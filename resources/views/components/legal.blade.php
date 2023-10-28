@@ -37,6 +37,9 @@
 </head>
 <body>
 
+<!-- Placeholder for the fixed header -->
+<div id="fixed-header-placeholder"></div>
+
 <div class="flex flex-col h-screen justify-between">
     <div class="flex-grow">
         {{ $slot }}
