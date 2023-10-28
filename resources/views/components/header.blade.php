@@ -23,7 +23,8 @@
 
 <!-- image under fixed header, which fills rest of screen -->
 <div class="relative h-screen mt-20">
-    <div class="bg-robot-yellow-1 absolute inset-0 bg-no-repeat bg-cover bg-center">
+    {{--robot image--}}
+    <div class="bg-robot-yellow-1 absolute inset-0 bg-no-repeat bg-cover bg-top">
         <div class="absolute inset-0 flex items-center justify-center">
             <!-- Your text goes here -->
             <h1 class="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl text-white">

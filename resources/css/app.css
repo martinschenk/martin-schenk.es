@@ -1,6 +1,8 @@
 /*Font*/
 /*@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@200;400;600&display=swap');*/
-@import url(https://fonts.bunny.net/css?family=source-sans-pro:200,300,400,600);
+/*@import url(https://fonts.bunny.net/css?family=source-sans-pro:200,300,400,600);*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 
 @tailwind base;
 @tailwind components;
@@ -39,35 +41,35 @@
 
 /* Default */
 .bg-robot-yellow-1 {
-    background-image: url('https://www.martin-schenk.es/img/robot-yellow-1-640w.jpg');
+    background-image: url('https://www.martin-schenk.es/img/robot-yellow-2-640w.jpg');
     /* other properties */
 }
 
 /* Medium screens */
 @media (min-width: 768px) {
     .bg-robot-yellow-1 {
-        background-image: url('https://www.martin-schenk.es/img/robot-yellow-1-768w.jpg');
+        background-image: url('https://www.martin-schenk.es/img/robot-yellow-2-768w.jpg');
     }
 }
 
 /* Large screens */
 @media (min-width: 1024px) {
     .bg-robot-yellow-1 {
-        background-image: url('https://www.martin-schenk.es/img/robot-yellow-1-1024w.jpg');
+        background-image: url('https://www.martin-schenk.es/img/robot-yellow-2-1024w.jpg');
     }
 }
 
 /* Extra Large screens */
 @media (min-width: 1280px) {
     .bg-robot-yellow-1 {
-        background-image: url('https://www.martin-schenk.es/img/robot-yellow-1-1280w.jpg');
+        background-image: url('https://www.martin-schenk.es/img/robot-yellow-2-1280w.jpg');
     }
 }
 
 /* 2XL screens */
 @media (min-width: 1536px) {
     .bg-robot-yellow-1 {
-        background-image: url('https://www.martin-schenk.es/img/robot-yellow-1-1536w.jpg');
+        background-image: url('https://www.martin-schenk.es/img/robot-yellow-2-1536w.jpg');
     }
 }
 
