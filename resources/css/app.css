@@ -1,7 +1,12 @@
 /*Font*/
 /*@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@200;400;600&display=swap');*/
 /*@import url(https://fonts.bunny.net/css?family=source-sans-pro:200,300,400,600);*/
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');*/
+/*@import url('https://your-fonts.bunny.net-link-here?family=Lato:400,700|Roboto:300,400,500|Montserrat:400,600,700');*/
+/*@import url('https://your-fonts.bunny.net-link-here?family=Roboto:300,400,500|Playfair+Display:400,700');*/
+/*@import url('https://your-fonts.bunny.net-link-here?family=Roboto:300,400,500|Source+Sans+Pro:400,700');*/
+@import url('https://your-fonts.bunny.net-link-here?family=Roboto:300,400,500|Montserrat:400,600,700');
+
 
 
 @tailwind base;
@@ -10,31 +15,36 @@
 
 @layer components {
     body {
-        @apply text-lg text-gray-600;
+        @apply font-sans text-lg text-textkleingrau bg-weiss;
     }
     h1 {
-        @apply font-title text-gray-600 leading-normal text-3xl mt-2 mb-1 ;
+        @apply font-title text-4xl leading-tight font-bold text-schwarz mt-4 mb-2;
     }
     h2 {
-        @apply font-title text-gray-600 leading-normal font-bold text-2xl mt-8 mb-2 ;
+        @apply font-title text-3xl leading-snug font-semibold text-dunkelgruen mt-8 mb-4;
     }
     h3 {
-        @apply font-title text-gray-600 leading-normal font-bold text-xl mt-8 mb-2 ;
+        @apply font-title text-2xl leading-normal font-medium text-mittelgruen mt-6 mb-3;
     }
     h4 {
-        @apply font-title text-gray-600 leading-normal font-bold text-xl mt-8 mb-2 ;
+        @apply font-title text-xl leading-normal font-medium text-grau mt-6 mb-2;
     }
     p {
-        @apply mt-2 mb-4 ;
-     }
+        @apply mt-4 mb-4 text-base;
+    }
     ul {
-        @apply mb-4 list-disc list-inside;
+        @apply list-disc list-inside pl-5 mb-4;
     }
     li {
-        @apply mb-3;
+        @apply mb-2 text-base;
     }
     a {
-        @apply underline text-gruen;
+        @apply underline text-mittelgruen hover:text-gruen;
+    }
+
+    /* Specific styles for landing page header and menu */
+    .landing-header, .menu {
+        @apply bg-mittelgruen text-weiss;
     }
 }
 

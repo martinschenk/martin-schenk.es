@@ -15,7 +15,8 @@ module.exports = {
         },
         extend: {
             fontFamily: {
-                title: ['Roboto', 'Helvetica', 'Arial', 'sans-serif']
+                sans: ['Roboto', 'Helvetica', 'Arial', 'sans-serif'],
+                title: ['Montserrat', 'sans-serif']
                 /*title: ['"Source Sans Pro"', 'Helvetica', 'Arial' ,'sans-serif']*/
                 //title: ['Playfair Display', ...defaultTheme.fontFamily.sans],
                 // nunito: ['Nunito', ...defaultTheme.fontFamily.sans],
