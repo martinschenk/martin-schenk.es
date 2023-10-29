@@ -53,8 +53,7 @@
             <!-- Proyectos Representativos -->
             <h2 id="proyectos-representativos">Proyectos Representativos</h2>
             <div class="container mx-auto px-4">
-                <div
-                    class="text-xl font-semibold mb-4">{{ __('Mi experiencia en el campo del desarrollo de software es diversa y orientada a las necesidades individuales de cada cliente. Algunos proyectos destacados incluyen:') }}</div>
+                <p class=" mb-4">{{ __('Mi experiencia en el campo del desarrollo de software es diversa y orientada a las necesidades individuales de cada cliente. Algunos proyectos destacados incluyen:') }}</p>
 
                 <ul class="list-disc pl-8">
 
@@ -125,11 +124,10 @@
             <!-- Dominios y Correos Electrónicos Section -->
             <h3 id="hosting-y-dominios-seguros">{{ __('Hosting y Dominios Seguros') }}</h3>
             <ul>
-                {{--<li>{{ __('También te ofrezco servicios básicos como dominios y cuentas de correo electrónico para hacerlo todo aún más sencillo.') }}</li>--}}
+                <li>{{ __('También te ofrezco servicios básicos como dominios y cuentas de correo electrónico para hacerlo todo aún más sencillo.') }}</li>
             </ul>
 
 
-            </div>
         </section>
 </x-legal>
 
