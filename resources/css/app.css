@@ -14,35 +14,42 @@
 @tailwind utilities;
 
 @layer components {
+    /* General styles */
     body {
         @apply font-sans text-lg text-textkleingrau bg-weiss;
     }
+
+    /* Heading styles */
     h1 {
-        @apply font-title text-4xl leading-tight font-bold text-schwarz mt-4 mb-2;
+        @apply font-title text-4xl leading-tight font-bold text-schwarz mt-8 mb-4;
     }
     h2 {
         @apply font-title text-3xl leading-snug font-semibold text-dunkelgruen mt-8 mb-4;
     }
     h3 {
-        @apply font-title text-2xl leading-normal font-medium text-mittelgruen mt-6 mb-3;
+        @apply font-title text-2xl leading-normal font-medium text-mittelgruen mt-6 mb-4;
     }
     h4 {
-        @apply font-title text-xl leading-normal font-medium text-grau mt-6 mb-2;
+        @apply font-title text-xl leading-normal font-medium text-grau mt-6 mb-3;
     }
+
+    /* Paragraph and list styles */
     p {
-        @apply mt-4 mb-4 text-base;
+        @apply mt-5 mb-5 text-base leading-relaxed;
     }
     ul {
-        @apply list-disc list-inside pl-5 mb-4;
+        @apply list-disc list-inside pl-5 my-4;
     }
     li {
         @apply mb-2 text-base;
     }
+
+    /* Link styles */
     a {
         @apply underline text-mittelgruen hover:text-gruen;
     }
 
-    /* Specific styles for landing page header and menu */
+    /* Navigation and header styles */
     .landing-header, .menu {
         @apply bg-mittelgruen text-weiss;
     }

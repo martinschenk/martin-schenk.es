@@ -3,14 +3,13 @@
     $linkurl = env('APP_URL');
 @endphp
 
-<footer class="bg-no-repeat bg-right w-full flex flex-col items-center justify-center p-5 pb-4 pt-4 relative"
-        style="background-image: url('{{ asset('/img/robot4.png') }}'); background-color: #22C0A2; min-height: 120px; max-height: auto; background-size: auto 100%;">
+<footer class="bg-mittelgruen w-full flex flex-col items-center justify-center p-5 pb-4 pt-4 relative">
 
     {{-- Company Logo --}}
-    <a href="/">
-        <img class="w-20 md:w-30 lg:w-36 xl:42 mb-6 pt-4"
-             src="{{ asset('/img/logo-schenk-dunkel-transp-1999-2023v3.svg') }}"
-             alt="{{ __('Martin Schenk S.L. desde 1999') }}">
+    <a href="{{ asset('/') }}" class="ml-4">
+        <img class="w-28 sm:w-28 md:w-34 lg:w-40 xl:w-44 2xl:w-48"
+             src="{{ asset('/img/logo-schenk-hell-transp-1999-2023v7.svg') }}"
+             alt="{{ __('Martin Schenk S.L.') }}">
     </a>
 
     {{-- Contact Information --}}
