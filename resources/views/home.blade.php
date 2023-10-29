@@ -15,8 +15,8 @@
                         <li>{{ __('Primera Charla Gratuita: Hablamos de tu idea y cómo podemos hacerla realidad.') }}</li>
                         <li>{{ __('Diseño Pensado en Ti: Creo una experiencia online que tus usuarios amarán.') }}</li>
                         <li>{{ __('Construcción Personalizada: Tu sitio o app se desarrolla especialmente para ti, sin plantillas genéricas.') }}</li>
-                        <li>{{ __('Lanzamiento Sin Preocupaciones: Me aseguro de que todo funcione perfectamente cuando tu proyecto salga al mundo.') }}</li>
-                        <li>{{ __('Conexión con lo Que Ya Tienes: Si tienes otros sistemas o herramientas, los integro de forma sencilla y sin complicaciones.') }}</li>
+                        <li>{{ __('Lanzamiento Sin Preoc gupaciones: Me aseguro de que todo funcione perfectamente cuando tu proyecto salga al mundo.') }}</li>
+                        <li>{{ __('Conexión con lo que ya tienes: Si tienes otros sistemas o herramientas, los integro de forma sencilla y sin complicaciones.') }}</li>
                     </ul>
                 </div>
 
@@ -57,10 +57,7 @@
 
                 <ul class="list-disc pl-8">
 
-                    <li class="mb-2">
-                        <strong>{{ __('Plataforma para la Creación de Páginas Web (Website Builder):') }}</strong>
-                        {{ __('Con más de 1.4 millones de páginas creadas, Palimpalem fue mi primer gran proyecto propio y demuestra la robustez y versatilidad de mis soluciones. Lanzado entre 2004-2005, el sistema experimentó un crecimiento explosivo en sus primeros años, alcanzando un promedio de 500 altas diarias. La gran desafío fue escalar el sistema para soportar esta demanda. Genera ingresos a través de publicidad de Google Adsense y otros parecidos, en páginas de usuarios gratuitos, mientras que los clientes que pagan disfrutan de funcionalidades adicionales como la ausencia de publicidad, capacidad para más páginas y más almacenamiento para multimedia. También ofrece integración de dominios y herramientas de SEO. Aunque el sistema necesita una actualización completa, todavía cuenta con una base de usuarios leales que han alojado sus páginas web durante casi dos décadas. Actualmente, lo sigo manteniendo aunque ha estado muchos años sin actualizaciones.') }}
-                    </li>
+
 
 
                     <li class="mb-2">
@@ -92,6 +89,11 @@
                     <li class="mb-2">
                         <strong>{{ __('Mercado para Periodistas Freelance:') }}</strong>
                         {{ __('Una aplicación que permite a los periodistas vender sus reportajes y artículos directamente a medios de comunicación a través de un sistema de pujas.') }}
+                    </li>
+
+                    <li class="mb-2">
+                        <strong>{{ __('Plataforma para la Creación de Páginas Web (Website Builder):') }}</strong>
+                        {{ __('Con más de 1.4 millones de páginas creadas, Palimpalem fue mi primer gran proyecto propio y demuestra la robustez y versatilidad de mis soluciones. Lanzado entre 2004-2005, el sistema experimentó un crecimiento explosivo en sus primeros años, alcanzando un promedio de 500 altas diarias. La gran desafío fue escalar el sistema para soportar esta demanda. Genera ingresos a través de publicidad de Google Adsense y otros parecidos, en páginas de usuarios gratuitos, mientras que los clientes que pagan disfrutan de funcionalidades adicionales como la ausencia de publicidad, capacidad para más páginas y más almacenamiento para multimedia. También ofrece integración de dominios y herramientas de SEO. Aunque el sistema necesita una actualización completa, todavía cuenta con una base de usuarios leales que han alojado sus páginas web durante casi dos décadas. Actualmente, lo sigo manteniendo aunque ha estado muchos años sin actualizaciones.') }}
                     </li>
                 </ul>
             </div>
