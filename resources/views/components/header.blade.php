@@ -30,7 +30,7 @@
 </header>
 
 <!-- image under fixed header, which fills rest of screen -->
-<div class="relative h-screen mt-20" xxstyle="min-height: calc(100vh - 80px);">
+<div class="relative h-screen mt-20" style="min-height: calc(100vh - 80px);">
     <picture class="absolute inset-0 object-cover object-top w-full h-full">
         <source media="(min-width: 1536px)" srcset="{{ asset('img/robot-yellow-2-1536w.jpg') }}">
         <source media="(min-width: 1280px)" srcset="{{ asset('img/robot-yellow-2-1280w.jpg') }}">
