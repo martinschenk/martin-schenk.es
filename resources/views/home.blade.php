@@ -125,7 +125,7 @@
             <!-- Dominios y Correos Electrónicos Section -->
             <h3 id="hosting-y-dominios-seguros">{{ __('Hosting y Dominios Seguros') }}</h3>
             <ul>
-                <li>{{ __('También te ofrezco servicios básicos como dominios y cuentas de correo electrónico para hacerlo todo aún más sencillo.') }}</li>
+                {{--<li>{{ __('También te ofrezco servicios básicos como dominios y cuentas de correo electrónico para hacerlo todo aún más sencillo.') }}</li>--}}
             </ul>
 
 
