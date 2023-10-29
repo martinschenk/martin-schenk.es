@@ -13,12 +13,11 @@
 @endphp
 
     <!-- Header -->
-<header
-    class="fixed top-0 left-0 w-full h-30 bg-mittelgruen z-50 flex items-center justify-start h-[80px] max-h-[80px] py-2">
+<header class="fixed top-0 left-0 w-full h-[80px] bg-mittelgruen z-50 flex items-center justify-start py-2">
     <!-- Logo -->
     <a href="{{ asset('/') }}" class="ml-4">
         <img class="w-28 sm:w-28 md:w-34 lg:w-40 xl:w-44 2xl:w-48"
-             src="{{ asset('/img/logo-schenk-hell-transp-1999-2023v7.svg') }}"
+             src="{{ asset('img/logo-schenk-hell-transp-1999-2023v7.svg') }}"
              alt="{{ __('Martin Schenk S.L.') }}">
     </a>
 
@@ -31,13 +30,14 @@
 </header>
 
 <!-- image under fixed header, which fills rest of screen -->
-<div class="relative h-screen mt-20">
-    {{--robot image--}}
-    <div class="bg-robot-yellow-1 absolute inset-0 bg-no-repeat bg-cover bg-top">
-        <div class="absolute inset-0 flex items-center justify-center">
-            {{--<h1 class="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl text-white">
-                {!! $headerTitleModified !!}
-            </h1>--}}
-        </div>
-    </div>
+<div class="relative h-screen mt-20" xxstyle="min-height: calc(100vh - 80px);">
+    <picture class="absolute inset-0 object-cover object-top w-full h-full">
+        <source media="(min-width: 1536px)" srcset="{{ asset('img/robot-yellow-2-1536w.jpg') }}">
+        <source media="(min-width: 1280px)" srcset="{{ asset('img/robot-yellow-2-1280w.jpg') }}">
+        <source media="(min-width: 1024px)" srcset="{{ asset('img/robot-yellow-2-1024w.jpg') }}">
+        <source media="(min-width: 768px)" srcset="{{ asset('img/robot-yellow-2-768w.jpg') }}">
+        <img src="{{ asset('img/robot-yellow-2-640w.jpg') }}"
+             class="absolute inset-0 object-cover object-top w-full h-full">  <!-- added w-full h-full here -->
+    </picture>
 </div>
+
