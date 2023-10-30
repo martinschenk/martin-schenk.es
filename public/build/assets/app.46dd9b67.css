@@ -655,6 +655,10 @@ a:hover {
     margin-bottom: 1rem
 }
 
+.mb-20 {
+    margin-bottom: 5rem
+}
+
 .mt-20 {
     margin-top: 5rem
 }
@@ -759,8 +763,8 @@ a:hover {
     height: 100vh
 }
 
-.h-\[80px\] {
-    height: 80px
+.h-20 {
+    height: 5rem
 }
 
 .h-\[600px\] {
@@ -779,10 +783,6 @@ a:hover {
     height: 4rem
 }
 
-.h-20 {
-    height: 5rem
-}
-
 .h-10 {
     height: 2.5rem
 }
@@ -793,10 +793,6 @@ a:hover {
 
 .h-6 {
     height: 1.5rem
-}
-
-.max-h-\[80px\] {
-    max-height: 80px
 }
 
 .min-h-screen {
@@ -1773,6 +1769,10 @@ a:hover {
 }
 
 @media (min-width: 768px) {
+    .md\:mb-5 {
+        margin-bottom: 1.25rem
+    }
+
     .md\:ml-20 {
         margin-left: 5rem
     }
