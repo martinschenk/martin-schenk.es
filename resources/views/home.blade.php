@@ -4,7 +4,7 @@
         <x-header headertitle="De la Idea a la Realidad"/>
 
         <section class="font-sans antialiased max-w-md mx-auto md:max-w-2xl px-8 py-4 ">
-            <div class="mt-8">
+            <div class="">
                 <p>{{ __('Me dedico a transformar ideas en soluciones web innovadoras y eficientes. Y esto desde hace más de 20 años. Mi enfoque es simple: tu visión, hecha realidad.') }}</p>
 
                 <h2 class="mt-14"

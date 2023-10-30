@@ -602,12 +602,12 @@ a:hover {
     left: 0px
 }
 
-.right-0 {
-    right: 0px
-}
-
 .bottom-0 {
     bottom: 0px
+}
+
+.right-0 {
+    right: 0px
 }
 
 .z-0 {
@@ -659,12 +659,20 @@ a:hover {
     margin-top: 5rem
 }
 
-.ml-1 {
-    margin-left: .25rem
+.mr-3 {
+    margin-right: .75rem
 }
 
 .mt-2 {
     margin-top: .5rem
+}
+
+.mt-0 {
+    margin-top: 0
+}
+
+.ml-1 {
+    margin-left: .25rem
 }
 
 .mr-2 {
@@ -695,10 +703,6 @@ a:hover {
     margin-top: 3.5rem
 }
 
-.mt-0 {
-    margin-top: 0
-}
-
 .mb-2 {
     margin-bottom: .5rem
 }
@@ -721,10 +725,6 @@ a:hover {
 
 .-mr-2 {
     margin-right: -.5rem
-}
-
-.mr-3 {
-    margin-right: .75rem
 }
 
 .block {
@@ -815,12 +815,16 @@ a:hover {
     width: 7rem
 }
 
-.w-8 {
-    width: 2rem
+.w-0 {
+    width: 0px
 }
 
 .w-auto {
     width: auto
+}
+
+.w-8 {
+    width: 2rem
 }
 
 .w-20 {
@@ -839,12 +843,12 @@ a:hover {
     width: 1.5rem
 }
 
-.w-0 {
-    width: 0px
-}
-
 .max-w-md {
     max-width: 28rem
+}
+
+.max-w-7xl {
+    max-width: 80rem
 }
 
 .max-w-xl {
@@ -853,10 +857,6 @@ a:hover {
 
 .max-w-6xl {
     max-width: 72rem
-}
-
-.max-w-7xl {
-    max-width: 80rem
 }
 
 .flex-1 {
@@ -1064,6 +1064,16 @@ a:hover {
     background-color: rgb(45 132 113 / var(--tw-bg-opacity))
 }
 
+.bg-gruen {
+    --tw-bg-opacity: 1;
+    background-color: rgb(36 205 156 / var(--tw-bg-opacity))
+}
+
+.bg-dunkelgruen {
+    --tw-bg-opacity: 1;
+    background-color: rgb(26 51 54 / var(--tw-bg-opacity))
+}
+
 .bg-gray-100 {
     --tw-bg-opacity: 1;
     background-color: rgb(243 244 246 / var(--tw-bg-opacity))
@@ -1084,16 +1094,6 @@ a:hover {
     background-color: rgb(238 242 255 / var(--tw-bg-opacity))
 }
 
-.bg-gruen {
-    --tw-bg-opacity: 1;
-    background-color: rgb(36 205 156 / var(--tw-bg-opacity))
-}
-
-.bg-dunkelgruen {
-    --tw-bg-opacity: 1;
-    background-color: rgb(26 51 54 / var(--tw-bg-opacity))
-}
-
 .fill-current {
     fill: currentColor
 }
@@ -1112,16 +1112,16 @@ a:hover {
     padding: 1.25rem
 }
 
+.p-2 {
+    padding: .5rem
+}
+
 .p-6 {
     padding: 1.5rem
 }
 
 .p-4 {
     padding: 1rem
-}
-
-.p-2 {
-    padding: .5rem
 }
 
 .px-4 {
@@ -1154,6 +1154,11 @@ a:hover {
     padding-right: 1.5rem
 }
 
+.py-3 {
+    padding-top: .75rem;
+    padding-bottom: .75rem
+}
+
 .px-0 {
     padding-left: 0;
     padding-right: 0
@@ -1177,11 +1182,6 @@ a:hover {
 .py-6 {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem
-}
-
-.py-3 {
-    padding-top: .75rem;
-    padding-bottom: .75rem
 }
 
 .pb-4 {
@@ -1326,6 +1326,11 @@ a:hover {
     color: rgb(249 250 251 / var(--tw-text-opacity))
 }
 
+.text-gray-900 {
+    --tw-text-opacity: 1;
+    color: rgb(17 24 39 / var(--tw-text-opacity))
+}
+
 .text-gray-200 {
     --tw-text-opacity: 1;
     color: rgb(229 231 235 / var(--tw-text-opacity))
@@ -1344,11 +1349,6 @@ a:hover {
 .text-gray-600 {
     --tw-text-opacity: 1;
     color: rgb(75 85 99 / var(--tw-text-opacity))
-}
-
-.text-gray-900 {
-    --tw-text-opacity: 1;
-    color: rgb(17 24 39 / var(--tw-text-opacity))
 }
 
 .text-gray-800 {
