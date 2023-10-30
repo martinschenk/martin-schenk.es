@@ -11,16 +11,13 @@ module.exports = {
 
     theme: {
         fontFamily: {
-            /*sans: ['"Source Sans Pro"', 'Helvetica', 'Arial' ,'sans-serif']*/
+            sans: ['Roboto', 'Helvetica', 'Arial', 'sans-serif'],
+            title: ['Montserrat', 'sans-serif']
+            /*title: ['"Source Sans Pro"', 'Helvetica', 'Arial' ,'sans-serif']*/
+            //title: ['Playfair Display', ...defaultTheme.fontFamily.sans],
+            // nunito: ['Nunito', ...defaultTheme.fontFamily.sans],
         },
         extend: {
-            fontFamily: {
-                sans: ['Roboto', 'Helvetica', 'Arial', 'sans-serif'],
-                title: ['Montserrat', 'sans-serif']
-                /*title: ['"Source Sans Pro"', 'Helvetica', 'Arial' ,'sans-serif']*/
-                //title: ['Playfair Display', ...defaultTheme.fontFamily.sans],
-                // nunito: ['Nunito', ...defaultTheme.fontFamily.sans],
-            },
             colors: {
                 transparent: 'transparent',
                 current: 'currentColor',
