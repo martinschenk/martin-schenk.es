@@ -36,10 +36,10 @@
 
     /* Paragraph and list styles */
     p {
-        @apply mt-5 mb-5 text-base leading-relaxed;
+        @apply font-sans mt-5 mb-5 text-base leading-relaxed;
     }
     ul {
-        @apply list-disc list-inside pl-5 my-4;
+        @apply font-sans list-disc list-inside pl-5 my-4;
     }
     li {
         @apply mb-2 text-base;
