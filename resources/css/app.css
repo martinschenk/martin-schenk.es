@@ -24,10 +24,10 @@
 
     /* Heading styles */
     h1 {
-        @apply font-title text-4xl leading-tight font-bold text-schwarz mt-8 mb-4;
+       @apply font-title text-4xl font-medium text-schwarz leading-normal md:leading-snug;
     }
     h2 {
-        @apply font-title text-3xl leading-snug font-semibold text-dunkelgruen mt-8 mb-4;
+       @apply font-title text-3xl leading-snug font-medium text-dunkelgruen mt-8 mb-4;
     }
     h3 {
         @apply font-title text-2xl leading-normal font-medium text-mittelgruen mt-6 mb-4;

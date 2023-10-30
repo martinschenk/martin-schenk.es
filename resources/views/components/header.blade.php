@@ -13,7 +13,8 @@
     <div class="flex flex-col md:flex-row md:items-start bg-mittelgruen mt-20 h-[600px]">
     <!-- Header Text -->
     <div class="flex items-center justify-center h-full md:w-1/4 md:ml-20">
-        <h1 class="font-title text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-5xl 2xl:text-5xl font-bold text-white leading-relaxed lg:leading-snug">
+       <h1
+          class="leading-normal text-2xl sm:text-3xl md:text-4xl md:leading-snug lg:text-5xl lg:leading-snug xl:text-5xl xl:leading-snug 2xl:text-5xl 2xl:leading-snug text-white ">
 
             {!! $headertitle !!}
         </h1>
