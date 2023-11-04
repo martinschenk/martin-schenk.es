@@ -1,4 +1,4 @@
-<div class="mb-3 md:mb-0">
+<div class="mb-4 md:mb-0">
 <!-- Header -->
 <header
     class="fixed top-0 left-0 w-full bg-mittelgruen  flex items-center justify-start h-20 py-2">
