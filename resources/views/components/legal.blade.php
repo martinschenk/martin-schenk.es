@@ -36,22 +36,20 @@
 
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
-<body>
+<body class="flex flex-col h-screen">
 
-<!-- Placeholder for the fixed header -->
-<div id="fixed-header-placeholder"></div>
 
-<div class="flex flex-col h-screen justify-between">
-    <div class="flex-grow">
-        {{ $slot }}
-        <x-footer></x-footer>
-    </div>
+<!-- Main content -->
+<div class="flex-grow">
+   {{ $slot }}
 </div>
 
-
+<!-- Footer -->
+<div>
+   <x-footer></x-footer>
+</div>
 
 @include('cookie-consent::index')
-
 </body>
 </html>
 
