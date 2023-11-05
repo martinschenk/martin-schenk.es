@@ -1,4 +1,4 @@
-<div class="mb-4 md:mb-0">
+<div>
    <!-- Header -->
    <header
       class="fixed top-0 left-0 w-full bg-mittelgruen  flex items-center justify-start h-20 py-2">
@@ -10,7 +10,7 @@
       </a>
    </header>
 
-   <div class="flex flex-col md:flex-row md:items-start bg-mittelgruen mt-20 h-[600px]">
+   <div class="flex flex-col md:flex-row md:items-start bg-mittelgruen mt-20 md:h-[600px]">
       <!-- Header Text -->
       <div class="flex items-center justify-center md:h-full md:w-1/4 md:ml-20">
          <h1
@@ -21,7 +21,7 @@
       </div>
 
       <!-- Image -->
-      <div class="relative flex-grow md:w-3/4 h-[600px]">
+      <div class="relative flex-grow md:w-3/4 md:h-[600px]">
          <picture>
             <source media="(min-width: 1536px)" srcset="{{ asset('img/robot-yellow-2-1536w.jpg') }}">
             <source media="(min-width: 1280px)" srcset="{{ asset('img/robot-yellow-2-1280w.jpg') }}">
