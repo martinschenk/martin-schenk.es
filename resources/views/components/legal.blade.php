@@ -7,7 +7,7 @@
 
     <!-- Descripción estándar para motores de búsqueda -->
     <meta name="description"
-          content="{{ __('Martin Schenk: Experto en Aplicaciones Web de Alto Impacto y Bases de Conocimiento Potenciadas por IA') }}">
+          content="{{ __('Martin Schenk S.L.: Experto en Aplicaciones Web de Alto Impacto y Bases de Conocimiento Potenciadas por IA') }}">
 
     <!-- Open Graph para redes sociales -->
     <meta property="og:title"
@@ -28,7 +28,7 @@
     <meta name="twitter:image" content="{{ asset('/img/logo-martin-schenk-dunkel.svg') }}">
 
 
-    <title class="">{{ $title ?? 'Aviso Legal' }}  {{ config('app.name', 'Laravel') }}</title>
+   <title class="">{{ $title.' | ' ?? '' }}  {{ config('app.name', 'Martin Schenk S.L.') }}</title>
 
 
     <link rel="shortcut icon" type="image/png" href="{{ asset('/img/martin-schenk-favicon.png') }}">
