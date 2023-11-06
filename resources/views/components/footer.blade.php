@@ -32,7 +32,10 @@
    </div>
 
    {{-- Copyright --}}
+   @php
+      $currentYear = date('Y');
+   @endphp
    <div class="text-xs text-center">
-      © 1999 - 2023 Martin Schenk S.L., Madrid, España
+      © 1999 - {{ $currentYear }} Martin Schenk S.L., Madrid, España
    </div>
 </footer>
