@@ -1,4 +1,4 @@
-<x-legal>
+<x-guest>
 
 
     <x-slot:title>
