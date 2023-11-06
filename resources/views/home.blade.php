@@ -291,6 +291,51 @@
       </section>
 
 
+      <!-- Tecnologías y Herramientas Modernas Section -->
+      <section class="bg-blue-50 py-16">
+         <div class="container mx-auto px-5">
+            <h2 class="text-3xl font-title font-medium text-gray-900 text-center mb-10">
+               {{ __('Avanzando con Tecnología de Punta y Herramientas Innovadoras') }}
+            </h2>
+            <div class="flex flex-wrap -mx-4 text-gray-700 mb-6">
+               <div class="w-full md:w-1/2 px-4 mb-8 md:mb-0">
+                  <p class="text-left text-base">
+                     {{ __('En Martin Schenk S.L., aprovechamos el poder de las tecnologías de vanguardia y los lenguajes de programación avanzados para crear soluciones web eficientes y personalizadas.') }}
+                  </p>
+               </div>
+               <div class="w-full md:w-1/2 px-4">
+                  <p class="text-left text-base">
+                     {{ __('Nuestra gama de tecnologías es diversa y progresista, incluyendo Laravel para el desarrollo robusto de back-end, Livewire para interfaces dinámicas, Alpine.js para experiencias de front-end responsivas, Tailwind CSS para un estilo elegante y Filament para paneles de administración sin complicaciones. Combinado con la versatilidad de PHP, nuestro conjunto de herramientas nos permite dar vida a tus proyectos visionarios con precisión y estilo.') }}
+                  </p>
+               </div>
+            </div>
+            <div class="flex justify-center flex-wrap bg-white py-4 rounded-lg shadow-md">
+               <!-- Logo Container -->
+               <div class="flex flex-wrap justify-center m-3">
+                  <!-- Laravel Logo -->
+                  <img class="h-5 xl:h-8 lg:h-8 sm:h-6 xs:h-5 m-4" src="{{ asset('/img/logo-laravel.png') }}"
+                       alt="Laravel">
+                  <!-- Livewire Logo -->
+                  <img class="h-5 xl:h-8 lg:h-8 sm:h-6 xs:h-5 m-4" src="{{ asset('/img/logo-livewire.png') }}"
+                       alt="Livewire">
+                  <!-- Alpine.js Logo -->
+                  <img class="h-5 xl:h-8 lg:h-8 sm:h-6 xs:h-5 m-4" src="{{ asset('/img/logo-alpine.png') }}"
+                       alt="Alpine">
+                  <!-- Tailwind CSS Logo -->
+                  <img class="h-5 xl:h-8 lg:h-8 sm:h-6 xs:h-5 m-4" src="{{ asset('/img/logo-tailwind.png') }}"
+                       alt="Tailwind">
+                  <!-- Filament Logo -->
+                  <img class="h-5 xl:h-8 lg:h-8 sm:h-6 xs:h-5 m-4" src="{{ asset('/img/logo-filament.png') }}"
+                       alt="Filament">
+                  <!-- PHP Logo -->
+                  <img class="h-5 xl:h-8 lg:h-8 sm:h-6 xs:h-5 m-4" src="{{ asset('/img/logo-php.png') }}" alt="PHP">
+               </div>
+            </div>
+         </div>
+      </section>
+
+
+
 </x-legal>
 
 
