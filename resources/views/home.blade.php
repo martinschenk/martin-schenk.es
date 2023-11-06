@@ -8,7 +8,7 @@
       <x-header headertitle="{{ $headerTitle }}"/>
 
       <!-- Hero Section -->
-      <section class="text-gray-700 body-font">
+      <section class="text-gray-700 ">
          <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
             <div class="text-center lg:w-2/3 w-full">
                <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
@@ -34,122 +34,62 @@
       </section>
 
       <!-- Services Section -->
-      <section class="text-gray-600 body-font border-t border-gray-200">
-         <div class="container px-5 py-24 mx-auto">
-            <div class="text-center mb-20">
-               <h2 class="text-2xl text-gray-900 font-medium title-font mb-4">
+      <section class="text-gray-600 border-t border-gray-200">
+         <div class="container px-5 py-16 mx-auto md:py-12 sm:py-8">
+            <div class="text-center mb-20 md:mb-16 sm:mb-12">
+               <h2 class="mb-4 md:text-2xl sm:text-xl">
                   {{ __('Nuestros Servicios') }}
                </h2>
-               <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-                  {{ __('Descubre cómo nuestros servicios de desarrollo web a medida pueden impulsar tu negocio.') }}
-               </p>
             </div>
 
             <div class="flex flex-wrap -m-4">
-               <!-- Feature 1: Smart Insights -->
-               <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
-                  <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+               <div class="flex flex-col p-4 lg:w-1/4 md:w-1/2 w-full">
+                  <div class="flex-grow border-2 border-gray-200 px-4 py-6 rounded-lg md:px-3 md:py-4 sm:px-2 sm:py-3">
                      <x-heroicon-o-light-bulb class="text-mittelgruen w-12 h-12 mb-3 inline-block"/>
-                     <h2 class="title-font font-medium text-2xl text-gray-900">
-                        {{ __('Desarrollo de Aplicaciones Web a Medida') }}
-                     </h2>
-                     <p class="leading-relaxed text-base">
-                        {{ __('Gestión de Proyecto Aplicación Web Integral') }}
-
+                     <h3 class="">
+                        {{ __('Aplicaciones Web a Medida') }}
+                     </h3>
+                     <p class="md:text-sm sm:text-xs">
+                        {{ __('Desarrollo personalizado para materializar tus ideas en soluciones web únicas y eficientes.') }}
                      </p>
                   </div>
                </div>
-               <!-- Feature 2: Multi-Format Support -->
-               <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
-                  <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
-                     <x-heroicon-o-document-arrow-up class="text-mittelgruen w-12 h-12 mb-3 inline-block"/>
-                     <h2 class="title-font font-medium text-2xl text-gray-900">
+               <div class="flex flex-col p-4 lg:w-1/4 md:w-1/2 w-full">
+                  <div
+                     class="flex-grow border-2 border-gray-200 px-4 py-6 rounded-lg md:px-3 md:py-4 sm:px-2 sm:py-3">
+                     <x-heroicon-o-puzzle-piece class="text-mittelgruen w-12 h-12 mb-3 inline-block"/>
+                     <h3 class="md:text-lg sm:text-base">
                         {{ __('Soluciones Integrales') }}
-                     </h2>
-                     <p class="leading-relaxed text-base">
-                        {{ __('De principio a fin: diseño, desarrollo, alojamiento y mantenimiento. Todo en una solución integral llave en mano.') }}
+                     </h3>
+                     <p class="md:text-sm sm:text-xs">
+                        {{ __('Servicios completos desde el diseño hasta el lanzamiento, asegurando una experiencia digital sin fisuras.') }}
                      </p>
                   </div>
                </div>
-               <!-- Feature 3: Interactive Chat Interface -->
-               <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
-                  <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+               <div class="flex flex-col p-4 lg:w-1/4 md:w-1/2 w-full">
+                  <div
+                     class="flex-grow border-2 border-gray-200 px-4 py-6 rounded-lg md:px-3 md:py-4 sm:px-2 sm:py-3">
                      <x-heroicon-o-chat-bubble-left-right class="text-mittelgruen w-12 h-12 mb-3 inline-block"/>
-                     <h2 class="title-font font-medium text-2xl text-gray-900">
-                        {{ __('Mantenimiento y Integración') }}
-                     </h2>
-                     <p class="leading-relaxed text-base">
-                        {{ __('Engage with your knowledge base using natural language through an intuitive chat interface.') }}
+                     <h3 class="md:text-lg sm:text-base">
+                        {{ __('Mantenimiento') }}
+                     </h3>
+                     <p class="md:text-sm sm:text-xs">
+                        {{ __('Actualizaciones regulares y soporte técnico para garantizar el rendimiento óptimo y la longevidad de tu proyecto web.') }}
                      </p>
                   </div>
                </div>
-               <!-- Feature 4: Full Stack Solution -->
-               <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
-                  <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+               <div class="flex flex-col p-4 lg:w-1/4 md:w-1/2 w-full">
+                  <div
+                     class="flex-grow border-2 border-gray-200 px-4 py-6 rounded-lg md:px-3 md:py-4 sm:px-2 sm:py-3">
                      <x-heroicon-o-server class="text-mittelgruen w-12 h-12 mb-3 inline-block"/>
-                     <h2 class="title-font font-medium text-2xl text-gray-900">
-                        {{ __('Alojamiento y Seguridad Web') }}
-                     </h2>
-                     <p class="leading-relaxed text-base">
-                        {{ __('Comprehensive hosting and maintenance for a hassle-free experience, backed by 25+ years of expertise.') }}
+                     <h3 class="md:text-lg sm:text-base">
+                        {{ __('Alojamiento y Seguridad') }}
+                     </h3>
+                     <p class="md:text-sm sm:text-xs">
+                        {{ __('Hosting robusto con enfoque en la seguridad, asegurando que tus aplicaciones y datos estén protegidos y accesibles.') }}
                      </p>
                   </div>
                </div>
-            </div>
-         </div>
-      </section>
-
-      <!-- Testimonials Section -->
-      <section class="text-gray-600 body-font border-t border-gray-200">
-         <div class="container px-5 py-24 mx-auto">
-            <h2 class="text-3xl text-gray-900 font-medium title-font text-center mb-20">
-               {{ __('Lo Que Dicen Nuestros Clientes') }}
-            </h2>
-            <div class="flex flex-wrap -m-4">
-               <!-- Testimonials - Dynamically load testimonials -->
-               <!-- Example Testimonial -->
-               <div class="p-4 md:w-1/2 w-full">
-                  <div class="h-full bg-gray-100 p-8 rounded">
-                     <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
-                          class="block w-5 h-5 text-gray-400 mb-4" viewBox="0 0 975.036 975.036">
-                        <path d="..."></path>
-                     </svg>
-                     <p class="leading-relaxed mb-6">"...</p>
-                     <a class="inline-flex items-center">
-                        <img alt="testimonial" src="{{ asset('/images/client.jpg') }}"
-                             class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
-                        <span class="flex-grow flex flex-col pl-4">
-                                <span class="title-font font-medium text-gray-900">...</span>
-                                <span class="text-gray-500 text-sm">...</span>
-                            </span>
-                     </a>
-                  </div>
-               </div>
-               <!-- Add more testimonials here -->
-            </div>
-         </div>
-      </section>
-
-      <!-- Contact Section -->
-      <section class="text-gray-700 body-font relative">
-         <div class="container px-5 py-24 mx-auto">
-            <div class="flex flex-col text-center w-full mb-12">
-               <h2 class="text-2xl text-gray-900 font-medium title-font mb-4">
-                  {{ __('Contacta con Nosotros') }}
-               </h2>
-               <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
-                  {{ __('¿Tienes un proyecto en mente? Hablemos y veamos cómo podemos ayudarte.') }}
-               </p>
-            </div>
-            <div class="lg:w-1/2 md:w-2/3 mx-auto">
-               <!-- Contact Form - Use Laravel Form or similar -->
-               <!-- Include fields like Name, Email, Message, etc. -->
-            </div>
-         </div>
-         <div class="lg:absolute lg:inset-0">
-            <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-               <img class="h-56 w-full object-cover lg:absolute lg:h-full"
-                    src="{{ asset('/images/contact-image.jpg') }}" alt="Contact Us">
             </div>
          </div>
       </section>
