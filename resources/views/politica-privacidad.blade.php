@@ -6,7 +6,7 @@
     </x-slot>
 
     @php
-        $linkurl = env('APP_URL');
+        $linkurl = config('url');
     @endphp
 
 {{--    <section class="bg-msmarmor">--}}

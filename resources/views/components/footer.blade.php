@@ -1,6 +1,6 @@
 {{-- Footer Blade --}}
 @php
-    $linkurl = env('APP_URL');
+   $linkUrl = config('url');
 @endphp
 
 <footer class="bg-mittelgruen w-full flex flex-col items-center justify-center p-5 pb-4 pt-4 relative">
@@ -8,7 +8,7 @@
     {{-- Company Logo --}}
     <a href="{{ asset('/') }}" class="ml-4">
         <img class="w-28 sm:w-28 md:w-34 lg:w-40 xl:w-44 2xl:w-48"
-             src="{{ asset('/img/logo-schenk-hell-transp-1999-2023v7.svg') }}"
+             src="{{ asset('/img/logo-schenk-hell-transp-c1999-v8.svg') }}"
              alt="{{ __('Martin Schenk S.L.') }}">
     </a>
 
@@ -21,16 +21,16 @@
     <div class="flex items-center justify-center whitespace-nowrap text-sm text-white mb-3">
         {{-- Legal Notice --}}
         <div class="mr-6">
-            <a class="underline text-gray-50" href="{{ $linkurl }}aviso-legal">{{ __('Aviso Legal') }}</a>
+           <a class="underline text-gray-50" href="{{ $linkUrl }}aviso-legal">{{ __('Aviso Legal') }}</a>
         </div>
         {{-- Privacy Policy --}}
         <div class="mr-6">
             <a class="underline text-gray-50"
-               href="{{ $linkurl }}politica-privacidad">{{ __('Política de Privacidad') }}</a>
+               href="{{ $linkUrl }}politica-privacidad">{{ __('Política de Privacidad') }}</a>
         </div>
         {{-- Cookie Policy --}}
         <div>
-            <a class="underline text-gray-50" href="{{ $linkurl }}politica-cookies">{{ __('Política de Cookies') }}</a>
+           <a class="underline text-gray-50" href="{{ $linkUrl }}politica-cookies">{{ __('Política de Cookies') }}</a>
         </div>
     </div>
 
