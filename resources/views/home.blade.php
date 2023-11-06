@@ -22,10 +22,11 @@
                      class="inline-flex text-white bg-mittelgruen border-0 py-2 px-6 focus:outline-none hover:bg-teal-600 rounded text-lg">
                      {{ __('Contáctanos') }}
                   </button>
-                  <button
-                     class="ml-4 inline-flex text-gray-700 bg-grau border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">
+                  <a href="#proyectos-representativos"
+                     class="ml-4 inline-flex items-center justify-center text-gray-700 bg-grau border-0 py-2 px-6 focus:outline-none hover:bg-gray-300 hover:text-gray-800 rounded text-lg no-underline">
                      {{ __('Ver Proyectos') }}
-                  </button>
+                  </a>
+
                </div>
             </div>
             <!-- Professional and inviting image -->
@@ -98,7 +99,8 @@
       <section class="bg-weiss py-24">
          <div class="container mx-auto px-5">
             <div class="flex flex-col text-center w-full mb-12">
-               <h2 class="text-3xl font-title font-medium text-gray-900 sm:text-2xl mb-4">
+               <h2 id="proyectos-representativos" class="text-3xl font-title font-medium text-gray-900 sm:text-2xl mb-4"
+                   style="scroll-margin-top: 100px;">
                   {{ __('Portafolio de Proyectos') }}
                </h2>
                <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
