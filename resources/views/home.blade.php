@@ -37,7 +37,7 @@
       <section class="text-gray-600 border-t border-gray-200">
          <div class="container px-5 py-16 mx-auto md:py-12 sm:py-8">
             <div class="text-center mb-20 md:mb-16 sm:mb-12">
-               <h2 class="mb-4 md:text-2xl sm:text-xl">
+               <h2 class="text-3xl font-title font-medium text-gray-900 sm:text-2xl mb-4">
                   {{ __('Nuestros Servicios') }}
                </h2>
             </div>
@@ -88,6 +88,138 @@
                      <p class="md:text-sm sm:text-xs">
                         {{ __('Hosting robusto con enfoque en la seguridad, asegurando que tus aplicaciones y datos estén protegidos y accesibles.') }}
                      </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- Portfolio de Proyectos Section -->
+      <section class="bg-weiss py-24">
+         <div class="container mx-auto px-5">
+            <div class="flex flex-col text-center w-full mb-12">
+               <h2 class="text-3xl font-title font-medium text-gray-900 sm:text-2xl mb-4">
+                  {{ __('Portafolio de Proyectos') }}
+               </h2>
+               <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
+                  {{ __('Nuestro portfolio refleja la diversidad y la adaptabilidad a las necesidades específicas de cada cliente:') }}
+               </p>
+            </div>
+            <div class="flex flex-wrap -m-4">
+               <!-- ChatKraft -->
+               <div class="p-4 md:w-1/2 w-full">
+                  <div class="h-full bg-grau p-8 rounded">
+                     <p class="leading-relaxed mb-6">{{ __('Más que un chatbot, es una base de conocimiento impulsada por IA que mejora la experiencia del cliente y las operaciones internas.') }}</p>
+                     <div class="inline-flex items-center">
+                        <x-heroicon-o-chat-bubble-left-ellipsis class="text-mittelgruen w-12 h-12 mr-3"/>
+                        <h2 class="text-gray-900 text-lg title-font font-medium">
+                           {{ __('ChatKraft - Chat with your Knowledge') }}
+                        </h2>
+                     </div>
+                  </div>
+               </div>
+
+               <!-- Plataformas para Interim Managers -->
+               <div class="p-4 md:w-1/2 w-full">
+                  <div class="h-full bg-grau p-8 rounded">
+                     <p class="leading-relaxed mb-6">{{ __('Conexión eficiente entre profesionales y oportunidades laborales, gracias a un algoritmo de emparejamiento avanzado.') }}</p>
+                     <div class="inline-flex items-center">
+                        <x-heroicon-o-user-group class="text-mittelgruen w-12 h-12 mr-3"/>
+                        <h2 class="text-gray-900 text-lg title-font font-medium">
+                           {{ __('Plataformas para Interim Managers') }}
+                        </h2>
+                     </div>
+                  </div>
+               </div>
+
+               <!-- Herramientas de Valoración de Marcas para Multinacionales -->
+               <div class="p-4 md:w-1/2 w-full">
+                  <div class="h-full bg-grau p-8 rounded">
+                     <p class="leading-relaxed mb-6">{{ __('Sistemas SaaS para grandes firmas de auditoría, especializados en la valoración de marcas de envergadura.') }}</p>
+                     <div class="inline-flex items-center">
+                        <x-heroicon-o-calculator class="text-mittelgruen w-12 h-12 mr-3"/>
+                        <h2 class="text-gray-900 text-lg title-font font-medium">
+                           {{ __('Herramientas de Valoración de Marcas para Multinacionales') }}
+                        </h2>
+                     </div>
+                  </div>
+               </div>
+
+               <!-- Sistemas de Reservas Personalizados -->
+               <div class="p-4 md:w-1/2 w-full">
+                  <div class="h-full bg-grau p-8 rounded">
+                     <p class="leading-relaxed mb-6">{{ __('Soluciones adaptadas para gimnasios, work centers, coches y escape rooms.') }}</p>
+                     <div class="inline-flex items-center">
+                        <x-heroicon-o-calendar class="text-mittelgruen w-12 h-12 mr-3"/>
+                        <h2 class="text-gray-900 text-lg title-font font-medium">
+                           {{ __('Sistemas de Reservas Personalizados') }}
+                        </h2>
+                     </div>
+                  </div>
+               </div>
+
+               <!-- Tienda Online para una Fábrica de Frutas Deshidratadas -->
+               <div class="p-4 md:w-1/2 w-full">
+                  <div class="h-full bg-grau p-8 rounded">
+                     <p class="leading-relaxed mb-6">{{ __('Desarrollo completo para maximizar eficiencia en ventas y administración.') }}</p>
+                     <div class="inline-flex items-center">
+                        <x-heroicon-o-shopping-bag class="text-mittelgruen w-12 h-12 mr-3"/>
+                        <h2 class="text-gray-900 text-lg title-font font-medium">
+                           {{ __('Tienda Online para una Fábrica de Frutas Deshidratadas') }}
+                        </h2>
+                     </div>
+                  </div>
+               </div>
+
+               <!-- Mercado para Periodistas Freelance -->
+               <div class="p-4 md:w-1/2 w-full">
+                  <div class="h-full bg-grau p-8 rounded">
+                     <p class="leading-relaxed mb-6">{{ __('Plataforma que permite a los periodistas vender su contenido directamente a medios de comunicación.') }}</p>
+                     <div class="inline-flex items-center">
+                        <x-heroicon-o-newspaper class="text-mittelgruen w-12 h-12 mr-3"/>
+                        <h2 class="text-gray-900 text-lg title-font font-medium">
+                           {{ __('Mercado para Periodistas Freelance') }}
+                        </h2>
+                     </div>
+                  </div>
+               </div>
+
+               <!-- Motor de Búsqueda para Piezas de Autos Usadas -->
+               <div class="p-4 md:w-1/2 w-full">
+                  <div class="h-full bg-grau p-8 rounded">
+                     <p class="leading-relaxed mb-6">{{ __('Base de datos con más de 80,000 piezas de coches, multilingüe, con interfaz fácil para subir fotos y cálculo automático de precios de envío.') }}</p>
+                     <div class="inline-flex items-center">
+                        <x-heroicon-o-document-magnifying-glass class="text-mittelgruen w-12 h-12 mr-3"/>
+                        <h2 class="text-gray-900 text-lg title-font font-medium">
+                           {{ __('Motor de Búsqueda para Piezas de coches de segunda mano') }}
+                        </h2>
+                     </div>
+                  </div>
+               </div>
+
+               <!-- Aplicación Web para la Asociación Española de Pediatría -->
+               <div class="p-4 md:w-1/2 w-full">
+                  <div class="h-full bg-grau p-8 rounded">
+                     <p class="leading-relaxed mb-6">{{ __('Plataforma para exámenes y certificación online de pediatras, complementada con noticias y artículos del sector.') }}</p>
+                     <div class="inline-flex items-center">
+                        <x-heroicon-o-academic-cap class="text-mittelgruen w-12 h-12 mr-3"/>
+                        <h2 class="text-gray-900 text-lg title-font font-medium">
+                           {{ __('Aplicación Web para la Asociación Española de Pediatría') }}
+                        </h2>
+                     </div>
+                  </div>
+               </div>
+
+               <!-- Palimpalem -->
+               <div class="p-4 md:w-1/2 w-full">
+                  <div class="h-full bg-grau p-8 rounded">
+                     <p class="leading-relaxed mb-6">{{ __('Nuestro primer gran proyecto, un robusto y versátil constructor de páginas web, con más de 1.4 millones de páginas creadas.') }}</p>
+                     <div class="inline-flex items-center">
+                        <x-heroicon-o-wrench-screwdriver class="text-mittelgruen w-12 h-12 mr-3"/>
+                        <h2 class="text-gray-900 text-lg title-font font-medium">
+                           {{ __('Palimpalem') }}
+                        </h2>
+                     </div>
                   </div>
                </div>
             </div>
