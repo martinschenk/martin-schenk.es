@@ -110,7 +110,7 @@
 				<div class="flex flex-wrap -m-4">
 					<!-- ChatKraft -->
 					<div class="p-4 md:w-1/2 w-full">
-						<div class="h-full bg-grau p-8 rounded">
+						<div class="h-full bg-hellgruen p-8 rounded ">
 							<p class="leading-relaxed mb-6">{{ __('Más que un chatbot, es una base de conocimiento impulsada por IA que mejora la experiencia del cliente y las operaciones internas.') }}</p>
 							<div class="inline-flex items-center">
 								<div>
@@ -129,7 +129,7 @@
 					
 					<!-- Plataformas para Interim Managers -->
 					<div class="p-4 md:w-1/2 w-full">
-						<div class="h-full bg-grau p-8 rounded">
+						<div class="h-full bg-hellgruen p-8 rounded">
 							<p class="leading-relaxed mb-6">{{ __('Conexión eficiente entre profesionales y oportunidades laborales, gracias a un algoritmo de emparejamiento avanzado.') }}</p>
 							<div class="inline-flex items-center">
 								<div>
@@ -149,7 +149,7 @@
 					
 					<!-- Herramientas de Valoración de Marcas para Multinacionales -->
 					<div class="p-4 md:w-1/2 w-full">
-						<div class="h-full bg-grau p-8 rounded">
+						<div class="h-full bg-hellgruen p-8 rounded">
 							<p class="leading-relaxed mb-6">{{ __('Sistemas SaaS para grandes firmas de auditoría, especializados en la valoración de marcas de envergadura.') }}</p>
 							<div class="inline-flex items-center">
 								<div>
@@ -169,7 +169,7 @@
 					
 					<!-- Sistemas de Reservas Personalizados -->
 					<div class="p-4 md:w-1/2 w-full">
-						<div class="h-full bg-grau p-8 rounded">
+						<div class="h-full bg-hellgruen p-8 rounded ">
 							<p class="leading-relaxed mb-6">{{ __('Soluciones adaptadas para gimnasios, work centers, coches y escape rooms.') }}</p>
 							<div class="inline-flex items-center">
 								<div>
@@ -189,7 +189,7 @@
 					
 					<!-- Tienda Online para una Fábrica de Frutas Deshidratadas -->
 					<div class="p-4 md:w-1/2 w-full">
-						<div class="h-full bg-grau p-8 rounded">
+						<div class="h-full bg-hellgruen p-8 rounded">
 							<p class="leading-relaxed mb-6">{{ __('Desarrollo completo para maximizar eficiencia en ventas y administración.') }}</p>
 							<div class="inline-flex items-center">
 								<div>
@@ -209,7 +209,7 @@
 					
 					<!-- Mercado para Periodistas Freelance -->
 					<div class="p-4 md:w-1/2 w-full">
-						<div class="h-full bg-grau p-8 rounded">
+						<div class="h-full bg-hellgruen p-8 rounded">
 							<p class="leading-relaxed mb-6">{{ __('Plataforma que permite a los periodistas vender su contenido directamente a medios de comunicación.') }}</p>
 							<div class="inline-flex items-center">
 								<div>
@@ -229,7 +229,7 @@
 					
 					<!-- Motor de Búsqueda para Piezas de Autos Usadas -->
 					<div class="p-4 md:w-1/2 w-full">
-						<div class="h-full bg-grau p-8 rounded">
+						<div class="h-full bg-hellgruen p-8 rounded">
 							<p class="leading-relaxed mb-6">{{ __('Plataforma para piezas de coches de segunda mano, con SEO para Google, multilingüe, y con interfaz fácil para subir fotos y cálculo automático de precios de envío.') }}</p>
 							<div class="inline-flex items-center">
 								<div>
@@ -249,7 +249,7 @@
 					
 					<!-- Aplicación Web para la Asociación Española de Pediatría -->
 					<div class="p-4 md:w-1/2 w-full">
-						<div class="h-full bg-grau p-8 rounded">
+						<div class="h-full bg-hellgruen p-8 rounded">
 							<p class="leading-relaxed mb-6">{{ __('Plataforma para exámenes y certificación online de pediatras, complementada con noticias y artículos del sector.') }}</p>
 							<div class="inline-flex items-center">
 								<div>
@@ -269,7 +269,7 @@
 					
 					<!-- Palimpalem -->
 					<div class="p-4 md:w-1/2 w-full">
-						<div class="h-full bg-grau p-8 rounded">
+						<div class="h-full bg-hellgruen p-8 rounded">
 							<p class="leading-relaxed mb-6">{{ __('Nuestro primer gran proyecto, un robusto y versátil constructor de páginas web, con más de 1.4 millones de páginas creadas.') }}</p>
 							<div class="inline-flex items-center">
 								<div>
