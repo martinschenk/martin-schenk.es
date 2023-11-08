@@ -62,7 +62,7 @@ class ContactForm extends Component implements HasForms, HasActions
         ->icon('heroicon-o-paper-airplane')
         ->iconColor('success')
         //->success()
-        ->body(__('Pronto nos pondremos en contacto con usted. Gracias por su interés.'), 'green')
+        ->body(__('Pronto nos pondremos en contacto contigo. Gracias por tu interés.'), 'green')
         ->send();
   }
   

@@ -23,6 +23,7 @@ class ContactMail extends Mailable
   {
     //dd($this->message);
     return $this->view('emails.contact')
+        ->subject("MS SL Contact Mail von: " . $this->email)
         ->with([
             'email' => $this->email,
             'mailBody' => $this->message,
