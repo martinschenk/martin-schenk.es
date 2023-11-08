@@ -3,6 +3,7 @@ import preset from './vendor/filament/support/tailwind.config.preset'
 /** @type {import('tailwindcss').Config} */
 
 const defaultTheme = require('tailwindcss/defaultTheme');
+const colors = require('tailwindcss/colors')
 
 export default {
     presets: [preset],
@@ -26,6 +27,8 @@ export default {
             colors: {
                 transparent: 'transparent',
                 current: 'currentColor',
+                primary: colors.teal,
+                custom: colors.teal, //button in filament modal window (p.e. contact form)
                 'dunkelgruen': '#1A3336',
                 'mittelgruen': '#2D8471',
                 'gruen': '#24CD9C',

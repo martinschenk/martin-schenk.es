@@ -40,6 +40,7 @@ class ContactForm extends Component implements HasForms, HasActions
                 ->required()
                 ->label(__('Tu Mensaje')),
         ])
+        
         //->requiresConfirmation()
         ->action(function (array $data): void {
           //dd($data);
