@@ -25,19 +25,22 @@ class ContactForm extends Component implements HasForms, HasActions
   public function contactAction(): Action
   {
     return Action::make('contact')
-        ->button()
         ->label(__('Contáctanos'))
+        ->modalHeading(__('Tus preguntas son bienvenidas'))
+        //->modalDescription(__('Si tiene alguna pregunta, no dude en contactarnos.'))
+        ->modalSubmitActionLabel(__('Enviar'))
+        ->button()
         ->extraAttributes(['class' => ' inline-flex text-white bg-mittelgruen border-0 py-2 px-6 focus:outline-none hover:bg-teal-600 rounded-sm  text-sm sm:text-lg', 'style' => 'font-weight: 400; border-radius: 0.3rem;'])
         ->form([
             TextInput::make('email')
                 ->email()
                 ->required()
-                ->label(__('Email Address')),
+                ->label(__('Tu correo electrónico')),
             Textarea::make('message')
                 ->required()
-                ->label(__('Message')),
+                ->label(__('Tu Mensaje')),
         ])
-        ->requiresConfirmation()
+        //->requiresConfirmation()
         ->action(function (array $data): void {
           //dd($data);
           $this->email = $data['email'];
@@ -47,7 +50,7 @@ class ContactForm extends Component implements HasForms, HasActions
         });
   }
   
-  public function sendEmail()
+  public function sendEmail(): void
   {
     Mail::to('mschenk.pda@gmail.com')->send(new ContactMail($this->email, $this->message));
   }
