@@ -1826,17 +1826,13 @@ p {
     margin-top: 1.25rem;
     margin-bottom: 1.25rem;
     font-family: Roboto, Helvetica, Arial, sans-serif;
-    font-size: 1rem;
-    line-height: 1.5rem;
     line-height: 1.625
 }
 
 @media (min-width: 640px) {
     p {
         margin-top: .5rem;
-        margin-bottom: .5rem;
-        font-size: .875rem;
-        line-height: 1.25rem
+        margin-bottom: .5rem
     }
 }
 
@@ -5267,11 +5263,6 @@ a:hover {
         line-height: 1.25rem
     }
 
-    .sm\:text-xs {
-        font-size: .75rem;
-        line-height: 1rem
-    }
-
     .sm\:leading-6 {
         line-height: 1.5rem
     }
@@ -5421,11 +5412,6 @@ a:hover {
     .md\:text-lg {
         font-size: 1.125rem;
         line-height: 1.75rem
-    }
-
-    .md\:text-sm {
-        font-size: .875rem;
-        line-height: 1.25rem
     }
 
     .md\:leading-snug {
