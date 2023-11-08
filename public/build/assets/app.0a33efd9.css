@@ -3163,10 +3163,6 @@ a:hover {
     border-left-width: 4px
 }
 
-.border-r {
-    border-right-width: 1px
-}
-
 .border-s {
     border-inline-start-width: 1px
 }
@@ -3196,11 +3192,6 @@ a:hover {
 .border-gray-300 {
     --tw-border-opacity: 1;
     border-color: rgba(var(--gray-300), var(--tw-border-opacity))
-}
-
-.border-gray-400 {
-    --tw-border-opacity: 1;
-    border-color: rgba(var(--gray-400), var(--tw-border-opacity))
 }
 
 .border-gray-600 {
@@ -3764,10 +3755,6 @@ a:hover {
 
 .tracking-tighter {
     letter-spacing: -.05em
-}
-
-.tracking-wider {
-    letter-spacing: .05em
 }
 
 .tracking-widest {

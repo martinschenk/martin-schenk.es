@@ -55,10 +55,10 @@ class ContactForm extends Component implements HasForms, HasActions
   public function sendNotification(): void
   {
     Notification::make()
-        ->title(__('Mensaje enviado a :email', ['email' => $this->email]))
+        ->title(__('El mensaje ha sido enviado.'))
         ->icon('heroicon-o-paper-airplane')
-        ->success()
         ->iconColor('success')
+        //->success()
         ->body(__('Pronto nos pondremos en contacto con usted. Gracias por su interés.'), 'green')
         ->send();
   }
