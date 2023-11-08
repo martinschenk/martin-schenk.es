@@ -38,8 +38,8 @@
 
    /* Paragraph and list styles */
    p {
-      @apply font-sans mt-5 mb-5 text-base leading-relaxed;
-      @apply md:mt-3 md:mb-3 sm:mt-2 sm:mb-2 sm:text-sm;
+       @apply font-sans mt-5 mb-5  leading-relaxed;
+       @apply md:mt-3 md:mb-3 sm:mt-2 sm:mb-2 ;
       /* adjust margin and font size */
    }
 

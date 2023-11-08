@@ -50,7 +50,7 @@
 							<h3 class="">
 								{{ __('Aplicaciones Web a Medida') }}
 							</h3>
-							<p class="md:text-sm sm:text-xs">
+							<p class="">
 								{{ __('Desarrollo personalizado para materializar tus ideas en soluciones web únicas y eficientes.') }}
 							</p>
 						</div>
@@ -62,7 +62,7 @@
 							<h3 class="md:text-lg sm:text-base">
 								{{ __('Soluciones Integrales') }}
 							</h3>
-							<p class="md:text-sm sm:text-xs">
+							<p class="">
 								{{ __('Servicios completos desde el diseño hasta el lanzamiento, asegurando una experiencia digital sin fisuras.') }}
 							</p>
 						</div>
@@ -74,7 +74,7 @@
 							<h3 class="md:text-lg sm:text-base">
 								{{ __('Mantenimiento') }}
 							</h3>
-							<p class="md:text-sm sm:text-xs">
+							<p class="">
 								{{ __('Actualizaciones regulares y soporte técnico para garantizar el rendimiento óptimo y la longevidad de tu proyecto web.') }}
 							</p>
 						</div>
@@ -86,7 +86,7 @@
 							<h3 class="md:text-lg sm:text-base">
 								{{ __('Alojamiento y Seguridad') }}
 							</h3>
-							<p class="md:text-sm sm:text-xs">
+							<p class="">
 								{{ __('Hosting robusto con enfoque en la seguridad, asegurando que tus aplicaciones y datos estén protegidos y accesibles.') }}
 							</p>
 						</div>
