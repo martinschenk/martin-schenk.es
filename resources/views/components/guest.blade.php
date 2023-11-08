@@ -39,10 +39,10 @@
 
    <link rel="shortcut icon" type="image/png" href="{{ asset('/img/martin-schenk-favicon.png') }}">
    <link rel="shortcut icon" sizes="192x192" href="{{ asset('/img/martin-schenk-favicon.png') }}">
-
+   
+   @livewireStyles
    @filamentStyles
    @vite('resources/css/app.css')
-   @livewireStyles
 </head>
 <body class="flex flex-col h-screen">
 
@@ -59,9 +59,10 @@
 
 @include('cookie-consent::index')
 
+@livewireScripts
+@livewire('notifications')
 @filamentScripts
 @vite('resources/js/app.js')
-@livewireScripts
 </body>
 </html>
 

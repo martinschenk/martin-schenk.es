@@ -1,5 +1,6 @@
 <?php
 
+use Filament\Notifications\Notification;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +14,15 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/test-notification', function () {
+  Notification::make()
+      ->title('Test Notification')
+      ->body('This is a test notification to confirm the notification system is working.')
+      ->success()
+      ->send();
+  
+  return 'Notification sent!';
+});
 
 
 Route::get('/', function () {

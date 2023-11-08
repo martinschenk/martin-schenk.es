@@ -67,6 +67,10 @@
       @apply bg-mittelgruen text-weiss;
    }
 
+    /*.fi-btn {
+        @apply text-blue-500;
+    }*/
+
 }
 
 
