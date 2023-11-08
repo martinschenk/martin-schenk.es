@@ -3215,12 +3215,12 @@ a:hover {
 
 .border-primary-500 {
     --tw-border-opacity: 1;
-    border-color: rgba(var(--primary-500), var(--tw-border-opacity))
+    border-color: rgb(20 184 166 / var(--tw-border-opacity))
 }
 
 .border-primary-600 {
     --tw-border-opacity: 1;
-    border-color: rgba(var(--primary-600), var(--tw-border-opacity))
+    border-color: rgb(13 148 136 / var(--tw-border-opacity))
 }
 
 .border-transparent {
@@ -3253,17 +3253,17 @@ a:hover {
 
 .bg-custom-100 {
     --tw-bg-opacity: 1;
-    background-color: rgba(var(--c-100), var(--tw-bg-opacity))
+    background-color: rgb(204 251 241 / var(--tw-bg-opacity))
 }
 
 .bg-custom-50 {
     --tw-bg-opacity: 1;
-    background-color: rgba(var(--c-50), var(--tw-bg-opacity))
+    background-color: rgb(240 253 250 / var(--tw-bg-opacity))
 }
 
 .bg-custom-600 {
     --tw-bg-opacity: 1;
-    background-color: rgba(var(--c-600), var(--tw-bg-opacity))
+    background-color: rgb(13 148 136 / var(--tw-bg-opacity))
 }
 
 .bg-dunkelgruen {
@@ -3317,12 +3317,12 @@ a:hover {
 
 .bg-primary-500 {
     --tw-bg-opacity: 1;
-    background-color: rgba(var(--primary-500), var(--tw-bg-opacity))
+    background-color: rgb(20 184 166 / var(--tw-bg-opacity))
 }
 
 .bg-primary-600 {
     --tw-bg-opacity: 1;
-    background-color: rgba(var(--primary-600), var(--tw-bg-opacity))
+    background-color: rgb(13 148 136 / var(--tw-bg-opacity))
 }
 
 .bg-transparent {
@@ -3776,21 +3776,21 @@ a:hover {
 
 .text-custom-400 {
     --tw-text-opacity: 1;
-    color: rgba(var(--c-400), var(--tw-text-opacity))
+    color: rgb(45 212 191 / var(--tw-text-opacity))
 }
 
 .text-custom-500 {
     --tw-text-opacity: 1;
-    color: rgba(var(--c-500), var(--tw-text-opacity))
+    color: rgb(20 184 166 / var(--tw-text-opacity))
 }
 
 .text-custom-600 {
     --tw-text-opacity: 1;
-    color: rgba(var(--c-600), var(--tw-text-opacity))
+    color: rgb(13 148 136 / var(--tw-text-opacity))
 }
 
 .text-custom-700\/50 {
-    color: rgba(var(--c-700), .5)
+    color: #0f766e80
 }
 
 .text-danger-600 {
@@ -3874,17 +3874,17 @@ a:hover {
 
 .text-primary-400 {
     --tw-text-opacity: 1;
-    color: rgba(var(--primary-400), var(--tw-text-opacity))
+    color: rgb(45 212 191 / var(--tw-text-opacity))
 }
 
 .text-primary-500 {
     --tw-text-opacity: 1;
-    color: rgba(var(--primary-500), var(--tw-text-opacity))
+    color: rgb(20 184 166 / var(--tw-text-opacity))
 }
 
 .text-primary-600 {
     --tw-text-opacity: 1;
-    color: rgba(var(--primary-600), var(--tw-text-opacity))
+    color: rgb(13 148 136 / var(--tw-text-opacity))
 }
 
 .text-red-600 {
@@ -4002,15 +4002,15 @@ a:hover {
 
 .ring-custom-600 {
     --tw-ring-opacity: 1;
-    --tw-ring-color: rgba(var(--c-600), var(--tw-ring-opacity))
+    --tw-ring-color: rgb(13 148 136 / var(--tw-ring-opacity))
 }
 
 .ring-custom-600\/10 {
-    --tw-ring-color: rgba(var(--c-600), .1)
+    --tw-ring-color: rgb(13 148 136 / .1)
 }
 
 .ring-custom-600\/20 {
-    --tw-ring-color: rgba(var(--c-600), .2)
+    --tw-ring-color: rgb(13 148 136 / .2)
 }
 
 .ring-danger-600 {
@@ -4200,7 +4200,7 @@ a:hover {
 .before\:bg-primary-600:before {
     content: var(--tw-content);
     --tw-bg-opacity: 1;
-    background-color: rgba(var(--primary-600), var(--tw-bg-opacity))
+    background-color: rgb(13 148 136 / var(--tw-bg-opacity))
 }
 
 .first\:border-s-0:first-child {
@@ -4230,7 +4230,7 @@ a:hover {
 
 .focus-within\:ring-primary-600:focus-within {
     --tw-ring-opacity: 1;
-    --tw-ring-color: rgba(var(--primary-600), var(--tw-ring-opacity))
+    --tw-ring-color: rgb(13 148 136 / var(--tw-ring-opacity))
 }
 
 .hover\:border-gray-300:hover {
@@ -4239,17 +4239,17 @@ a:hover {
 }
 
 .hover\:bg-custom-400\/10:hover {
-    background-color: rgba(var(--c-400), .1)
+    background-color: #2dd4bf1a
 }
 
 .hover\:bg-custom-50:hover {
     --tw-bg-opacity: 1;
-    background-color: rgba(var(--c-50), var(--tw-bg-opacity))
+    background-color: rgb(240 253 250 / var(--tw-bg-opacity))
 }
 
 .hover\:bg-custom-500:hover {
     --tw-bg-opacity: 1;
-    background-color: rgba(var(--c-500), var(--tw-bg-opacity))
+    background-color: rgb(20 184 166 / var(--tw-bg-opacity))
 }
 
 .hover\:bg-gray-100:hover {
@@ -4288,11 +4288,11 @@ a:hover {
 
 .hover\:text-custom-600:hover {
     --tw-text-opacity: 1;
-    color: rgba(var(--c-600), var(--tw-text-opacity))
+    color: rgb(13 148 136 / var(--tw-text-opacity))
 }
 
 .hover\:text-custom-700\/75:hover {
-    color: rgba(var(--c-700), .75)
+    color: #0f766ebf
 }
 
 .hover\:text-gray-300:hover {
@@ -4436,7 +4436,7 @@ a:hover {
 
 .focus\:ring-primary-600:focus {
     --tw-ring-opacity: 1;
-    --tw-ring-color: rgba(var(--primary-600), var(--tw-ring-opacity))
+    --tw-ring-color: rgb(13 148 136 / var(--tw-ring-opacity))
 }
 
 .focus\:ring-opacity-50:focus {
@@ -4452,7 +4452,7 @@ a:hover {
 }
 
 .checked\:focus\:ring-primary-500\/50:focus:checked {
-    --tw-ring-color: rgba(var(--primary-500), .5)
+    --tw-ring-color: rgb(20 184 166 / .5)
 }
 
 .focus-visible\:z-10:focus-visible {
@@ -4461,12 +4461,12 @@ a:hover {
 
 .focus-visible\:border-primary-500:focus-visible {
     --tw-border-opacity: 1;
-    border-color: rgba(var(--primary-500), var(--tw-border-opacity))
+    border-color: rgb(20 184 166 / var(--tw-border-opacity))
 }
 
 .focus-visible\:bg-custom-50:focus-visible {
     --tw-bg-opacity: 1;
-    background-color: rgba(var(--c-50), var(--tw-bg-opacity))
+    background-color: rgb(240 253 250 / var(--tw-bg-opacity))
 }
 
 .focus-visible\:bg-gray-50:focus-visible {
@@ -4475,7 +4475,7 @@ a:hover {
 }
 
 .focus-visible\:text-custom-700\/75:focus-visible {
-    color: rgba(var(--c-700), .75)
+    color: #0f766ebf
 }
 
 .focus-visible\:text-gray-700:focus-visible {
@@ -4513,12 +4513,12 @@ a:hover {
 }
 
 .focus-visible\:ring-custom-500\/50:focus-visible {
-    --tw-ring-color: rgba(var(--c-500), .5)
+    --tw-ring-color: rgb(20 184 166 / .5)
 }
 
 .focus-visible\:ring-custom-600:focus-visible {
     --tw-ring-opacity: 1;
-    --tw-ring-color: rgba(var(--c-600), var(--tw-ring-opacity))
+    --tw-ring-color: rgb(13 148 136 / var(--tw-ring-opacity))
 }
 
 .focus-visible\:ring-danger-600:focus-visible {
@@ -4532,12 +4532,12 @@ a:hover {
 
 .focus-visible\:ring-primary-500:focus-visible {
     --tw-ring-opacity: 1;
-    --tw-ring-color: rgba(var(--primary-500), var(--tw-ring-opacity))
+    --tw-ring-color: rgb(20 184 166 / var(--tw-ring-opacity))
 }
 
 .focus-visible\:ring-primary-600:focus-visible {
     --tw-ring-opacity: 1;
-    --tw-ring-color: rgba(var(--primary-600), var(--tw-ring-opacity))
+    --tw-ring-color: rgb(13 148 136 / var(--tw-ring-opacity))
 }
 
 .active\:bg-gray-100:active {
@@ -4701,7 +4701,7 @@ a:hover {
 
 :is(.dark .dark\:border-primary-500) {
     --tw-border-opacity: 1;
-    border-color: rgba(var(--primary-500), var(--tw-border-opacity))
+    border-color: rgb(20 184 166 / var(--tw-border-opacity))
 }
 
 :is(.dark .dark\:border-white\/10) {
@@ -4718,16 +4718,16 @@ a:hover {
 }
 
 :is(.dark .dark\:bg-custom-400\/10) {
-    background-color: rgba(var(--c-400), .1)
+    background-color: #2dd4bf1a
 }
 
 :is(.dark .dark\:bg-custom-500) {
     --tw-bg-opacity: 1;
-    background-color: rgba(var(--c-500), var(--tw-bg-opacity))
+    background-color: rgb(20 184 166 / var(--tw-bg-opacity))
 }
 
 :is(.dark .dark\:bg-custom-500\/20) {
-    background-color: rgba(var(--c-500), .2)
+    background-color: #14b8a633
 }
 
 :is(.dark .dark\:bg-gray-400\/10) {
@@ -4763,7 +4763,7 @@ a:hover {
 
 :is(.dark .dark\:bg-primary-500) {
     --tw-bg-opacity: 1;
-    background-color: rgba(var(--primary-500), var(--tw-bg-opacity))
+    background-color: rgb(20 184 166 / var(--tw-bg-opacity))
 }
 
 :is(.dark .dark\:bg-transparent) {
@@ -4779,12 +4779,12 @@ a:hover {
 }
 
 :is(.dark .dark\:text-custom-300\/50) {
-    color: rgba(var(--c-300), .5)
+    color: #5eead480
 }
 
 :is(.dark .dark\:text-custom-400) {
     --tw-text-opacity: 1;
-    color: rgba(var(--c-400), var(--tw-text-opacity))
+    color: rgb(45 212 191 / var(--tw-text-opacity))
 }
 
 :is(.dark .dark\:text-danger-400) {
@@ -4823,12 +4823,12 @@ a:hover {
 
 :is(.dark .dark\:text-primary-400) {
     --tw-text-opacity: 1;
-    color: rgba(var(--primary-400), var(--tw-text-opacity))
+    color: rgb(45 212 191 / var(--tw-text-opacity))
 }
 
 :is(.dark .dark\:text-primary-500) {
     --tw-text-opacity: 1;
-    color: rgba(var(--primary-500), var(--tw-text-opacity))
+    color: rgb(20 184 166 / var(--tw-text-opacity))
 }
 
 :is(.dark .dark\:text-white) {
@@ -4841,12 +4841,12 @@ a:hover {
 }
 
 :is(.dark .dark\:ring-custom-400\/30) {
-    --tw-ring-color: rgba(var(--c-400), .3)
+    --tw-ring-color: rgb(45 212 191 / .3)
 }
 
 :is(.dark .dark\:ring-custom-500) {
     --tw-ring-opacity: 1;
-    --tw-ring-color: rgba(var(--c-500), var(--tw-ring-opacity))
+    --tw-ring-color: rgb(20 184 166 / var(--tw-ring-opacity))
 }
 
 :is(.dark .dark\:ring-danger-500) {
@@ -4893,7 +4893,7 @@ a:hover {
 :is(.dark .dark\:before\:bg-primary-500):before {
     content: var(--tw-content);
     --tw-bg-opacity: 1;
-    background-color: rgba(var(--primary-500), var(--tw-bg-opacity))
+    background-color: rgb(20 184 166 / var(--tw-bg-opacity))
 }
 
 :is(.dark .dark\:checked\:bg-danger-500:checked) {
@@ -4903,7 +4903,7 @@ a:hover {
 
 :is(.dark .dark\:checked\:bg-primary-500:checked) {
     --tw-bg-opacity: 1;
-    background-color: rgba(var(--primary-500), var(--tw-bg-opacity))
+    background-color: rgb(20 184 166 / var(--tw-bg-opacity))
 }
 
 :is(.dark .dark\:focus-within\:ring-danger-500:focus-within) {
@@ -4913,16 +4913,16 @@ a:hover {
 
 :is(.dark .dark\:focus-within\:ring-primary-500:focus-within) {
     --tw-ring-opacity: 1;
-    --tw-ring-color: rgba(var(--primary-500), var(--tw-ring-opacity))
+    --tw-ring-color: rgb(20 184 166 / var(--tw-ring-opacity))
 }
 
 :is(.dark .dark\:hover\:bg-custom-400:hover) {
     --tw-bg-opacity: 1;
-    background-color: rgba(var(--c-400), var(--tw-bg-opacity))
+    background-color: rgb(45 212 191 / var(--tw-bg-opacity))
 }
 
 :is(.dark .dark\:hover\:bg-custom-400\/10:hover) {
-    background-color: rgba(var(--c-400), .1)
+    background-color: #2dd4bf1a
 }
 
 :is(.dark .dark\:hover\:bg-white\/10:hover) {
@@ -4935,11 +4935,11 @@ a:hover {
 
 :is(.dark .dark\:hover\:text-custom-300:hover) {
     --tw-text-opacity: 1;
-    color: rgba(var(--c-300), var(--tw-text-opacity))
+    color: rgb(94 234 212 / var(--tw-text-opacity))
 }
 
 :is(.dark .dark\:hover\:text-custom-300\/75:hover) {
-    color: rgba(var(--c-300), .75)
+    color: #5eead4bf
 }
 
 :is(.dark .dark\:hover\:text-gray-200:hover) {
@@ -4963,7 +4963,7 @@ a:hover {
 
 :is(.dark .dark\:focus\:ring-primary-500:focus) {
     --tw-ring-opacity: 1;
-    --tw-ring-color: rgba(var(--primary-500), var(--tw-ring-opacity))
+    --tw-ring-color: rgb(20 184 166 / var(--tw-ring-opacity))
 }
 
 :is(.dark .dark\:checked\:focus\:ring-danger-400\/50:focus:checked) {
@@ -4971,16 +4971,16 @@ a:hover {
 }
 
 :is(.dark .dark\:checked\:focus\:ring-primary-400\/50:focus:checked) {
-    --tw-ring-color: rgba(var(--primary-400), .5)
+    --tw-ring-color: rgb(45 212 191 / .5)
 }
 
 :is(.dark .dark\:focus-visible\:border-primary-500:focus-visible) {
     --tw-border-opacity: 1;
-    border-color: rgba(var(--primary-500), var(--tw-border-opacity))
+    border-color: rgb(20 184 166 / var(--tw-border-opacity))
 }
 
 :is(.dark .dark\:focus-visible\:bg-custom-400\/10:focus-visible) {
-    background-color: rgba(var(--c-400), .1)
+    background-color: #2dd4bf1a
 }
 
 :is(.dark .dark\:focus-visible\:bg-white\/5:focus-visible) {
@@ -4988,7 +4988,7 @@ a:hover {
 }
 
 :is(.dark .dark\:focus-visible\:text-custom-300\/75:focus-visible) {
-    color: rgba(var(--c-300), .75)
+    color: #5eead4bf
 }
 
 :is(.dark .dark\:focus-visible\:text-gray-200:focus-visible) {
@@ -5001,12 +5001,12 @@ a:hover {
 }
 
 :is(.dark .dark\:focus-visible\:ring-custom-400\/50:focus-visible) {
-    --tw-ring-color: rgba(var(--c-400), .5)
+    --tw-ring-color: rgb(45 212 191 / .5)
 }
 
 :is(.dark .dark\:focus-visible\:ring-custom-500:focus-visible) {
     --tw-ring-opacity: 1;
-    --tw-ring-color: rgba(var(--c-500), var(--tw-ring-opacity))
+    --tw-ring-color: rgb(20 184 166 / var(--tw-ring-opacity))
 }
 
 :is(.dark .dark\:focus-visible\:ring-danger-500:focus-visible) {
@@ -5016,7 +5016,7 @@ a:hover {
 
 :is(.dark .dark\:focus-visible\:ring-primary-500:focus-visible) {
     --tw-ring-opacity: 1;
-    --tw-ring-color: rgba(var(--primary-500), var(--tw-ring-opacity))
+    --tw-ring-color: rgb(20 184 166 / var(--tw-ring-opacity))
 }
 
 :is(.dark .dark\:disabled\:bg-transparent:disabled) {
@@ -5403,6 +5403,11 @@ a:hover {
         padding-bottom: 1rem
     }
 
+    .md\:text-2xl {
+        font-size: 1.5rem;
+        line-height: 2rem
+    }
+
     .md\:text-4xl {
         font-size: 2.25rem;
         line-height: 2.5rem
@@ -5613,7 +5618,7 @@ a:hover {
 
 .\[\&\.trix-active\]\:text-primary-600.trix-active {
     --tw-text-opacity: 1;
-    color: rgba(var(--primary-600), var(--tw-text-opacity))
+    color: rgb(13 148 136 / var(--tw-text-opacity))
 }
 
 :is(.dark .dark\:\[\&\.trix-active\]\:bg-white\/5.trix-active) {
@@ -5622,7 +5627,7 @@ a:hover {
 
 :is(.dark .dark\:\[\&\.trix-active\]\:text-primary-400.trix-active) {
     --tw-text-opacity: 1;
-    color: rgba(var(--primary-400), var(--tw-text-opacity))
+    color: rgb(45 212 191 / var(--tw-text-opacity))
 }
 
 .\[\&\>\*\:first-child\]\:mt-0 > *:first-child {
