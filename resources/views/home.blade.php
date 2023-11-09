@@ -34,6 +34,7 @@
 			</div>
 		</section>
 		
+		
 		<!-- Services Section -->
 		<section class="text-gray-600 border-t border-gray-200">
 			<div class="container px-5 py-16 mx-auto md:py-12 sm:py-8">
@@ -44,7 +45,7 @@
 				</div>
 				
 				<div class="flex flex-wrap -m-4">
-					<div class="flex flex-col p-4 lg:w-1/4 md:w-1/2 w-full">
+					<div class="flex flex-col p-4 lg:w-1/2 md:w-1/2 w-full">
 						<div class="flex-grow border-2 border-gray-200 px-4 py-6 rounded-lg md:px-3 md:py-4 sm:px-2 sm:py-3">
 							<x-heroicon-o-light-bulb class="text-mittelgruen w-12 h-12 mb-3 inline-block"/>
 							<h3 class="">
@@ -55,11 +56,11 @@
 							</p>
 						</div>
 					</div>
-					<div class="flex flex-col p-4 lg:w-1/4 md:w-1/2 w-full">
+					<div class="flex flex-col p-4 lg:w-1/2 md:w-1/2 w-full">
 						<div
 								class="flex-grow border-2 border-gray-200 px-4 py-6 rounded-lg md:px-3 md:py-4 sm:px-2 sm:py-3">
 							<x-heroicon-o-puzzle-piece class="text-mittelgruen w-12 h-12 mb-3 inline-block"/>
-							<h3 class="md:text-lg sm:text-base">
+							<h3 class="">
 								{{ __('Soluciones Integrales') }}
 							</h3>
 							<p class="">
@@ -67,11 +68,11 @@
 							</p>
 						</div>
 					</div>
-					<div class="flex flex-col p-4 lg:w-1/4 md:w-1/2 w-full">
+					<div class="flex flex-col p-4 lg:w-1/2 md:w-1/2 w-full">
 						<div
 								class="flex-grow border-2 border-gray-200 px-4 py-6 rounded-lg md:px-3 md:py-4 sm:px-2 sm:py-3">
 							<x-heroicon-o-chat-bubble-left-right class="text-mittelgruen w-12 h-12 mb-3 inline-block"/>
-							<h3 class="md:text-lg sm:text-base">
+							<h3 class="">
 								{{ __('Mantenimiento') }}
 							</h3>
 							<p class="">
@@ -79,11 +80,11 @@
 							</p>
 						</div>
 					</div>
-					<div class="flex flex-col p-4 lg:w-1/4 md:w-1/2 w-full">
+					<div class="flex flex-col p-4 lg:w-1/2 md:w-1/2 w-full">
 						<div
 								class="flex-grow border-2 border-gray-200 px-4 py-6 rounded-lg md:px-3 md:py-4 sm:px-2 sm:py-3">
 							<x-heroicon-o-server class="text-mittelgruen w-12 h-12 mb-3 inline-block"/>
-							<h3 class="md:text-lg sm:text-base">
+							<h3 class="">
 								{{ __('Alojamiento y Seguridad') }}
 							</h3>
 							<p class="">
@@ -94,6 +95,7 @@
 				</div>
 			</div>
 		</section>
+		
 		
 		<!-- Portfolio de Proyectos Section -->
 		<section class="bg-weiss py-24">
@@ -108,6 +110,7 @@
 					</p>
 				</div>
 				<div class="flex flex-wrap -m-4">
+					
 					<!-- ChatKraft -->
 					<div class="p-4 md:w-1/2 w-full">
 						<div class="h-full bg-hellgruen p-8 rounded ">
@@ -120,7 +123,7 @@
 										      d="M8.625 12a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H8.25m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H12m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0h-.375M21 12c0 4.556-4.03 8.25-9 8.25a9.764 9.764 0 01-2.555-.337A5.972 5.972 0 015.41 20.97a5.969 5.969 0 01-.474-.065 4.48 4.48 0 00.978-2.025c.09-.457-.133-.901-.467-1.226C3.93 16.178 3 14.189 3 12c0-4.556 4.03-8.25 9-8.25s9 3.694 9 8.25z"/>
 									</svg>
 								</div>
-								<h2 class="text-gray-900 text-lg title-font font-medium">
+								<h2 class="">
 									{{ __('ChatKraft - Chat with your Knowledge') }}
 								</h2>
 							</div>
@@ -140,7 +143,7 @@
 									</svg>
 								
 								</div>
-								<h2 class="text-gray-900 text-lg title-font font-medium">
+								<h2 class="">
 									{{ __('Plataformas para Interim Managers') }}
 								</h2>
 							</div>
@@ -160,7 +163,7 @@
 									</svg>
 								
 								</div>
-								<h2 class="text-gray-900 text-lg title-font font-medium">
+								<h2 class="">
 									{{ __('Herramientas de Valoración de Marcas para Multinacionales') }}
 								</h2>
 							</div>
@@ -180,7 +183,7 @@
 									</svg>
 								
 								</div>
-								<h2 class="text-gray-900 text-lg title-font font-medium">
+								<h2 class="">
 									{{ __('Sistemas de Reservas Personalizados') }}
 								</h2>
 							</div>
@@ -200,8 +203,8 @@
 									</svg>
 								
 								</div>
-								<h2 class="text-gray-900 text-lg title-font font-medium">
-									{{ __('Tienda Online para una Fábrica de Frutas Deshidratadas') }}
+								<h2 class="">
+									{{ __('Tienda Online Fábrica Frutas Deshidratadas') }}
 								</h2>
 							</div>
 						</div>
@@ -220,7 +223,7 @@
 									</svg>
 								
 								</div>
-								<h2 class="text-gray-900 text-lg title-font font-medium">
+								<h2 class="">
 									{{ __('Mercado para Periodistas Freelance') }}
 								</h2>
 							</div>
@@ -240,8 +243,8 @@
 									</svg>
 								</div>
 								
-								<h2 class="text-gray-900 text-lg title-font font-medium">
-									{{ __('Motor de Búsqueda para Piezas de coches de segunda mano') }}
+								<h2 class="">
+									{{ __('Plataforma piezas coches seg. mano') }}
 								</h2>
 							</div>
 						</div>
@@ -260,8 +263,8 @@
 									</svg>
 								
 								</div>
-								<h2 class="text-gray-900 text-lg title-font font-medium">
-									{{ __('Aplicación Web para la Asociación Española de Pediatría') }}
+								<h2 class="">
+									{{ __('Cursos Online Asoc. Esp. Pediatría') }}
 								</h2>
 							</div>
 						</div>
@@ -280,8 +283,8 @@
 									</svg>
 								</div>
 								
-								<h2 class="text-gray-900 text-lg title-font font-medium">
-									{{ __('Palimpalem') }}
+								<h2 class="">
+									{{ __('Plataforma para crear páginas web') }}
 								</h2>
 							</div>
 						</div>
