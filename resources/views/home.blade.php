@@ -21,11 +21,11 @@
 						{{--@livewire('test-notification')--}}
 						@livewire('contact-form')
 						{{--<button
-							 class="inline-flex text-white bg-mittelgruen border-0 py-2 px-6 focus:outline-none hover:bg-teal-600 rounded  text-sm sm:text-lg">
+							 class="inline-flex text-white bg-mittelgruen border-0 py-2 px-6 focus:outline-none hover:bg-teal-600   text-sm sm:text-lg">
 							 {{ __('Contáctanos') }}
 						</button>--}}
 						<a href="#proyectos-representativos"
-						   class="ml-4 inline-flex items-center justify-center text-gray-700 bg-grau border-0 py-2 px-6 focus:outline-none hover:bg-gray-300 hover:text-gray-800 rounded  no-underline text-sm sm:text-lg">
+						   class="ml-4 inline-flex items-center justify-center text-gray-700 bg-grau border-0 py-2 px-6 focus:outline-none hover:bg-gray-300 hover:text-gray-800   no-underline text-sm sm:text-lg">
 							{{ __('Ver Proyectos') }}
 						</a>
 					
@@ -36,7 +36,7 @@
 		
 		
 		<!-- Services Section -->
-		<section class="border-t border-gray-200  mb-5">
+		<section class="border-t border-gray-300 mb-5">
 			<div class="container px-5 py-8 lg:py-16 mx-auto md:py-12 sm:py-8">
 				<div class="text-center mb-10 lg:mb-18 md:mb-15 sm:mb-12">
 					<h2 class="text-xl md:text-2xl">
@@ -46,7 +46,7 @@
 				
 				<div class="flex flex-wrap -m-4">
 					<div class="flex flex-col p-4 lg:w-1/2 md:w-1/2 w-full">
-						<div class="flex-grow border-2 border-gray-200 px-4 py-6 rounded-lg md:px-3 md:py-4 sm:px-2 sm:py-3">
+						<div class="flex-grow border-2 border-gray-300 px-8 py-6">
 							<x-heroicon-o-light-bulb class="text-mittelgruen w-12 h-12 mb-3 inline-block"/>
 							<h3 class="">
 								{{ __('Aplicaciones Web a Medida') }}
@@ -57,8 +57,7 @@
 						</div>
 					</div>
 					<div class="flex flex-col p-4 lg:w-1/2 md:w-1/2 w-full">
-						<div
-								class="flex-grow border-2 border-gray-200 px-4 py-6 rounded-lg md:px-3 md:py-4 sm:px-2 sm:py-3">
+						<div class="flex-grow border-2 border-gray-300 px-8 py-6">
 							<x-heroicon-o-puzzle-piece class="text-mittelgruen w-12 h-12 mb-3 inline-block"/>
 							<h3 class="">
 								{{ __('Soluciones Integrales') }}
@@ -69,8 +68,7 @@
 						</div>
 					</div>
 					<div class="flex flex-col p-4 lg:w-1/2 md:w-1/2 w-full">
-						<div
-								class="flex-grow border-2 border-gray-200 px-4 py-6 rounded-lg md:px-3 md:py-4 sm:px-2 sm:py-3">
+						<div class="flex-grow border-2 border-gray-300 px-8 py-6">
 							<x-heroicon-o-chat-bubble-left-right class="text-mittelgruen w-12 h-12 mb-3 inline-block"/>
 							<h3 class="">
 								{{ __('Mantenimiento') }}
@@ -81,8 +79,7 @@
 						</div>
 					</div>
 					<div class="flex flex-col p-4 lg:w-1/2 md:w-1/2 w-full">
-						<div
-								class="flex-grow border-2 border-gray-200 px-4 py-6 rounded-lg md:px-3 md:py-4 sm:px-2 sm:py-3">
+						<div class="flex-grow border-2 border-gray-300 px-8 py-6">
 							<x-heroicon-o-server class="text-mittelgruen w-12 h-12 mb-3 inline-block"/>
 							<h3 class="">
 								{{ __('Alojamiento y Seguridad') }}
@@ -98,7 +95,7 @@
 		
 		
 		<!-- Portfolio de Proyectos Section -->
-		<section class="border-t border-gray-200 mb-5">
+		<section class="border-400  bg-gray-100">
 			<div class="container px-5 py-8 lg:py-16 mx-auto md:py-12 sm:py-8">
 				<div class="text-center mb-10 lg:mb-18 md:mb-15 sm:mb-12">
 					<h2 id="proyectos-representativos" class="text-xl md:text-2xl"
@@ -109,11 +106,13 @@
 						{{ __('Nuestro portfolio refleja la diversidad y la adaptabilidad a las necesidades específicas de cada cliente:') }}
 					</p>
 				</div>
+				
+				<!-- Projekte Container -->
 				<div class="flex flex-wrap -m-4">
 					
 					<!-- ChatKraft -->
 					<div class="p-4 md:w-1/2 w-full">
-						<div class="h-full bg-hellgruen p-8 rounded ">
+						<div class="h-full bg-white border-2 border-gray-300 p-8">
 							<p class="leading-relaxed mb-6">{{ __('Más que un chatbot, es una base de conocimiento impulsada por IA que mejora la experiencia del cliente y las operaciones internas.') }}</p>
 							<div class="inline-flex items-center">
 								<div>
@@ -132,7 +131,7 @@
 					
 					<!-- Plataformas para Interim Managers -->
 					<div class="p-4 md:w-1/2 w-full">
-						<div class="h-full bg-hellgruen p-8 rounded">
+						<div class="h-full bg-white border-2 border-gray-300 p-8">
 							<p class="leading-relaxed mb-6">{{ __('Conexión eficiente entre profesionales y oportunidades laborales, gracias a un algoritmo de emparejamiento avanzado.') }}</p>
 							<div class="inline-flex items-center">
 								<div>
@@ -152,7 +151,7 @@
 					
 					<!-- Herramientas de Valoración de Marcas para Multinacionales -->
 					<div class="p-4 md:w-1/2 w-full">
-						<div class="h-full bg-hellgruen p-8 rounded">
+						<div class="h-full bg-white border-2 border-gray-300 p-8">
 							<p class="leading-relaxed mb-6">{{ __('Sistemas SaaS para grandes firmas de auditoría, especializados en la valoración de marcas de envergadura.') }}</p>
 							<div class="inline-flex items-center">
 								<div>
@@ -172,7 +171,7 @@
 					
 					<!-- Sistemas de Reservas Personalizados -->
 					<div class="p-4 md:w-1/2 w-full">
-						<div class="h-full bg-hellgruen p-8 rounded ">
+						<div class="h-full bg-white border-2 border-gray-300 p-8 ">
 							<p class="leading-relaxed mb-6">{{ __('Soluciones adaptadas para gimnasios, work centers, coches y escape rooms.') }}</p>
 							<div class="inline-flex items-center">
 								<div>
@@ -192,7 +191,7 @@
 					
 					<!-- Tienda Online para una Fábrica de Frutas Deshidratadas -->
 					<div class="p-4 md:w-1/2 w-full">
-						<div class="h-full bg-hellgruen p-8 rounded">
+						<div class="h-full bg-white border-2 border-gray-300 p-8">
 							<p class="leading-relaxed mb-6">{{ __('Desarrollo completo para maximizar eficiencia en ventas y administración.') }}</p>
 							<div class="inline-flex items-center">
 								<div>
@@ -212,7 +211,7 @@
 					
 					<!-- Mercado para Periodistas Freelance -->
 					<div class="p-4 md:w-1/2 w-full">
-						<div class="h-full bg-hellgruen p-8 rounded">
+						<div class="h-full bg-white border-2 border-gray-300 p-8">
 							<p class="leading-relaxed mb-6">{{ __('Plataforma que permite a los periodistas vender su contenido directamente a medios de comunicación.') }}</p>
 							<div class="inline-flex items-center">
 								<div>
@@ -232,7 +231,7 @@
 					
 					<!-- Motor de Búsqueda para Piezas de Autos Usadas -->
 					<div class="p-4 md:w-1/2 w-full">
-						<div class="h-full bg-hellgruen p-8 rounded">
+						<div class="h-full bg-white border-2 border-gray-300 p-8">
 							<p class="leading-relaxed mb-6">{{ __('Plataforma para piezas de coches de segunda mano, con SEO para Google, multilingüe, y con interfaz fácil para subir fotos y cálculo automático de precios de envío.') }}</p>
 							<div class="inline-flex items-center">
 								<div>
@@ -252,7 +251,7 @@
 					
 					<!-- Aplicación Web para la Asociación Española de Pediatría -->
 					<div class="p-4 md:w-1/2 w-full">
-						<div class="h-full bg-hellgruen p-8 rounded">
+						<div class="h-full bg-white border-2 border-gray-300 p-8">
 							<p class="leading-relaxed mb-6">{{ __('Plataforma para exámenes y certificación online de pediatras, complementada con noticias y artículos del sector.') }}</p>
 							<div class="inline-flex items-center">
 								<div>
@@ -272,7 +271,7 @@
 					
 					<!-- Palimpalem -->
 					<div class="p-4 md:w-1/2 w-full">
-						<div class="h-full bg-hellgruen p-8 rounded">
+						<div class="h-full bg-white border-2 border-gray-300 p-8">
 							<p class="leading-relaxed mb-6">{{ __('Nuestro primer gran proyecto, un robusto y versátil constructor de páginas web, con más de 1.4 millones de páginas creadas.') }}</p>
 							<div class="inline-flex items-center">
 								<div>
@@ -295,29 +294,28 @@
 		
 		
 		<!-- Tecnologías y Herramientas Modernas Section -->
-		<section class="bg-blue-50 py-16">
+		<section class="py-16 bg-white">
 			<div class="container mx-auto px-5">
-				<h2 class="text-3xl font-title font-medium text-center mb-10">
+				<h2 class="text-3xl font-title font-medium text-center text-gray-800 mb-10">
 					{{ __('Avanzando con Tecnología de Punta y Herramientas Innovadoras') }}
 				</h2>
-				<div class="flex flex-wrap -mx-4  mb-6">
+				<div class="flex flex-wrap -mx-4 mb-6">
 					<div class="w-full md:w-1/2 px-4 mb-8 md:mb-0">
-						<p class="text-left text-base">
+						<p class="text-left text-base text-gray-700">
 							{{ __('En Martin Schenk S.L., aprovechamos el poder de las tecnologías de vanguardia y los lenguajes de programación avanzados para crear soluciones web eficientes y personalizadas.') }}
 						</p>
 					</div>
 					<div class="w-full md:w-1/2 px-4">
-						<p class="text-left text-base">
+						<p class="text-left text-base text-gray-700">
 							{{ __('Nuestra gama de tecnologías es diversa y progresista, incluyendo Laravel para el desarrollo robusto de back-end, Livewire para interfaces dinámicas, Alpine.js para experiencias de front-end responsivas, Tailwind CSS para un estilo elegante y Filament para paneles de administración sin complicaciones. Combinado con la versatilidad de PHP, nuestro conjunto de herramientas nos permite dar vida a tus proyectos visionarios con precisión y estilo.') }}
 						</p>
 					</div>
 				</div>
-				<div class="flex justify-center flex-wrap bg-white py-4 rounded-lg shadow-md">
+				<div class="flex justify-center flex-wrap py-4">
 					<!-- Logo Container -->
 					<div class="flex flex-wrap justify-center m-3">
-						<!-- Laravel Logo -->
-						<img class="h-5 xl:h-8 lg:h-8 sm:h-6 xs:h-5 m-4" src="{{ asset('/img/logo-laravel.png') }}"
-						     alt="Laravel">
+						<!-- Laravel Logo mit grauem Rahmen -->
+						<img class="h-6 xl:h-10 lg:h-10 sm:h-8  m-4 mt-3" src="{{ asset('/img/logo-laravel.png') }}" alt="Laravel">
 						<!-- Livewire Logo -->
 						<img class="h-5 xl:h-8 lg:h-8 sm:h-6 xs:h-5 m-4" src="{{ asset('/img/logo-livewire.png') }}"
 						     alt="Livewire">
