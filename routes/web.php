@@ -2,6 +2,7 @@
 
 use Filament\Notifications\Notification;
 use Illuminate\Support\Facades\Route;
+use Livewire\Livewire;
 use Mcamara\LaravelLocalization\Facades\LaravelLocalization;
 
 /*
@@ -24,6 +25,13 @@ Route::group([
 ], function () {
   
   /** ADD ALL LOCALIZED ROUTES INSIDE THIS GROUP **/
+  
+  //OJO importante para Livewire componentes!!
+  Livewire::setUpdateRoute(function ($handle) {
+    return Route::post('/livewire/update', $handle);
+  });
+  
+  
   Route::get('/', function () {
     return view('home');
   });
@@ -49,6 +57,7 @@ Route::group([
     
     return __('Notification sent!');
   });
+  
   
   Route::get('test', function () {
     return View::make('test');
