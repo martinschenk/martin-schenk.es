@@ -6,64 +6,59 @@
 
 
 @layer components {
-   /* General styles */
-   body {
-      @apply font-sans text-gray-600 bg-weiss;
-   }
+    /* General styles */
+    body {
+        @apply font-sans leading-normal font-normal text-base text-gray-700 bg-weiss;
+    }
 
-   /* Heading styles */
-   h1 {
-      @apply font-title text-4xl font-medium text-schwarz leading-normal md:leading-snug;
-      @apply md:text-3xl sm:text-2xl;
-   }
+    /* Heading styles */
+    h1 {
+        @apply font-title leading-normal font-medium  md:leading-snug text-gray-900;
+        @apply text-2xl md:text-3xl sm:text-2xl lg:text-4xl;
+    }
 
-   h2 {
-       @apply font-title text-2xl md:text-3xl lg:text-3xl xl:text-4xl  leading-normal font-medium text-gray-900 mt-8 mb-4;
-   }
+    h2 {
+        @apply font-title leading-normal font-medium text-gray-900 mt-8 mb-4;
+        @apply text-2xl md:text-3xl lg:text-3xl xl:text-4xl;
+    }
 
-   h3 {
-       @apply font-title text-2xl md:text-3xl lg:text-3xl xl:text-4xl  leading-normal font-medium text-gray-900 mt-6 mb-4;
-   }
+    h3 {
+        @apply font-title leading-normal font-medium text-gray-900 mt-6 mb-4;
+        @apply text-xl md:text-xl lg:text-2xl xl:text-3xl;
+    }
 
-   h4 {
-      @apply font-title text-xl leading-normal font-medium text-gray-900 mt-6 mb-3;
-      @apply md:text-lg sm:text-base;
-   }
+    h4 {
+        @apply font-title leading-normal font-medium text-gray-800 mt-4 mb-2;
+        @apply text-lg md:text-lg lg:text-xl xl:text-2xl;
+    }
 
-   /* Paragraph and list styles */
-   p {
-       @apply font-sans mt-5 mb-5  leading-relaxed;
-       @apply md:mt-3 md:mb-3 sm:mt-2 sm:mb-2 ;
-      /* adjust margin and font size */
-   }
+    /* Paragraph and list styles */
+    p {
+        @apply font-sans mt-5 mb-5  leading-relaxed text-gray-700;
+        @apply md:mt-3 md:mb-3 sm:mt-2 sm:mb-2 ;
+    }
 
-   ul {
-      @apply font-sans list-disc pl-5 my-4;
-      @apply md:pl-4 sm:pl-3 sm:my-2;
-      /* adjust padding and margin */
-   }
+    ul {
+        @apply font-sans list-disc pl-5 my-4 ;
+        @apply md:pl-4 sm:pl-3 sm:my-2;
+    }
 
-   li {
-      @apply mb-2 text-base;
-      @apply sm:mb-1 sm:text-sm;
-      /* adjust margin and font size */
-   }
+    li {
+        @apply mb-2 text-base;
+        @apply sm:mb-1 sm:text-sm;
+    }
 
-   /* Link styles */
-   a {
-      @apply underline text-mittelgruen hover:text-gruen;
-      @apply sm:text-sm;
-      /* smaller font size for links on sm screens */
-   }
+    /* Link styles */
+    a {
+        @apply underline text-mittelgruen hover:text-gruen;
+        @apply sm:text-sm;
+    }
 
-   /* Navigation and header styles */
-   .landing-header, .menu {
-      @apply bg-mittelgruen text-weiss;
-   }
+    /* Navigation and header styles */
+    .landing-header, .menu {
+        @apply bg-mittelgruen text-weiss;
+    }
 
-    /*.fi-btn {
-        @apply text-blue-500;
-    }*/
 
 }
 

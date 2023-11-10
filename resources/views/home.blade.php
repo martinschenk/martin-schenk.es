@@ -8,10 +8,10 @@
 		<x-header headertitle="{{ $headerTitle }}"/>
 		
 		<!-- Hero Section -->
-		<section class="text-gray-700 ">
+		<section class="">
 			<div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
 				<div class="text-center lg:w-2/3 w-full">
-					<h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
+					<h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium">
 						{{ __('Transformamos Ideas en Aplicaciones Web Innovadoras') }}
 					</h1>
 					<p class="mb-8 leading-relaxed">
@@ -36,10 +36,10 @@
 		
 		
 		<!-- Services Section -->
-		<section class="text-gray-600 border-t border-gray-200">
-			<div class="container px-5 py-16 mx-auto md:py-12 sm:py-8">
-				<div class="text-center mb-20 md:mb-16 sm:mb-12">
-					<h2 class="text-3xl font-title font-medium text-gray-900 sm:text-2xl mb-4">
+		<section class="border-t border-gray-200  mb-5">
+			<div class="container px-5 py-8 lg:py-16 mx-auto md:py-12 sm:py-8">
+				<div class="text-center mb-10 lg:mb-18 md:mb-15 sm:mb-12">
+					<h2 class="text-xl md:text-2xl">
 						{{ __('Nuestros Servicios') }}
 					</h2>
 				</div>
@@ -98,10 +98,10 @@
 		
 		
 		<!-- Portfolio de Proyectos Section -->
-		<section class="bg-weiss py-24">
-			<div class="container mx-auto px-5">
-				<div class="flex flex-col text-center w-full mb-12">
-					<h2 id="proyectos-representativos" class="text-3xl font-title font-medium text-gray-900 sm:text-2xl mb-4"
+		<section class="border-t border-gray-200 mb-5">
+			<div class="container px-5 py-8 lg:py-16 mx-auto md:py-12 sm:py-8">
+				<div class="text-center mb-10 lg:mb-18 md:mb-15 sm:mb-12">
+					<h2 id="proyectos-representativos" class="text-xl md:text-2xl"
 					    style="scroll-margin-top: 100px;">
 						{{ __('Portafolio de Proyectos') }}
 					</h2>
@@ -123,9 +123,9 @@
 										      d="M8.625 12a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H8.25m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H12m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0h-.375M21 12c0 4.556-4.03 8.25-9 8.25a9.764 9.764 0 01-2.555-.337A5.972 5.972 0 015.41 20.97a5.969 5.969 0 01-.474-.065 4.48 4.48 0 00.978-2.025c.09-.457-.133-.901-.467-1.226C3.93 16.178 3 14.189 3 12c0-4.556 4.03-8.25 9-8.25s9 3.694 9 8.25z"/>
 									</svg>
 								</div>
-								<h2 class="">
+								<h3 class="">
 									{{ __('ChatKraft - Chat with your Knowledge') }}
-								</h2>
+								</h3>
 							</div>
 						</div>
 					</div>
@@ -143,9 +143,9 @@
 									</svg>
 								
 								</div>
-								<h2 class="">
+								<h3 class="">
 									{{ __('Plataformas para Interim Managers') }}
-								</h2>
+								</h3>
 							</div>
 						</div>
 					</div>
@@ -163,9 +163,9 @@
 									</svg>
 								
 								</div>
-								<h2 class="">
+								<h3 class="">
 									{{ __('Herramientas de Valoración de Marcas para Multinacionales') }}
-								</h2>
+								</h3>
 							</div>
 						</div>
 					</div>
@@ -183,9 +183,9 @@
 									</svg>
 								
 								</div>
-								<h2 class="">
+								<h3 class="">
 									{{ __('Sistemas de Reservas Personalizados') }}
-								</h2>
+								</h3>
 							</div>
 						</div>
 					</div>
@@ -203,9 +203,9 @@
 									</svg>
 								
 								</div>
-								<h2 class="">
+								<h3 class="">
 									{{ __('Tienda Online Fábrica Frutas Deshidratadas') }}
-								</h2>
+								</h3>
 							</div>
 						</div>
 					</div>
@@ -223,9 +223,9 @@
 									</svg>
 								
 								</div>
-								<h2 class="">
+								<h3 class="">
 									{{ __('Mercado para Periodistas Freelance') }}
-								</h2>
+								</h3>
 							</div>
 						</div>
 					</div>
@@ -243,9 +243,9 @@
 									</svg>
 								</div>
 								
-								<h2 class="">
+								<h3 class="">
 									{{ __('Plataforma piezas coches seg. mano') }}
-								</h2>
+								</h3>
 							</div>
 						</div>
 					</div>
@@ -263,9 +263,9 @@
 									</svg>
 								
 								</div>
-								<h2 class="">
+								<h3 class="">
 									{{ __('Cursos Online Asoc. Esp. Pediatría') }}
-								</h2>
+								</h3>
 							</div>
 						</div>
 					</div>
@@ -283,9 +283,9 @@
 									</svg>
 								</div>
 								
-								<h2 class="">
+								<h3 class="">
 									{{ __('Plataforma para crear páginas web') }}
-								</h2>
+								</h3>
 							</div>
 						</div>
 					</div>
@@ -297,10 +297,10 @@
 		<!-- Tecnologías y Herramientas Modernas Section -->
 		<section class="bg-blue-50 py-16">
 			<div class="container mx-auto px-5">
-				<h2 class="text-3xl font-title font-medium text-gray-900 text-center mb-10">
+				<h2 class="text-3xl font-title font-medium text-center mb-10">
 					{{ __('Avanzando con Tecnología de Punta y Herramientas Innovadoras') }}
 				</h2>
-				<div class="flex flex-wrap -mx-4 text-gray-700 mb-6">
+				<div class="flex flex-wrap -mx-4  mb-6">
 					<div class="w-full md:w-1/2 px-4 mb-8 md:mb-0">
 						<p class="text-left text-base">
 							{{ __('En Martin Schenk S.L., aprovechamos el poder de las tecnologías de vanguardia y los lenguajes de programación avanzados para crear soluciones web eficientes y personalizadas.') }}
