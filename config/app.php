@@ -94,8 +94,8 @@ return [
     | the language folders that are provided through your application.
     |
     */
-
-    'fallback_locale' => 'en',
+    
+    'fallback_locale' => 'es',
 
     /*
     |--------------------------------------------------------------------------
@@ -107,8 +107,8 @@ return [
     | localized telephone numbers, street address information and more.
     |
     */
-
-    'faker_locale' => 'en_US',
+    
+    'faker_locale' => 'es_ES',
 
     /*
     |--------------------------------------------------------------------------
@@ -178,7 +178,11 @@ return [
         Illuminate\Redis\RedisServiceProvider::class,
         Illuminate\Auth\Passwords\PasswordResetServiceProvider::class,
         Illuminate\Session\SessionServiceProvider::class,
-        Illuminate\Translation\TranslationServiceProvider::class,
+      
+      //martin 10/11/23, 19:16
+      //Illuminate\Translation\TranslationServiceProvider::class,
+        LaravelLang\JsonFallbackHotfix\TranslationServiceProvider::class,
+        
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
 

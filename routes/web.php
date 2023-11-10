@@ -2,6 +2,7 @@
 
 use Filament\Notifications\Notification;
 use Illuminate\Support\Facades\Route;
+use Mcamara\LaravelLocalization\Facades\LaravelLocalization;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,40 +15,50 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/test-notification', function () {
-  Notification::make()
-      ->title('Test Notification')
-      ->body('This is a test notification to confirm the notification system is working.')
-      ->success()
-      ->send();
+
+//seiten die lokalisiert werden sollen
+//------------------------------------
+Route::group([
+    'prefix' => LaravelLocalization::setLocale(),
+    'middleware' => ['localeCookieRedirect', 'localizationRedirect', 'localeViewPath']
+], function () {
   
-  return 'Notification sent!';
-});
-
-
-Route::get('/', function () {
+  /** ADD ALL LOCALIZED ROUTES INSIDE THIS GROUP **/
+  Route::get('/', function () {
     return view('home');
-});
-
-//Route::get('/', function () {
-//    return redirect('/aviso-legal');
-//});
-
-
-Route::get('/aviso-legal', function () {
+  });
+  
+  Route::get('/aviso-legal', function () {
     return view('aviso-legal');
-});
-
-Route::get('/politica-privacidad', function () {
+  });
+  
+  Route::get('/politica-privacidad', function () {
     return view('politica-privacidad');
-});
-
-Route::get('/politica-cookies', function () {
+  });
+  
+  Route::get('/politica-cookies', function () {
     return view('politica-cookies');
+  });
+  
+  Route::get('/test-notification', function () {
+    Notification::make()
+        ->title(__('Test Notification'))
+        ->body(__('This is a test notification to confirm the notification system is working.'))
+        ->success()
+        ->send();
+    
+    return __('Notification sent!');
+  });
+  
+  Route::get('test', function () {
+    return View::make('test');
+  });
+  
 });
 
-//Route::get('/dashboard', function () {
-//    return view('dashboard');
-//})->middleware(['auth'])->name('dashboard');
-//
-//require __DIR__.'/auth.php';
+
+
+
+
+
+

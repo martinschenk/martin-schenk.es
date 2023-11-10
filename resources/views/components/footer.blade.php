@@ -14,8 +14,8 @@
    </div>
 
    {{-- Contact Information --}}
-   <p class="text-center mb-4">
-      Correo electrónico de contacto: hola@martin-schenk.es ó tel: (+34) 669 686 832
+	<p class="text-center mb-4 text-white">
+	<div class="mb-2">hola@martin-schenk.es {{ __('ó') }} (+34) 669 686 832</div>
    </p>
 
    {{-- Legal Links --}}

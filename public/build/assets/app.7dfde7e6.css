@@ -5621,6 +5621,10 @@ a:hover {
     padding-inline-start: 0px
 }
 
+.\[\&_\.filepond--root\]\:font-sans .filepond--root {
+    font-family: Roboto, Helvetica, Arial, sans-serif
+}
+
 .\[\&_optgroup\]\:bg-white optgroup {
     --tw-bg-opacity: 1;
     background-color: rgb(255 255 255 / var(--tw-bg-opacity))

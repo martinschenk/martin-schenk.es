@@ -25,6 +25,11 @@ use Illuminate\Routing\Middleware\ValidateSignature;
 use Illuminate\Session\Middleware\AuthenticateSession;
 use Illuminate\Session\Middleware\StartSession;
 use Illuminate\View\Middleware\ShareErrorsFromSession;
+use Mcamara\LaravelLocalization\Middleware\LaravelLocalizationRedirectFilter;
+use Mcamara\LaravelLocalization\Middleware\LaravelLocalizationRoutes;
+use Mcamara\LaravelLocalization\Middleware\LaravelLocalizationViewPath;
+use Mcamara\LaravelLocalization\Middleware\LocaleCookieRedirect;
+use Mcamara\LaravelLocalization\Middleware\LocaleSessionRedirect;
 
 class Kernel extends HttpKernel
 {
@@ -85,6 +90,12 @@ class Kernel extends HttpKernel
         'signed' => ValidateSignature::class,
         'throttle' => ThrottleRequests::class,
         'verified' => EnsureEmailIsVerified::class,
+        
+        'localize' => LaravelLocalizationRoutes::class,
+        'localizationRedirect' => LaravelLocalizationRedirectFilter::class,
+        'localeSessionRedirect' => LocaleSessionRedirect::class,
+        'localeCookieRedirect' => LocaleCookieRedirect::class,
+        'localeViewPath' => LaravelLocalizationViewPath::class
     ];
 
 
