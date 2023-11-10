@@ -123,7 +123,7 @@
 									</svg>
 								</div>
 								<h3 class="">
-									{{ __('ChatKraft - Chat with your Knowledge') }}
+									{{ __('ChatKraft - Chatea con tu Conocimiento') }}
 								</h3>
 							</div>
 						</div>
@@ -143,7 +143,7 @@
 								
 								</div>
 								<h3 class="">
-									{{ __('Plataformas para Interim Managers') }}
+									{{ __('Plataformas para Gestores Interinos') }}
 								</h3>
 							</div>
 						</div>
@@ -163,7 +163,7 @@
 								
 								</div>
 								<h3 class="">
-									{{ __('Herramientas de Valoración de Marcas para Multinacionales') }}
+									{{ __('Herramientas para la Valoración de Marcas en Multinacionales') }}
 								</h3>
 							</div>
 						</div>
@@ -183,7 +183,7 @@
 								
 								</div>
 								<h3 class="">
-									{{ __('Sistemas de Reservas Personalizados') }}
+									{{ __('Sistemas Personalizados de Reservas') }}
 								</h3>
 							</div>
 						</div>
@@ -203,7 +203,7 @@
 								
 								</div>
 								<h3 class="">
-									{{ __('Tienda Online Fábrica Frutas Deshidratadas') }}
+									{{ __('Tienda Online para Fábrica de Frutas Deshidratadas') }}
 								</h3>
 							</div>
 						</div>
@@ -223,7 +223,7 @@
 								
 								</div>
 								<h3 class="">
-									{{ __('Mercado para Periodistas Freelance') }}
+									{{ __('Mercado para Periodistas Independientes') }}
 								</h3>
 							</div>
 						</div>
@@ -243,7 +243,7 @@
 								</div>
 								
 								<h3 class="">
-									{{ __('Plataforma piezas coches seg. mano') }}
+									{{ __('Plataforma de Piezas de Coche de Segunda Mano') }}
 								</h3>
 							</div>
 						</div>
@@ -263,7 +263,7 @@
 								
 								</div>
 								<h3 class="">
-									{{ __('Cursos Online Asoc. Esp. Pediatría') }}
+									{{ __('Cursos Online para medicos de la Asociación Española de Pediatría') }}
 								</h3>
 							</div>
 						</div>
