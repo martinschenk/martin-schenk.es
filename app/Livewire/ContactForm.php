@@ -30,7 +30,7 @@ class ContactForm extends Component implements HasForms, HasActions
         //->modalDescription(__('Si tiene alguna pregunta, no dude en contactarnos.'))
         ->modalSubmitActionLabel(__('Enviar'))
         ->button()
-        ->extraAttributes(['class' => ' inline-flex text-white bg-buttongruen border-0 py-2 px-6 focus:outline-none hover:bg-emerald-200 rounded-sm  text-sm sm:text-lg', 'style' => 'font-weight: 400; border-radius: 0.3rem; xbackground-color: #24CD9C;'])
+        ->extraAttributes(['class' => ' inline-flex text-white bg-buttongruen border-0 py-2 px-6 focus:outline-none hover:bg-emerald-200 rounded-0 text-sm sm:text-lg', 'style' => 'font-weight: 400; border-radius: 0rem; xbackground-color: #24CD9C;'])
         ->form([
             TextInput::make('email')
                 ->email()
