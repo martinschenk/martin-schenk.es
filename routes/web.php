@@ -48,6 +48,7 @@ Route::group([
     return view('politica-cookies');
   });
   
+  
   Route::get('/test-notification', function () {
     Notification::make()
         ->title(__('Test Notification'))
@@ -64,6 +65,7 @@ Route::group([
   });
   
 });
+
 
 
 

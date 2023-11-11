@@ -143,7 +143,7 @@
 								
 								</div>
 								<h3 class="">
-									{{ __('Plataformas para Gestores Interinos') }}
+									{{ __('Plataforma para Gestores Interinos') }}
 								</h3>
 							</div>
 						</div>
