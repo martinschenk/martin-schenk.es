@@ -24,7 +24,7 @@
 							 class="inline-flex text-white bg-mittelgruen border-0 py-2 px-6 focus:outline-none hover:bg-teal-600   text-sm sm:text-lg">
 							 {{ __('Contáctanos') }}
 						</button>--}}
-						<a href="#proyectos-representativos"
+						<a href="#portfolio"
 						   class="ml-4 inline-flex items-center justify-center text-gray-700 bg-grau border-0 py-2 px-6 focus:outline-none hover:bg-gray-300 hover:text-gray-800   no-underline text-sm sm:text-lg">
 							{{ __('Ver Proyectos') }}
 						</a>
@@ -39,7 +39,7 @@
 		<section class="border-t border-gray-300 mb-5">
 			<div class="container px-5 py-8 lg:py-16 mx-auto md:py-12 sm:py-8">
 				<div class="text-center mb-10 lg:mb-18 md:mb-15 sm:mb-12">
-					<h2 class="text-xl md:text-2xl">
+					<h2 id="services" class="text-xl md:text-2xl" style="scroll-margin-top: 130px;">
 						{{ __('Nuestros Servicios') }}
 					</h2>
 				</div>
@@ -98,8 +98,8 @@
 		<section class="border-400  bg-gray-100">
 			<div class="container px-5 py-8 lg:py-16 mx-auto md:py-12 sm:py-8">
 				<div class="text-center mb-10 lg:mb-18 md:mb-15 sm:mb-12">
-					<h2 id="proyectos-representativos" class="text-xl md:text-2xl"
-					    style="scroll-margin-top: 100px;">
+					<h2 id="portfolio" class="text-xl md:text-2xl"
+					    style="scroll-margin-top: 130px;">
 						{{ __('Portafolio de Proyectos') }}
 					</h2>
 					<p class="lg:w-2/3 mx-auto  text-base">
@@ -296,7 +296,8 @@
 		<!-- Tecnologías y Herramientas Modernas Section -->
 		<section class="py-16 bg-white">
 			<div class="container mx-auto px-5">
-				<h2 class="text-3xl font-title font-medium text-center text-gray-800 mb-10">
+				<h2 id="technologies" class="text-3xl font-title font-medium text-center text-gray-800 mb-10"
+				    style="scroll-margin-top: 130px;">
 					{{ __('Avanzando con Tecnología de Punta y Herramientas Innovadoras') }}
 				</h2>
 				<div class="flex flex-wrap -mx-4 mb-6">

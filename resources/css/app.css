@@ -54,7 +54,7 @@
     }
 
     .top-menu {
-        @apply font-sans font-medium no-underline block py-2 px-4 text-white hover:font-medium hover:text-white hover:bg-gruen;
+        @apply font-title font-medium text-xl no-underline block py-2 px-4 text-white hover:font-medium hover:text-white hover:bg-gruen;
     }
 
     /* Navigation and header styles */

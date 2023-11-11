@@ -1,17 +1,16 @@
 <div>
    <!-- Header -->
 	
-	<header
-			class="fixed top-0 left-0 w-full bg-mittelgruen  flex items-center justify-between h-20 py-2 z-50">
-      <!-- Logo -->
-      <a href="{{ asset('/') }}" class="ml-4">
-         <img class="w-28 sm:w-28 md:w-34 lg:w-40 xl:w-44 2xl:w-48"
-              src="{{ asset('/img/logo-schenk-hell-transp-c1999-v8.svg') }}"
-              alt="{{ __('Martin Schenk S.L.') }}">
-      </a>
+	<header class="fixed top-0 left-0 w-full bg-mittelgruen flex items-center justify-between h-20 py-2 z-50">
+		<!-- Logo -->
+		<a href="{{ asset('/') }}" class="ml-4">
+			<img class="w-28 sm:w-28 md:w-34 lg:w-40 xl:w-44 2xl:w-48"
+			     src="{{ asset('/img/logo-schenk-hell-transp-c1999-v8.svg') }}"
+			     alt="{{ __('Martin Schenk S.L.') }}">
+		</a>
 		
 		<livewire:navigation-menu/>
-   </header>
+	</header>
 	
 	{{--Headertext and Image--}}
 	<div class="flex flex-col md:flex-row md:items-start bg-mittelgruen mt-20 md:h-[600px] z-10">
