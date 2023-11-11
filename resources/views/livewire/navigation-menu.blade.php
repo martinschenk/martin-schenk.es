@@ -7,8 +7,8 @@
 		
 		<!-- Menu Content -->
 		<div :class="{'flex': open, 'hidden': !open}"
-		     class="flex-col items-center w-full md:flex md:flex-row md:items-center md:justify-end md:w-auto absolute md:relative md:top-0 md:right-0 bg-mittelgruen md:bg-transparent"
-		     @click.stop>
+		     class="top-14 md:top-2 flex-col items-center w-full absolute md:flex md:flex-row md:items-center md:justify-end md:w-auto bg-mittelgruen md:bg-transparent">
+			
 			<!-- Menu links -->
 			<a href="{{ LaravelLocalization::localizeUrl('/') }}"
 			   class="top-menu  md:w-auto text-center p-4">{{ __('Home') }}</a>
@@ -18,8 +18,7 @@
 			   class="top-menu  md:w-auto text-center p-4">{{ __('Portfolio') }}</a>
 			<a href="{{ LaravelLocalization::localizeUrl('/#technologies') }}"
 			   class="top-menu  md:w-auto text-center p-4">{{ __('Tecnología') }}</a>
-				<!-- Add more links as needed -->
-			</div>
+			<!-- Add more links as needed -->
 		</div>
 	</div>
 </div>
