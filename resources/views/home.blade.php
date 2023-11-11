@@ -9,12 +9,12 @@
 		
 		<!-- Hero Section -->
 		<section class="">
-			<div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
+			<div class="container mx-auto flex px-5 items-center justify-center flex-col py-10 md:py-12 lg:py-16">
 				<div class="text-center lg:w-2/3 w-full">
-					<h1 class="mb-4 ">
+					<h1 class="mb-5 leading-relaxed">
 						{{ __('Transformamos Ideas en Aplicaciones Web Innovadoras') }}
 					</h1>
-					<p class="mb-8">
+					<p class="mb-8 ">
 						{{ __('En Martin Schenk S.L., llevamos más de 20 años convirtiendo ideas en soluciones web efectivas y personalizadas. Tu visión, convertida en realidad.') }}
 					</p>
 					<div class="flex justify-center">
@@ -102,7 +102,7 @@
 					    style="scroll-margin-top: 100px;">
 						{{ __('Portafolio de Proyectos') }}
 					</h2>
-					<p class="lg:w-2/3 mx-auto leading-relaxed text-base">
+					<p class="lg:w-2/3 mx-auto  text-base">
 						{{ __('Nuestro portfolio refleja la diversidad y la adaptabilidad a las necesidades específicas de cada cliente:') }}
 					</p>
 				</div>
@@ -113,7 +113,7 @@
 					<!-- ChatKraft -->
 					<div class="p-4 md:w-1/2 w-full">
 						<div class="h-full bg-white border-2 border-gray-300 p-8">
-							<p class="leading-relaxed mb-6">{{ __('Más que un chatbot, es una base de conocimiento impulsada por IA que mejora la experiencia del cliente y las operaciones internas.') }}</p>
+							<p class="mb-6">{{ __('Más que un chatbot, es una base de conocimiento impulsada por IA que mejora la experiencia del cliente y las operaciones internas.') }}</p>
 							<div class="inline-flex items-center">
 								<div>
 									<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -132,7 +132,7 @@
 					<!-- Plataformas para Interim Managers -->
 					<div class="p-4 md:w-1/2 w-full">
 						<div class="h-full bg-white border-2 border-gray-300 p-8">
-							<p class="leading-relaxed mb-6">{{ __('Conexión eficiente entre profesionales y oportunidades laborales, gracias a un algoritmo de emparejamiento avanzado.') }}</p>
+							<p class=" mb-6">{{ __('Conexión eficiente entre profesionales y oportunidades laborales, gracias a un algoritmo de emparejamiento avanzado.') }}</p>
 							<div class="inline-flex items-center">
 								<div>
 									<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -152,7 +152,7 @@
 					<!-- Herramientas de Valoración de Marcas para Multinacionales -->
 					<div class="p-4 md:w-1/2 w-full">
 						<div class="h-full bg-white border-2 border-gray-300 p-8">
-							<p class="leading-relaxed mb-6">{{ __('Sistemas SaaS para grandes firmas de auditoría, especializados en la valoración de marcas de envergadura.') }}</p>
+							<p class=" mb-6">{{ __('Sistemas SaaS para grandes firmas de auditoría, especializados en la valoración de marcas de envergadura.') }}</p>
 							<div class="inline-flex items-center">
 								<div>
 									<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -172,7 +172,7 @@
 					<!-- Sistemas de Reservas Personalizados -->
 					<div class="p-4 md:w-1/2 w-full">
 						<div class="h-full bg-white border-2 border-gray-300 p-8 ">
-							<p class="leading-relaxed mb-6">{{ __('Soluciones adaptadas para gimnasios, work centers, coches y escape rooms.') }}</p>
+							<p class=" mb-6">{{ __('Soluciones adaptadas para gimnasios, work centers, coches y escape rooms.') }}</p>
 							<div class="inline-flex items-center">
 								<div>
 									<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -192,7 +192,7 @@
 					<!-- Tienda Online para una Fábrica de Frutas Deshidratadas -->
 					<div class="p-4 md:w-1/2 w-full">
 						<div class="h-full bg-white border-2 border-gray-300 p-8">
-							<p class="leading-relaxed mb-6">{{ __('Desarrollo completo para maximizar eficiencia en ventas y administración.') }}</p>
+							<p class=" mb-6">{{ __('Desarrollo completo para maximizar eficiencia en ventas y administración.') }}</p>
 							<div class="inline-flex items-center">
 								<div>
 									<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -212,7 +212,7 @@
 					<!-- Mercado para Periodistas Freelance -->
 					<div class="p-4 md:w-1/2 w-full">
 						<div class="h-full bg-white border-2 border-gray-300 p-8">
-							<p class="leading-relaxed mb-6">{{ __('Plataforma que permite a los periodistas vender su contenido directamente a medios de comunicación.') }}</p>
+							<p class=" mb-6">{{ __('Plataforma que permite a los periodistas vender su contenido directamente a medios de comunicación.') }}</p>
 							<div class="inline-flex items-center">
 								<div>
 									<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -232,7 +232,7 @@
 					<!-- Motor de Búsqueda para Piezas de Autos Usadas -->
 					<div class="p-4 md:w-1/2 w-full">
 						<div class="h-full bg-white border-2 border-gray-300 p-8">
-							<p class="leading-relaxed mb-6">{{ __('Plataforma para piezas de coches de segunda mano, con SEO para Google, multilingüe, y con interfaz fácil para subir fotos y cálculo automático de precios de envío.') }}</p>
+							<p class=" mb-6">{{ __('Plataforma para piezas de coches de segunda mano, con SEO para Google, multilingüe, y con interfaz fácil para subir fotos y cálculo automático de precios de envío.') }}</p>
 							<div class="inline-flex items-center">
 								<div>
 									<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -252,7 +252,7 @@
 					<!-- Aplicación Web para la Asociación Española de Pediatría -->
 					<div class="p-4 md:w-1/2 w-full">
 						<div class="h-full bg-white border-2 border-gray-300 p-8">
-							<p class="leading-relaxed mb-6">{{ __('Plataforma para exámenes y certificación online de pediatras, complementada con noticias y artículos del sector.') }}</p>
+							<p class=" mb-6">{{ __('Plataforma para exámenes y certificación online de pediatras, complementada con noticias y artículos del sector.') }}</p>
 							<div class="inline-flex items-center">
 								<div>
 									<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -272,7 +272,7 @@
 					<!-- Palimpalem -->
 					<div class="p-4 md:w-1/2 w-full">
 						<div class="h-full bg-white border-2 border-gray-300 p-8">
-							<p class="leading-relaxed mb-6">{{ __('Nuestro primer gran proyecto, un robusto y versátil constructor de páginas web, con más de 1.4 millones de páginas creadas.') }}</p>
+							<p class=" mb-6">{{ __('Nuestro primer gran proyecto, un robusto y versátil constructor de páginas web, con más de 1.4 millones de páginas creadas.') }}</p>
 							<div class="inline-flex items-center">
 								<div>
 									<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
