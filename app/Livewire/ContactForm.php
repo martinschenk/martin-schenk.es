@@ -38,6 +38,7 @@ class ContactForm extends Component implements HasForms, HasActions
                 ->label(__('Tu correo electrónico')),
             Textarea::make('message')
                 ->required()
+                ->rows(5)
                 ->label(__('Tu Mensaje')),
         ])
         
