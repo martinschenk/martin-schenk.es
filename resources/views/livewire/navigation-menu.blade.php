@@ -11,22 +11,22 @@
 			
 			<!-- Menu links -->
 			<a href="{{ LaravelLocalization::localizeUrl('/') }}"
-			   class="top-menu  md:w-auto text-center p-4"
+			   class="top-menu w-full md:w-auto text-center p-4"
 			   @click="open = false">
 				{{ __('Home') }}
 			</a>
 			<a href="{{ LaravelLocalization::localizeUrl('/#services') }}"
-			   class="top-menu  md:w-auto text-center p-4"
+			   class="top-menu w-full md:w-auto text-center p-4"
 			   @click="open = false">
 				{{ __('Servicios') }}
 			</a>
 			<a href="{{ LaravelLocalization::localizeUrl('/#portfolio') }}"
-			   class="top-menu  md:w-auto text-center p-4"
+			   class="top-menu w-full md:w-auto text-center p-4"
 			   @click="open = false">
 				{{ __('Portfolio') }}
 			</a>
 			<a href="{{ LaravelLocalization::localizeUrl('/#technologies') }}"
-			   class="top-menu  md:w-auto text-center p-4"
+			   class="top-menu w-full md:w-auto text-center p-4"
 			   @click="open = false">
 				{{ __('Tecnología') }}
 			</a>
