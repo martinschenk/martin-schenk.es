@@ -1923,6 +1923,26 @@ a:hover {
     }
 }
 
+.top-menu {
+    display: block;
+    padding: .5rem 1rem;
+    font-family: Montserrat, sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 500;
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+    text-decoration-line: none
+}
+
+.top-menu:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgb(36 205 156 / var(--tw-bg-opacity));
+    font-weight: 500;
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity))
+}
+
 .landing-header, .menu {
     --tw-bg-opacity: 1;
     background-color: rgb(45 132 113 / var(--tw-bg-opacity));
@@ -2041,6 +2061,10 @@ a:hover {
 
 .top-0 {
     top: 0px
+}
+
+.top-14 {
+    top: 3.5rem
 }
 
 .top-4 {
@@ -5270,6 +5294,10 @@ a:hover {
 }
 
 @media (min-width: 768px) {
+    .md\:top-2 {
+        top: .5rem
+    }
+
     .md\:order-first {
         order: -9999
     }
@@ -5296,6 +5324,10 @@ a:hover {
 
     .md\:block {
         display: block
+    }
+
+    .md\:flex {
+        display: flex
     }
 
     .md\:inline-grid {
@@ -5328,6 +5360,10 @@ a:hover {
 
     .md\:w-44 {
         width: 11rem
+    }
+
+    .md\:w-auto {
+        width: auto
     }
 
     .md\:max-w-2xl {
@@ -5363,6 +5399,14 @@ a:hover {
         align-items: flex-start
     }
 
+    .md\:items-center {
+        align-items: center
+    }
+
+    .md\:justify-end {
+        justify-content: flex-end
+    }
+
     .md\:divide-y-0 > :not([hidden]) ~ :not([hidden]) {
         --tw-divide-y-reverse: 0;
         border-top-width: calc(0px * calc(1 - var(--tw-divide-y-reverse)));
@@ -5375,6 +5419,10 @@ a:hover {
 
     .md\:border-t-0 {
         border-top-width: 0px
+    }
+
+    .md\:bg-transparent {
+        background-color: transparent
     }
 
     .md\:p-20 {
