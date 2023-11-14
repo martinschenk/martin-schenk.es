@@ -108,6 +108,6 @@
 		$currentYear = date('Y');
 	@endphp
 	<div class="text-xs text-center">
-		© 1999 - {{ $currentYear }} Martin Schenk S.L., Madrid, España
+		© 1999 - {{ $currentYear }} Martin Schenk S.L., Madrid, {{ __('España') }}
 	</div>
 </footer>
