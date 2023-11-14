@@ -315,6 +315,8 @@
 				<div class="flex justify-center flex-wrap py-4">
 					<!-- Logo Container -->
 					<div class="flex flex-wrap justify-center m-3">
+						<!-- OpenAI Logo mit grauem Rahmen -->
+						<img class="h-6 xl:h-10 lg:h-10 sm:h-8  m-4 mt-3" src="{{ asset('/img/logo-openai.png') }}" alt="OpenAI">
 						<!-- Laravel Logo mit grauem Rahmen -->
 						<img class="h-6 xl:h-10 lg:h-10 sm:h-8  m-4 mt-3" src="{{ asset('/img/logo-laravel.png') }}" alt="Laravel">
 						<!-- Livewire Logo -->
@@ -331,6 +333,8 @@
 						     alt="Filament">
 						<!-- PHP Logo -->
 						<img class="h-5 xl:h-8 lg:h-8 sm:h-6 xs:h-5 m-4" src="{{ asset('/img/logo-php.png') }}" alt="PHP">
+						<!-- Plesk Logo -->
+						<img class="h-6 xl:h-10 lg:h-10 sm:h-8  m-4 mt-3" src="{{ asset('/img/logo-plesk.png') }}" alt="Plesk">
 					</div>
 				</div>
 			</div>
