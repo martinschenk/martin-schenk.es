@@ -2,7 +2,7 @@
 
 namespace App\Livewire;
 
-use App\Mail\ContactMail;
+use App\Mail\PresupuestoMail;
 use Filament\Actions\Action;
 use Filament\Actions\Concerns\InteractsWithActions;
 use Filament\Actions\Contracts\HasActions;
@@ -14,7 +14,7 @@ use Filament\Notifications\Notification;
 use Illuminate\Support\Facades\Mail;
 use Livewire\Component;
 
-class ContactForm extends Component implements HasForms, HasActions
+class PresupuestoForm extends Component implements HasForms, HasActions
 {
   use InteractsWithActions;
   use InteractsWithForms;
@@ -22,15 +22,15 @@ class ContactForm extends Component implements HasForms, HasActions
   public $email;
   public $message;
   
-  public function contactAction(): Action
+  public function presupuestoAction(): Action
   {
-    return Action::make('contact')
-        ->label(__('Contáctanos'))
-        ->modalHeading(__('Tus preguntas son bienvenidas'))
+    return Action::make('presupuesto')
+        ->label(__('Solicitar Presupuesto'))
+        ->modalHeading(__('¿Interesado en nuestros servicios? Rellene el siguiente formulario con una breve descripción de sus necesidades y le enviaremos un presupuesto personalizado lo antes posible.'))
         //->modalDescription(__('Si tiene alguna pregunta, no dude en contactarnos.'))
         ->modalSubmitActionLabel(__('Enviar'))
         ->button()
-        ->extraAttributes(['class' => ' w-full sm:w-auto inline-flex items-center justify-center  text-white bg-buttongruen border-0  px-6 focus:outline-none hover:bg-emerald-200 rounded-0 text-xl sm:text-lg mr-4 my-3 sm:my-0 py-5 sm:py-2', 'style' => 'font-weight: 400; border-radius: 0rem; '])
+        ->extraAttributes(['class' => ' w-full sm:w-auto inline-flex items-center justify-center text-white bg-buttongruen border-0 px-6 focus:outline-none hover:bg-emerald-200 rounded-0 text-xl sm:text-lg mr-4 my-3 sm:my-0 py-5 sm:py-2', 'style' => 'font-weight: 400; border-radius: 0rem;'])
         ->form([
             TextInput::make('email')
                 ->email()
@@ -54,7 +54,7 @@ class ContactForm extends Component implements HasForms, HasActions
   
   public function sendEmail(): void
   {
-    Mail::to('mschenk.pda@gmail.com')->send(new ContactMail($this->email, $this->message));
+    Mail::to('mschenk.pda@gmail.com')->send(new PresupuestoMail($this->email, $this->message));
   }
   
   public function sendNotification(): void

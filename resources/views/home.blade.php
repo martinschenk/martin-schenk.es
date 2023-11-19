@@ -11,23 +11,25 @@
 		<section class="">
 			<div class="container mx-auto flex px-5 items-center justify-center flex-col py-10 md:py-12 lg:py-16">
 				<div class="text-center lg:w-2/3 w-full">
+					
 					<h1 class="mb-5 leading-relaxed">
 						{{ __('Transformamos Ideas en Aplicaciones Web Innovadoras') }}
 					</h1>
+					
 					<p class="mb-8 ">
 						{{ __('En Martin Schenk S.L., llevamos más de 20 años convirtiendo ideas en soluciones web efectivas y personalizadas. Tu visión, convertida en realidad.') }}
 					</p>
-					<div class="flex justify-center">
-						{{--@livewire('test-notification')--}}
+					
+					<div class="flex flex-col sm:flex-row justify-center w-full">
+						
 						@livewire('contact-form')
-						{{--<button
-							 class="inline-flex text-white bg-mittelgruen border-0 py-2 px-6 focus:outline-none hover:bg-teal-600   text-sm sm:text-lg">
-							 {{ __('Contáctanos') }}
-						</button>--}}
+
 						<a href="#portfolio"
-						   class="ml-4 inline-flex items-center justify-center text-gray-700 bg-grau border-0 py-2 px-6 focus:outline-none hover:bg-gray-300 hover:text-gray-800   no-underline text-sm sm:text-lg">
-							{{ __('Ver Proyectos') }}
+						   class="w-full sm:w-auto inline-flex items-center justify-center text-gray-700 bg-grau border-0 px-6 focus:outline-none hover:bg-gray-300 hover:text-gray-800   no-underline text-lg sm:text-lg mr-4 my-3 sm:my-0 py-5 sm:py-2">
+							{{ __('Proyectos') }}
 						</a>
+						
+						@livewire('presupuesto-form')
 					
 					</div>
 				</div>
