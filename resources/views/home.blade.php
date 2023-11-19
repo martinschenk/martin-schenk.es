@@ -47,17 +47,19 @@
 				</div>
 				
 				<div class="flex flex-wrap -m-4">
-					<div class="flex flex-col p-4 lg:w-1/2 md:w-1/2 w-full">
-						<div class="flex-grow border-2 border-gray-300 px-8 py-6">
-							<x-heroicon-o-light-bulb class="text-mittelgruen w-12 h-12 mb-3 inline-block"/>
-							<h3 class="">
+					
+					<div class="flex flex-col p-4 lg:w-1/2 md:w-1/2 w-full bg-mittelgruen">
+						<div class="flex-grow border-2 border-gray-300 px-8 py-6 bg-mittelgruen">
+							<x-heroicon-o-light-bulb class="text-weiss w-12 h-12 mb-3 inline-block hover-trigger-div-sections"/>
+							<h3 class="text-weiss">
 								{{ __('Aplicaciones Web a Medida') }}
 							</h3>
-							<p class="">
+							<p class="text-weiss">
 								{{ __('Desarrollo personalizado para materializar tus ideas en soluciones web únicas y eficientes.') }}
 							</p>
 						</div>
 					</div>
+					
 					<div class="flex flex-col p-4 lg:w-1/2 md:w-1/2 w-full">
 						<div class="flex-grow border-2 border-gray-300 px-8 py-6">
 							<x-heroicon-o-puzzle-piece class="text-mittelgruen w-12 h-12 mb-3 inline-block"/>
@@ -69,6 +71,7 @@
 							</p>
 						</div>
 					</div>
+					
 					<div class="flex flex-col p-4 lg:w-1/2 md:w-1/2 w-full">
 						<div class="flex-grow border-2 border-gray-300 px-8 py-6">
 							<x-heroicon-o-chat-bubble-left-right class="text-mittelgruen w-12 h-12 mb-3 inline-block"/>
@@ -80,6 +83,7 @@
 							</p>
 						</div>
 					</div>
+					
 					<div class="flex flex-col p-4 lg:w-1/2 md:w-1/2 w-full">
 						<div class="flex-grow border-2 border-gray-300 px-8 py-6">
 							<x-heroicon-o-server class="text-mittelgruen w-12 h-12 mb-3 inline-block"/>
@@ -91,6 +95,7 @@
 							</p>
 						</div>
 					</div>
+				
 				</div>
 			</div>
 		</section>

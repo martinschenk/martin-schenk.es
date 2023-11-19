@@ -62,6 +62,10 @@
         @apply bg-mittelgruen text-weiss;
     }
 
+    .hover-trigger:hover .hover-target-text {
+        @apply text-weiss;
+    }
+
 
 }
 
