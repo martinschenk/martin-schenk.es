@@ -2174,6 +2174,11 @@ a:hover {
     margin-bottom: -.25rem
 }
 
+.mx-1 {
+    margin-left: .25rem;
+    margin-right: .25rem
+}
+
 .mx-3 {
     margin-left: .75rem;
     margin-right: .75rem
