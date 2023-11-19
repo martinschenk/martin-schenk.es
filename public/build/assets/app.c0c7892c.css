@@ -3948,7 +3948,7 @@ a:hover {
     color: rgb(220 38 38 / var(--tw-text-opacity))
 }
 
-.text-white {
+.text-weiss, .text-white {
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity))
 }
@@ -4378,6 +4378,11 @@ a:hover {
 .hover\:text-gray-900:hover {
     --tw-text-opacity: 1;
     color: rgba(var(--gray-900), var(--tw-text-opacity))
+}
+
+.hover\:text-weiss:hover, .hover\:text-white:hover {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity))
 }
 
 .hover\:underline:hover {
