@@ -26,7 +26,7 @@ class PresupuestoForm extends Component implements HasForms, HasActions
   {
     return Action::make('presupuesto')
         ->label(__('Solicitar Presupuesto'))
-        ->modalHeading(__('¿Interesado en nuestros servicios? Rellene el siguiente formulario con una breve descripción de sus necesidades y le enviaremos un presupuesto personalizado lo antes posible.'))
+        ->modalHeading(__('¿Interesado en nuestros servicios? Rellene el siguiente formulario con una breve descripción de sus necesidades.'))
         //->modalDescription(__('Si tiene alguna pregunta, no dude en contactarnos.'))
         ->modalSubmitActionLabel(__('Enviar'))
         ->button()
