@@ -275,7 +275,7 @@
 					{{--Mammuts alquiler de servidores vps--}}
 					<div class="p-4 md:w-1/2 w-full">
 						<div class="h-full bg-white border-2 border-gray-300 p-8">
-							<p class=" mb-6">{{ __('Servidores VPS configurables y pagables en línea, disponibles y listos para usar en tan solo 15 minutos gracias a la configuración automática.') }}</p>
+							<p class=" mb-6">{{ __('Configure y pague sus servidores VPS en línea, y estarán disponibles y listos para usar en solo 15 minutos, gracias a la configuración automática.') }}</p>
 							<div class="inline-flex items-center">
 								<div>
 									<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
