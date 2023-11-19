@@ -48,13 +48,13 @@
 				
 				<div class="flex flex-wrap -m-4">
 					
-					<div class="flex flex-col p-4 lg:w-1/2 md:w-1/2 w-full bg-mittelgruen">
-						<div class="flex-grow border-2 border-gray-300 px-8 py-6 bg-mittelgruen">
-							<x-heroicon-o-light-bulb class="text-weiss w-12 h-12 mb-3 inline-block hover-trigger-div-sections"/>
-							<h3 class="text-weiss">
+					<div class="flex flex-col p-4 lg:w-1/2 md:w-1/2 w-full ">
+						<div class="flex-grow border-2 xborder-gray-300 px-8 py-6 bg-mittelgruen">
+							<x-heroicon-o-light-bulb class="text-white w-12 h-12 mb-3 inline-block hover-trigger-div-sections"/>
+							<h3 class="text-white">
 								{{ __('Aplicaciones Web a Medida') }}
 							</h3>
-							<p class="text-weiss">
+							<p class="text-white">
 								{{ __('Desarrollo personalizado para materializar tus ideas en soluciones web únicas y eficientes.') }}
 							</p>
 						</div>
