@@ -239,6 +239,24 @@
 					referencia para nuestros clientes y visitantes.</p>
 				
 				
+				<h2>Uso de Imágenes Generadas por Inteligencia Artificial</h2>
+				
+				<p>En Martin Schenk S.L., algunas de las imágenes utilizadas en nuestro sitio web, como la denominada
+					"robot-yellow-2-1024w.jpg" y sus variantes, han sido generadas por herramientas de inteligencia artificial
+					(IA), incluyendo Midjourney. De acuerdo con la legislación actual en España, las imágenes creadas por máquinas
+					no están consideradas obras protegidas por las leyes de propiedad intelectual, lo que significa que no gozan
+					de derechos de autor por ser inexistentes.</p>
+				
+				<p>Esto implica que ni las empresas detrás de las herramientas de IA, como Midjourney, ni los usuarios que
+					proporcionan descripciones textuales para la generación de imágenes, son considerados autores de las mismas en
+					el sentido legal de los derechos de autor. Por lo tanto, los derechos de autor no serían atribuibles ni a las
+					empresas tecnológicas ni a los individuos que utilizan estas herramientas.</p>
+				
+				<p>En este sentido, Martin Schenk, como creador de las imágenes en cuestión y titular de Martin Schenk S.L.,
+					hace uso de estas imágenes en el sitio web de la empresa para propósitos informativos y descriptivos, en línea
+					con las disposiciones legales vigentes y los términos de uso de la herramienta de IA utilizada.</p>
+				
+				
 				<h2>Jurisdicción</h2>
 				<p>
 					Este Aviso Legal se rige íntegramente por la legislación española.
