@@ -49,7 +49,7 @@
 				<div class="flex flex-wrap -m-4">
 					
 					<div class="flex flex-col p-4 lg:w-1/2 md:w-1/2 w-full ">
-						<div class="flex-grow border-2 xborder-gray-300 px-8 py-6 bg-mittelgruen">
+						<div class="flex-grow border-2 xborder-gray-300 px-8 py-6 bg-mittelgruen hover:bg-gruen cursor-pointer">
 							<x-heroicon-o-light-bulb class="text-white w-12 h-12 mb-3 inline-block hover-trigger-div-sections"/>
 							<h3 class="text-white">
 								{{ __('Aplicaciones Web a Medida') }}
