@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\CanvasUiController;
 use Filament\Notifications\Notification;
 use Illuminate\Support\Facades\Route;
 use Livewire\Livewire;
@@ -67,9 +68,25 @@ Route::group([
 });
 
 
-
-
-
-
-
-
+Route::prefix('canvas-ui')->group(function () {
+  Route::prefix('api')->group(function () {
+    Route::get('posts', [CanvasUiController::class, 'getPosts']);
+    Route::get('posts/{slug}', [CanvasUiController::class, 'showPost'])
+        ->middleware('Canvas\Http\Middleware\Session');
+    
+    Route::get('tags', [CanvasUiController::class, 'getTags']);
+    Route::get('tags/{slug}', [CanvasUiController::class, 'showTag']);
+    Route::get('tags/{slug}/posts', [CanvasUiController::class, 'getPostsForTag']);
+    
+    Route::get('topics', [CanvasUiController::class, 'getTopics']);
+    Route::get('topics/{slug}', [CanvasUiController::class, 'showTopic']);
+    Route::get('topics/{slug}/posts', [CanvasUiController::class, 'getPostsForTopic']);
+    
+    Route::get('users/{id}', [CanvasUiController::class, 'showUser']);
+    Route::get('users/{id}/posts', [CanvasUiController::class, 'getPostsForUser']);
+  });
+  
+  Route::get('/{view?}', [CanvasUiController::class, 'index'])
+      ->where('view', '(.*)')
+      ->name('canvas-ui');
+});

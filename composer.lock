@@ -4,48 +4,44 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-  "content-hash": "ca5cd1c372e3ebcfae05df620dd93956",
+  "content-hash": "abb5f39d5986c9a078531f16cc317d61",
     "packages": [
         {
-          "name": "barryvdh/laravel-translation-manager",
-          "version": "v0.6.5",
+          "name": "austintoddj/canvas",
+          "version": "v6.0.52",
           "source": {
             "type": "git",
-            "url": "https://github.com/barryvdh/laravel-translation-manager.git",
-            "reference": "cfa0484084b5372f52d208bfa6f13aaaa11afaa5"
+            "url": "https://github.com/austintoddj/canvas.git",
+            "reference": "b823226b99667919329850f13585170023482ece"
           },
           "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/barryvdh/laravel-translation-manager/zipball/cfa0484084b5372f52d208bfa6f13aaaa11afaa5",
-            "reference": "cfa0484084b5372f52d208bfa6f13aaaa11afaa5",
+            "url": "https://api.github.com/repos/austintoddj/canvas/zipball/b823226b99667919329850f13585170023482ece",
+            "reference": "b823226b99667919329850f13585170023482ece",
             "shasum": ""
           },
           "require": {
-            "illuminate/support": "^9|^10",
-            "illuminate/translation": "^9|^10",
-            "php": ">=7.2",
-            "symfony/finder": "^6"
+            "ext-json": "*",
+            "laravel/framework": "^6.0|^7.0|^8.0|^9.0|^10.0",
+            "php": "^7.3|^8.0"
           },
           "require-dev": {
-            "orchestra/testbench": "^7|^8"
-          },
-          "suggest": {
-            "tanmuhittin/laravel-google-translate": "If you want to translate using Google API"
+            "laravel/legacy-factories": "^1.0",
+            "mockery/mockery": "^1.4",
+            "orchestra/testbench": "^4.0|^5.0|^6.0|^7.0|^8.0",
+            "phpunit/phpunit": "^9.0|^10.0"
           },
           "type": "library",
           "extra": {
-            "branch-alias": {
-              "dev-master": "0.6-dev"
-            },
             "laravel": {
               "providers": [
-                "Barryvdh\\TranslationManager\\ManagerServiceProvider"
+                "Canvas\\CanvasServiceProvider"
               ]
             }
           },
           "autoload": {
             "psr-4": {
-              "Barryvdh\\TranslationManager\\": "src/"
+              "Canvas\\": "src/"
             }
           },
           "notification-url": "https://packagist.org/downloads/",
@@ -54,21 +50,94 @@
           ],
           "authors": [
             {
-              "name": "Barry vd. Heuvel",
-              "email": "barryvdh@gmail.com"
+              "name": "Todd Austin",
+              "email": "austin.todd.j@gmail.com"
             }
           ],
-          "description": "Manage Laravel Translations",
+          "description": "A Laravel publishing platform",
+          "homepage": "https://trycanvas.app",
           "keywords": [
+            "blog",
+            "canvas",
             "laravel",
-            "translations",
-            "translator"
+            "platform",
+            "publishing"
           ],
           "support": {
-            "issues": "https://github.com/barryvdh/laravel-translation-manager/issues",
-            "source": "https://github.com/barryvdh/laravel-translation-manager/tree/v0.6.5"
+            "issues": "https://github.com/austintoddj/canvas/issues",
+            "source": "https://github.com/austintoddj/canvas"
           },
-          "time": "2023-06-05T10:20:47+00:00"
+          "funding": [
+            {
+              "url": "https://github.com/austintoddj",
+              "type": "github"
+            }
+          ],
+          "time": "2023-10-30T19:40:19+00:00"
+        },
+      {
+        "name": "barryvdh/laravel-translation-manager",
+        "version": "v0.6.5",
+        "source": {
+          "type": "git",
+          "url": "https://github.com/barryvdh/laravel-translation-manager.git",
+          "reference": "cfa0484084b5372f52d208bfa6f13aaaa11afaa5"
+        },
+        "dist": {
+          "type": "zip",
+          "url": "https://api.github.com/repos/barryvdh/laravel-translation-manager/zipball/cfa0484084b5372f52d208bfa6f13aaaa11afaa5",
+          "reference": "cfa0484084b5372f52d208bfa6f13aaaa11afaa5",
+          "shasum": ""
+        },
+        "require": {
+          "illuminate/support": "^9|^10",
+          "illuminate/translation": "^9|^10",
+          "php": ">=7.2",
+          "symfony/finder": "^6"
+        },
+        "require-dev": {
+          "orchestra/testbench": "^7|^8"
+        },
+        "suggest": {
+          "tanmuhittin/laravel-google-translate": "If you want to translate using Google API"
+        },
+        "type": "library",
+        "extra": {
+          "branch-alias": {
+            "dev-master": "0.6-dev"
+          },
+          "laravel": {
+            "providers": [
+              "Barryvdh\\TranslationManager\\ManagerServiceProvider"
+            ]
+          }
+        },
+        "autoload": {
+          "psr-4": {
+            "Barryvdh\\TranslationManager\\": "src/"
+          }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+          "MIT"
+        ],
+        "authors": [
+          {
+            "name": "Barry vd. Heuvel",
+            "email": "barryvdh@gmail.com"
+          }
+        ],
+        "description": "Manage Laravel Translations",
+        "keywords": [
+          "laravel",
+          "translations",
+          "translator"
+        ],
+        "support": {
+          "issues": "https://github.com/barryvdh/laravel-translation-manager/issues",
+          "source": "https://github.com/barryvdh/laravel-translation-manager/tree/v0.6.5"
+        },
+        "time": "2023-06-05T10:20:47+00:00"
         },
       {
         "name": "blade-ui-kit/blade-heroicons",
