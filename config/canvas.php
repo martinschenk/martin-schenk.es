@@ -27,6 +27,7 @@ return [
   */
     
     'path' => env('CANVAS_PATH', 'canvas'),
+  //'path' => env('CANVAS_PATH', 'blog'),
   
   /*
   |--------------------------------------------------------------------------
@@ -90,5 +91,6 @@ return [
     'mail' => [
         'enabled' => env('CANVAS_MAIL_ENABLED', false),
     ],
+
 
 ];
