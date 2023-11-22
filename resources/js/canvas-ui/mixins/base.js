@@ -39,7 +39,7 @@ export default {
                         break;
                 }
 
-                return Promise.reject({...error});
+                return Promise.reject({ ...error });
             };
 
             const successHandler = (response) => {
