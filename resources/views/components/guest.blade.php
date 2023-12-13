@@ -5,7 +5,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <meta name="csrf-token" content="{{ csrf_token() }}">
 
-   <!-- Descripción estándar para motores de búsqueda -->
+   <!-- xx Descripción estándar para motores de búsqueda -->
    <meta name="description"
          content="Martin Schenk S.L.: Especialistas en el desarrollo de aplicaciones web a medida y soluciones integrales para negocios. Más de 20 años transformando ideas en realidades digitales eficaces.">
 
@@ -25,8 +25,12 @@
    <meta name="twitter:description"
          content="Martin Schenk S.L. se destaca en el desarrollo de aplicaciones web a medida, utilizando tecnologías avanzadas para ofrecer soluciones digitales únicas y eficaces.">
    <meta name="twitter:image" content="{{ asset('/img/logo-martin-schenk-dunkel.svg') }}">
-
-
+   
+   <!-- hreflang -->
+   <link rel="alternate" hreflang="x-default" href="https://www.martin-schenk.es/en" />
+   <link rel="alternate" hreflang="en" href="https://www.martin-schenk.es/en" />
+   <link rel="alternate" hreflang="es" href="https://www.martin-schenk.es/es" />
+   <link rel="alternate" hreflang="de" href="https://www.martin-schenk.es/de" />
 
    <title class="">{{ $title.' | ' ?? '' }}  {{ config('app.name', 'Martin Schenk S.L.') }}</title>
 
