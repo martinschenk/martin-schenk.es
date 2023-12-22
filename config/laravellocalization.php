@@ -345,4 +345,6 @@ return [
     'urlsIgnored' => ['/skipped', '/admin/*'],
     
     'httpMethodsIgnored' => ['POST', 'PUT', 'PATCH', 'DELETE'],
+  
+  
 ];

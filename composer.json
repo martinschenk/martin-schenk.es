@@ -18,7 +18,6 @@
     "filament/notifications": "^3.0-stable",
     "guzzlehttp/guzzle": "^7.2",
     "intervention/image": "^2.7",
-    "laravel-lang/json-fallback-hotfix": "^1.1",
     "laravel/framework": "^10.0",
     "laravel/sanctum": "^3.2",
     "laravel/tinker": "^2.7",
