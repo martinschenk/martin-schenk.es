@@ -49,12 +49,12 @@
 				<div class="flex flex-wrap -m-4">
 					
 					<div class="flex flex-col p-4 lg:w-1/2 md:w-1/2 w-full ">
-						<div class="flex-grow border-2 xborder-gray-300 px-8 py-6 bg-mittelgruen hover:bg-gruen cursor-pointer">
-							<x-heroicon-o-light-bulb class="text-white w-12 h-12 mb-3 inline-block hover-trigger-div-sections"/>
-							<h3 class="text-white">
+						<div class="flex-grow border-2 border-gray-300 px-8 py-6 xcursor-pointer">
+							<x-heroicon-o-light-bulb class="text-mittelgruen w-12 h-12 mb-3 inline-block"/>
+							<h3 class="">
 								{{ __('Aplicaciones Web a Medida') }}
 							</h3>
-							<p class="text-white">
+							<p class="">
 								{{ __('Desarrollo personalizado para materializar tus ideas en soluciones web únicas y eficientes.') }}
 							</p>
 						</div>
