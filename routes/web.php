@@ -68,7 +68,7 @@ Route::group([
 });
 
 
-/*Route::prefix('canvas-ui')->group(function () {
+Route::prefix('canvas-ui')->group(function () {
     Route::prefix('api')->group(function () {
         Route::get('posts', [\App\Http\Controllers\CanvasUiController::class, 'getPosts']);
         Route::get('posts/{slug}', [\App\Http\Controllers\CanvasUiController::class, 'showPost'])
@@ -89,4 +89,4 @@ Route::group([
     Route::get('/{view?}', [\App\Http\Controllers\CanvasUiController::class, 'index'])
          ->where('view', '(.*)')
          ->name('canvas-ui');
-});*/
+});
