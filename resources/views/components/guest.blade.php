@@ -31,7 +31,7 @@
    <link rel="alternate" hreflang="en" href="https://www.martin-schenk.es/en" />
    <link rel="alternate" hreflang="es" href="https://www.martin-schenk.es/es" />
    <link rel="alternate" hreflang="de" href="https://www.martin-schenk.es/de" />
-
+   
    <title class="">{{ $title.' | ' ?? '' }}  {{ config('app.name', 'Martin Schenk S.L.') }}</title>
 
    <style>
@@ -44,9 +44,15 @@
    <link rel="shortcut icon" type="image/png" href="{{ asset('/img/martin-schenk-favicon.png') }}">
    <link rel="shortcut icon" sizes="192x192" href="{{ asset('/img/martin-schenk-favicon.png') }}">
    
+   
+   
    @livewireStyles
    @filamentStyles
    @vite('resources/css/app.css')
+   
+   {{--glightbox--}}
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+   <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
 </head>
 <body class="flex flex-col h-screen">
 

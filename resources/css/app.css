@@ -66,6 +66,10 @@
         @apply text-weiss;
     }
 
+    #open-gallery {
+        cursor: pointer;
+    }
+
 
 }
 

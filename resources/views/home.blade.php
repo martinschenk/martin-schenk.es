@@ -30,7 +30,7 @@
 						</a>
 						
 						@livewire('presupuesto-form')
-					
+						
 					</div>
 				</div>
 			</div>
@@ -278,7 +278,7 @@
 					
 					
 					{{--Mammuts alquiler de servidores vps--}}
-					<div class="p-4 md:w-1/2 w-full">
+					<div id="open-gallery" class="p-4 md:w-1/2 w-full">
 						<div class="h-full bg-white border-2 border-gray-300 p-8">
 							<p class=" mb-6">{{ __('Configure y pague sus servidores VPS en línea, y estarán disponibles y listos para usar en solo 15 minutos, gracias a la configuración automática.') }}</p>
 							<div class="inline-flex items-center">
@@ -369,6 +369,26 @@
 				</div>
 			</div>
 		</section>
+		
+		
+		<div style="display: none;">
+			<a href="/img/mammuts1.png" class="glightbox" data-gallery="gallery1">Image 1</a>
+			<a href="/img/mammuts2.png" class="glightbox" data-gallery="gallery1">Image 2</a>
+			<a href="/img/mammuts3.png" class="glightbox" data-gallery="gallery1">Image 3</a>
+			<a href="/img/mammuts4.png" class="glightbox" data-gallery="gallery1">Image 4</a>
+			<!-- Add more images as needed -->
+		</div>
+		
+		<script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const lightbox = GLightbox();
+
+            // Attach click event to the button
+            document.getElementById('open-gallery').addEventListener('click', function() {
+                lightbox.open();
+            });
+        });
+		</script>
 
 
 </x-guest>
