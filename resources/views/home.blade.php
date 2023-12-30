@@ -372,18 +372,20 @@
 		
 		
 		<div style="display: none;">
-			<a href="/img/mammuts1.png" class="glightbox" data-gallery="gallery1">Image 1</a>
-			<a href="/img/mammuts2.png" class="glightbox" data-gallery="gallery1">Image 2</a>
-			<a href="/img/mammuts3.png" class="glightbox" data-gallery="gallery1">Image 3</a>
-			<a href="/img/mammuts4.png" class="glightbox" data-gallery="gallery1">Image 4</a>
+			<a href="/img/mammuts1-1536w.png" class="glightbox" data-gallery="gallery1" data-sizes="(max-width: 1536px) 100vw, 1536px" data-srcset="/img/mammuts1-640w.png 640w, /img/mammuts1-768w.png 768w, /img/mammuts1-1024w.png 1024w, /img/mammuts1-1280w.png 1280w, /img/mammuts1-1536w.png 1536w">Image 1</a>
+			<a href="/img/mammuts2-1536w.png" class="glightbox" data-gallery="gallery1" data-sizes="(max-width: 1536px) 100vw, 1536px" data-srcset="/img/mammuts2-640w.png 640w, /img/mammuts2-768w.png 768w, /img/mammuts2-1024w.png 1024w, /img/mammuts2-1280w.png 1280w, /img/mammuts2-1536w.png 1536w">Image 1</a>
+			<a href="/img/mammuts3-1536w.png" class="glightbox" data-gallery="gallery1" data-sizes="(max-width: 1536px) 100vw, 1536px" data-srcset="/img/mammuts3-640w.png 640w, /img/mammuts3-768w.png 768w, /img/mammuts3-1024w.png 1024w, /img/mammuts3-1280w.png 1280w, /img/mammuts3-1536w.png 1536w">Image 1</a>
+			<a href="/img/mammuts4-1536w.png" class="glightbox" data-gallery="gallery1" data-sizes="(max-width: 1536px) 100vw, 1536px" data-srcset="/img/mammuts4-640w.png 640w, /img/mammuts4-768w.png 768w, /img/mammuts4-1024w.png 1024w, /img/mammuts4-1280w.png 1280w, /img/mammuts4-1536w.png 1536w">Image 1</a>
 			<!-- Add more images as needed -->
 		</div>
 		
 		<script>
         document.addEventListener("DOMContentLoaded", function() {
-            const lightbox = GLightbox();
+            const lightbox = GLightbox({
+                
+                preload: false // Disables preloading of images
+            });
 
-            // Attach click event to the button
             document.getElementById('open-gallery').addEventListener('click', function() {
                 lightbox.open();
             });
