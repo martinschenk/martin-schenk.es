@@ -50,9 +50,7 @@
    @filamentStyles
    @vite('resources/css/app.css')
    
-   {{--glightbox--}}
-   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
-   <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
+   
 </head>
 <body class="flex flex-col h-screen">
 

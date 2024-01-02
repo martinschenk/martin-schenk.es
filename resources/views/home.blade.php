@@ -278,7 +278,7 @@
 					
 					
 					{{--Mammuts alquiler de servidores vps--}}
-					<div id="open-gallery" class="p-4 md:w-1/2 w-full">
+					<div onclick="portfolioClick('mammuts')" class="p-4 md:w-1/2 w-full">
 						<div class="h-full bg-white border-2 border-gray-300 p-8">
 							<p class=" mb-6">{{ __('Configure y pague sus servidores VPS en línea, y estarán disponibles y listos para usar en solo 15 minutos, gracias a la configuración automática.') }}</p>
 							<div class="inline-flex items-center">
@@ -371,24 +371,24 @@
 		</section>
 		
 		
-		<div style="display: none;">
-			<a href="/img/mammuts1-1536w.png" class="glightbox" data-gallery="gallery1" data-sizes="(max-width: 1536px) 100vw, 1536px" data-srcset="/img/mammuts1-640w.png 640w, /img/mammuts1-768w.png 768w, /img/mammuts1-1024w.png 1024w, /img/mammuts1-1280w.png 1280w, /img/mammuts1-1536w.png 1536w">Image 1</a>
-			<a href="/img/mammuts2-1536w.png" class="glightbox" data-gallery="gallery1" data-sizes="(max-width: 1536px) 100vw, 1536px" data-srcset="/img/mammuts2-640w.png 640w, /img/mammuts2-768w.png 768w, /img/mammuts2-1024w.png 1024w, /img/mammuts2-1280w.png 1280w, /img/mammuts2-1536w.png 1536w">Image 1</a>
-			<a href="/img/mammuts3-1536w.png" class="glightbox" data-gallery="gallery1" data-sizes="(max-width: 1536px) 100vw, 1536px" data-srcset="/img/mammuts3-640w.png 640w, /img/mammuts3-768w.png 768w, /img/mammuts3-1024w.png 1024w, /img/mammuts3-1280w.png 1280w, /img/mammuts3-1536w.png 1536w">Image 1</a>
-			<a href="/img/mammuts4-1536w.png" class="glightbox" data-gallery="gallery1" data-sizes="(max-width: 1536px) 100vw, 1536px" data-srcset="/img/mammuts4-640w.png 640w, /img/mammuts4-768w.png 768w, /img/mammuts4-1024w.png 1024w, /img/mammuts4-1280w.png 1280w, /img/mammuts4-1536w.png 1536w">Image 1</a>
-			<!-- Add more images as needed -->
-		</div>
+{{--		<div style="display: none;">--}}
+{{--			<a href="/img/mammuts1-1536w.png" class="glightbox" data-gallery="gallery1" data-sizes="(max-width: 1536px) 100vw, 1536px" data-srcset="/img/mammuts1-640w.png 640w, /img/mammuts1-768w.png 768w, /img/mammuts1-1024w.png 1024w, /img/mammuts1-1280w.png 1280w, /img/mammuts1-1536w.png 1536w">Image 1</a>--}}
+{{--			<a href="/img/mammuts2-1536w.png" class="glightbox" data-gallery="gallery1" data-sizes="(max-width: 1536px) 100vw, 1536px" data-srcset="/img/mammuts2-640w.png 640w, /img/mammuts2-768w.png 768w, /img/mammuts2-1024w.png 1024w, /img/mammuts2-1280w.png 1280w, /img/mammuts2-1536w.png 1536w">Image 1</a>--}}
+{{--			<a href="/img/mammuts3-1536w.png" class="glightbox" data-gallery="gallery1" data-sizes="(max-width: 1536px) 100vw, 1536px" data-srcset="/img/mammuts3-640w.png 640w, /img/mammuts3-768w.png 768w, /img/mammuts3-1024w.png 1024w, /img/mammuts3-1280w.png 1280w, /img/mammuts3-1536w.png 1536w">Image 1</a>--}}
+{{--			<a href="/img/mammuts4-1536w.png" class="glightbox" data-gallery="gallery1" data-sizes="(max-width: 1536px) 100vw, 1536px" data-srcset="/img/mammuts4-640w.png 640w, /img/mammuts4-768w.png 768w, /img/mammuts4-1024w.png 1024w, /img/mammuts4-1280w.png 1280w, /img/mammuts4-1536w.png 1536w">Image 1</a>--}}
+{{--			<!-- Add more images as needed -->--}}
+{{--		</div>--}}
 		
 		<script>
-        document.addEventListener("DOMContentLoaded", function() {
-            const lightbox = GLightbox({
-                
-                preload: false // Disables preloading of images
-            });
-
-            document.getElementById('open-gallery').addEventListener('click', function() {
-                lightbox.open();
-            });
+        function portfolioClick(project) {
+						if (project == 'mammuts') {
+								console.log('mammuts');
+						}
+				}
+				
+				document.addEventListener("DOMContentLoaded", function() {
+        
+        
         });
 		</script>
 
