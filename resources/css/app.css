@@ -70,6 +70,21 @@
         cursor: pointer;
     }
 
+    /*photoswipe*/
+    /*.custom-html-slide {
+        font-size: 40px;
+        line-height: 45px;
+        max-width: 400px;
+        width: 100%;
+        padding: 0 20px;
+        margin: 50px auto 0;
+        color: #fff;
+    }
+    .custom-html-slide a {
+        color: #fff;
+        text-decoration: underline;
+    }*/
+
 
 }
 

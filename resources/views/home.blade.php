@@ -23,14 +23,14 @@
 					<div class="flex flex-col sm:flex-row justify-center w-full">
 						
 						@livewire('contact-form')
-
+						
 						<a href="#portfolio"
 						   class="w-full sm:w-auto inline-flex items-center justify-center text-gray-700 bg-grau border-0 px-6 focus:outline-none hover:bg-gray-300 hover:text-gray-800   no-underline text-lg sm:text-lg mr-4 my-3 sm:my-0 py-5 sm:py-2">
 							{{ __('Proyectos') }}
 						</a>
 						
 						@livewire('presupuesto-form')
-						
+					
 					</div>
 				</div>
 			</div>
@@ -278,7 +278,7 @@
 					
 					
 					{{--Mammuts alquiler de servidores vps--}}
-					<div onclick="portfolioClick('mammuts')" class="p-4 md:w-1/2 w-full">
+					<div class="p-4 md:w-1/2 w-full">
 						<div class="h-full bg-white border-2 border-gray-300 p-8">
 							<p class=" mb-6">{{ __('Configure y pague sus servidores VPS en línea, y estarán disponibles y listos para usar en solo 15 minutos, gracias a la configuración automática.') }}</p>
 							<div class="inline-flex items-center">
@@ -286,39 +286,53 @@
 									<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
 									     stroke="currentColor" class="text-mittelgruen w-12 h-12 mr-3">
 										<path stroke-linecap="round" stroke-linejoin="round"
-										      d="M5.25 14.25h13.5m-13.5 0a3 3 0 01-3-3m3 3a3 3 0 100 6h13.5a3 3 0 100-6m-16.5-3a3 3 0 013-3h13.5a3 3 0 013 3m-19.5 0a4.5 4.5 0 01.9-2.7L5.737 5.1a3.375 3.375 0 012.7-1.35h7.126c1.062 0 2.062.5 2.7 1.35l2.587 3.45a4.5 4.5 0 01.9 2.7m0 0a3 3 0 01-3 3m0 3h.008v.008h-.008v-.008zm0-6h.008v.008h-.008v-.008zm-3 6h.008v.008h-.008v-.008zm0-6h.008v.008h-.008v-.008z"/>
+										      d="M5.25 14.25h13.5m-13.5 0a3 3 0 01-3-3m3 3a3 3 0 100 6h13.5a3 3 0 100-6m-16.5-3a3 3 0 013-3h13.5a3 3 0 013 3m-19.5 0a4.5 4.5 0 01.9-2.7L5.737 5.1a3.375 3.375 0 012.7-1.35h7.126c1.062 0 2.062.5 2.7 1.35l2.587 3.45a4.5 4.5 0 01.9 2.7m0 0a3 3 0 01-3 3m0 3h.008v.008h-.008v-.008zm0-6h.008v.008h-.008v-.008zm-3 6h.008v.008h-.008v.008zm0-6h.008v.008h-.008v-.008z"/>
 									</svg>
-								
-								
 								</div>
 								<h3 class="">
 									{{ __('Plataforma de alquiler de servidores VPS') }}
 								</h3>
 							</div>
-						</div>
-					</div>
-					
-					
-					<!-- Palimpalem -->
-					<div class="p-4 md:w-1/2 w-full">
-						<div class="h-full bg-white border-2 border-gray-300 p-8">
-							<p class=" mb-6">{{ __('Nuestro primer gran proyecto, un robusto y versátil constructor de páginas web, con más de 1.4 millones de páginas creadas.') }}</p>
-							<div class="inline-flex items-center">
-								<div>
-									<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-									     stroke="currentColor" class="text-mittelgruen w-12 h-12 mr-3">
-										<path stroke-linecap="round" stroke-linejoin="round"
-										      d="M11.42 15.17L17.25 21A2.652 2.652 0 0021 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 11-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.743-.14a4.5 4.5 0 004.486-6.336l-3.276 3.277a3.004 3.004 0 01-2.25-2.25l3.276-3.276a4.5 4.5 0 00-6.336 4.486c.091 1.076-.071 2.264-.904 2.95l-.102.085m-1.745 1.437L5.909 7.5H4.5L2.25 3.75l1.5-1.5L7.5 4.5v1.409l4.26 4.26m-1.745 1.437l1.745-1.437m6.615 8.206L15.75 15.75M4.867 19.125h.008v.008h-.008v-.008z"/>
-									</svg>
-								</div>
-								
-								<h3 class="">
-									{{ __('Plataforma para crear páginas web') }}
-								</h3>
+							<div class="pswp-gallery pswp-gallery--single-column w-full" id="gallery-mammuts">
+								<a href="/img/mammuts1-640w.png"
+								   data-pswp-width="640"
+								   data-pswp-height="640"
+								   >
+									<img class="w-1/5" src="/img/mammuts1-640w.png" alt=""/>
+								</a>
+								<a href="/img/mammuts2-1536w.png"
+								   data-pswp-width="1536"
+								   data-pswp-height="1536">
+									<img class="w-1/5" src="/img/mammuts2-640w.png" alt=""/>
+								</a>
 							</div>
+							</p>
+						
 						</div>
 					</div>
 				</div>
+				
+				
+				<!-- Palimpalem -->
+				<div class="p-4 md:w-1/2 w-full">
+					<div class="h-full bg-white border-2 border-gray-300 p-8">
+						<p class=" mb-6">{{ __('Nuestro primer gran proyecto, un robusto y versátil constructor de páginas web, con más de 1.4 millones de páginas creadas.') }}</p>
+						<div class="inline-flex items-center">
+							<div>
+								<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+								     stroke="currentColor" class="text-mittelgruen w-12 h-12 mr-3">
+									<path stroke-linecap="round" stroke-linejoin="round"
+									      d="M11.42 15.17L17.25 21A2.652 2.652 0 0021 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 11-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.743-.14a4.5 4.5 0 004.486-6.336l-3.276 3.277a3.004 3.004 0 01-2.25-2.25l3.276-3.276a4.5 4.5 0 00-6.336 4.486c.091 1.076-.071 2.264-.904 2.95l-.102.085m-1.745 1.437L5.909 7.5H4.5L2.25 3.75l1.5-1.5L7.5 4.5v1.409l4.26 4.26m-1.745 1.437l1.745-1.437m6.615 8.206L15.75 15.75M4.867 19.125h.008v.008h-.008v-.008z"/>
+								</svg>
+							</div>
+							
+							<h3 class="">
+								{{ __('Plataforma para crear páginas web') }}
+							</h3>
+						</div>
+					</div>
+				</div>
+			</div>
 			</div>
 		</section>
 		
@@ -371,26 +385,14 @@
 		</section>
 		
 		
-{{--		<div style="display: none;">--}}
-{{--			<a href="/img/mammuts1-1536w.png" class="glightbox" data-gallery="gallery1" data-sizes="(max-width: 1536px) 100vw, 1536px" data-srcset="/img/mammuts1-640w.png 640w, /img/mammuts1-768w.png 768w, /img/mammuts1-1024w.png 1024w, /img/mammuts1-1280w.png 1280w, /img/mammuts1-1536w.png 1536w">Image 1</a>--}}
-{{--			<a href="/img/mammuts2-1536w.png" class="glightbox" data-gallery="gallery1" data-sizes="(max-width: 1536px) 100vw, 1536px" data-srcset="/img/mammuts2-640w.png 640w, /img/mammuts2-768w.png 768w, /img/mammuts2-1024w.png 1024w, /img/mammuts2-1280w.png 1280w, /img/mammuts2-1536w.png 1536w">Image 1</a>--}}
-{{--			<a href="/img/mammuts3-1536w.png" class="glightbox" data-gallery="gallery1" data-sizes="(max-width: 1536px) 100vw, 1536px" data-srcset="/img/mammuts3-640w.png 640w, /img/mammuts3-768w.png 768w, /img/mammuts3-1024w.png 1024w, /img/mammuts3-1280w.png 1280w, /img/mammuts3-1536w.png 1536w">Image 1</a>--}}
-{{--			<a href="/img/mammuts4-1536w.png" class="glightbox" data-gallery="gallery1" data-sizes="(max-width: 1536px) 100vw, 1536px" data-srcset="/img/mammuts4-640w.png 640w, /img/mammuts4-768w.png 768w, /img/mammuts4-1024w.png 1024w, /img/mammuts4-1280w.png 1280w, /img/mammuts4-1536w.png 1536w">Image 1</a>--}}
-{{--			<!-- Add more images as needed -->--}}
-{{--		</div>--}}
-		
-		<script>
-        function portfolioClick(project) {
-						if (project == 'mammuts') {
-								console.log('mammuts');
-						}
-				}
-				
-				document.addEventListener("DOMContentLoaded", function() {
-        
-        
-        });
-		</script>
+		{{--		<div style="display: none;">--}}
+		{{--			<a href="/img/mammuts1-1536w.png" class="glightbox" data-gallery="gallery1" data-sizes="(max-width: 1536px) 100vw, 1536px" data-srcset="/img/mammuts1-640w.png 640w, /img/mammuts1-768w.png 768w, /img/mammuts1-1024w.png 1024w, /img/mammuts1-1280w.png 1280w, /img/mammuts1-1536w.png 1536w">Image 1</a>--}}
+		{{--			<a href="/img/mammuts2-1536w.png" class="glightbox" data-gallery="gallery1" data-sizes="(max-width: 1536px) 100vw, 1536px" data-srcset="/img/mammuts2-640w.png 640w, /img/mammuts2-768w.png 768w, /img/mammuts2-1024w.png 1024w, /img/mammuts2-1280w.png 1280w, /img/mammuts2-1536w.png 1536w">Image 1</a>--}}
+		{{--			<a href="/img/mammuts3-1536w.png" class="glightbox" data-gallery="gallery1" data-sizes="(max-width: 1536px) 100vw, 1536px" data-srcset="/img/mammuts3-640w.png 640w, /img/mammuts3-768w.png 768w, /img/mammuts3-1024w.png 1024w, /img/mammuts3-1280w.png 1280w, /img/mammuts3-1536w.png 1536w">Image 1</a>--}}
+		{{--			<a href="/img/mammuts4-1536w.png" class="glightbox" data-gallery="gallery1" data-sizes="(max-width: 1536px) 100vw, 1536px" data-srcset="/img/mammuts4-640w.png 640w, /img/mammuts4-768w.png 768w, /img/mammuts4-1024w.png 1024w, /img/mammuts4-1280w.png 1280w, /img/mammuts4-1536w.png 1536w">Image 1</a>--}}
+		{{--			<!-- Add more images as needed -->--}}
+		{{--		</div>--}}
+		s
 
 
 </x-guest>
