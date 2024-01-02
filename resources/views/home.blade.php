@@ -293,20 +293,34 @@
 									{{ __('Plataforma de alquiler de servidores VPS') }}
 								</h3>
 							</div>
-							<div class="pswp-gallery pswp-gallery--single-column w-full" id="gallery-mammuts">
-								<a href="/img/mammuts1-640w.png"
-								   data-pswp-width="640"
-								   data-pswp-height="640"
-								   >
-									<img class="w-1/5" src="/img/mammuts1-640w.png" alt=""/>
+							
+							{{--PhotoSwipe Thumbnails--}}
+							<div class="xxpswp-gallery xxpswp-gallery--single-column w-full flex flex-wrap mt-6" id="gallery-mammuts">
+								<a href="/img/mammuts1-1024w1024h.jpg"
+								   class="px-1.5 pb-1.5 w-1/3"
+								   data-pswp-width="1024"
+								   data-pswp-height="1024">
+									<img class="w-full shadow-xl mb-4" src="/img/mammuts1-300w300h.jpg" alt="Alquiler Servidores"/>
 								</a>
-								<a href="/img/mammuts2-1536w.png"
-								   data-pswp-width="1536"
-								   data-pswp-height="1536">
-									<img class="w-1/5" src="/img/mammuts2-640w.png" alt=""/>
+								<a href="/img/mammuts2-1024w1016h.jpg"
+								   class="px-1.5 pb-1.5 w-1/3"
+								   data-pswp-width="1024"
+								   data-pswp-height="1016">
+									<img class="w-full shadow-xl mb-4" src="/img/mammuts2-300w297h.jpg" alt=""/>
+								</a>
+								<a href="/img/mammuts3-1024w1013h.jpg"
+								   class="px-1.5 pb-1.5 w-1/3"
+								   data-pswp-width="1024"
+								   data-pswp-height="1013">
+									<img class="w-full shadow-xl mb-4" src="/img/mammuts3-300w296h.jpg" alt=""/>
+								</a>
+								<a href="/img/mammuts4-1024w762h.jpg"
+								   class="px-1.5 pb-1.5 w-1/3"
+								   data-pswp-width="1024"
+								   data-pswp-height="762">
+									<img class="w-full shadow-xl mb-4" src="/img/mammuts4-300w223h.jpg" alt=""/>
 								</a>
 							</div>
-							</p>
 						
 						</div>
 					</div>
@@ -332,7 +346,6 @@
 						</div>
 					</div>
 				</div>
-			</div>
 			</div>
 		</section>
 		
