@@ -1,36 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns:xhtml="http://www.w3.org/1999/xhtml"
-        xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+    <!-- Homepage URLs -->
     <url>
-        <loc>https://www.martin-schenk.es/es</loc>
+
+        <!-- Landing Page -->
+        <loc>https://www.martin-schenk.es/en</loc>
         <xhtml:link
                 rel="alternate"
                 hreflang="en"
                 href="https://www.martin-schenk.es/en"/>
         <xhtml:link
                 rel="alternate"
+                hreflang="es"
+                href="https://www.martin-schenk.es/es"/>
+        <xhtml:link
+                rel="alternate"
                 hreflang="de"
                 href="https://www.martin-schenk.es/de"/>
+    </url>
+
+    <!-- Politica Cookies URLs -->
+    <url>
+        <loc>https://www.martin-schenk.es/en/politica-cookies</loc>
+        <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.martin-schenk.es/en/politica-cookies"/>
         <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://www.martin-schenk.es/es"/>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
+                href="https://www.martin-schenk.es/es/politica-cookies"/>
+        <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://www.martin-schenk.es/de/politica-cookies"/>
     </url>
+
+    <!-- Politica Privacidad URLs -->
     <url>
-        <loc>https://www.martin-schenk.es/es/aviso-legal</loc>
-        <changefreq>daily</changefreq>
-        <priority>0.8</priority>
+        <loc>https://www.martin-schenk.es/en/politica-privacidad</loc>
+        <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.martin-schenk.es/en/politica-privacidad"/>
+        <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://www.martin-schenk.es/es/politica-privacidad"/>
+        <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://www.martin-schenk.es/de/politica-privacidad"/>
     </url>
+
+    <!-- Aviso Legal URLs -->
     <url>
-        <loc>https://www.martin-schenk.es/es/politica-privacidad</loc>
-        <changefreq>daily</changefreq>
-        <priority>0.8</priority>
+        <loc>https://www.martin-schenk.es/en/aviso-legal</loc>
+        <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.martin-schenk.es/en/aviso-legal"/>
+        <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://www.martin-schenk.es/es/aviso-legal"/>
+        <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://www.martin-schenk.es/de/aviso-legal"/>
     </url>
-    <url>
-        <loc>https://www.martin-schenk.es/es/politica-cookies</loc>
-        <changefreq>daily</changefreq>
-        <priority>0.8</priority>
-    </url>
+
+
 </urlset>

@@ -38,7 +38,6 @@
 					Alemán
 				</a>
 			@endif
-			
 			@if($currentLocale == 'en')
 				<a class="underline mx-4 text-gruen hover:text-gray-300 cursor-pointer"
 				   hreflang="{{ $currentLocale }}"
@@ -91,18 +90,20 @@
 		@endforeach--}}
 	</div>
 	
+	
 	{{-- Legal Links --}}
 	<div class="flex items-center justify-center mb-4">
 		{{-- Legal Notice --}}
 		<a class="underline mx-3 text-gruen hover:text-gray-300"
-		   href="{{ config('url') }}/aviso-legal">{{ __('Aviso Legal') }}</a>
+		   href="{{ $linkUrl }}/{{ $currentLocale }}/aviso-legal">{{ __('Aviso Legal') }}</a>
 		{{-- Privacy Policy --}}
 		<a class="underline mx-3 text-gruen hover:text-gray-300"
-		   href="{{ config('url') }}/politica-privacidad">{{ __('Política de Privacidad') }}</a>
+		   href="{{ $linkUrl }}/{{ $currentLocale }}/politica-privacidad">{{ __('Política de Privacidad') }}</a>
 		{{-- Cookie Policy --}}
 		<a class="underline mx-3 text-gruen hover:text-gray-300"
-		   href="{{ config('url') }}/politica-cookies">{{ __('Política de Cookies') }}</a>
+		   href="{{  $linkUrl }}/{{ $currentLocale }}/politica-cookies">{{ __('Política de Cookies') }}</a>
 	</div>
+	
 	
 	{{-- Copyright --}}
 	@php
