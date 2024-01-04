@@ -342,7 +342,7 @@ return [
   
   // URLs which should not be processed, e.g. '/nova', '/nova/*', '/nova-api/*' or specific application URLs
   // Defaults to []
-    'urlsIgnored' => ['/skipped', '/admin/*'],
+    'urlsIgnored' => ['politica-cookies', 'politica-privacidad', 'aviso-legal', '/skipped', '/admin/*'],
     
     'httpMethodsIgnored' => ['POST', 'PUT', 'PATCH', 'DELETE'],
   
