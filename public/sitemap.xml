@@ -34,39 +34,3 @@
         <priority>0.8</priority>
     </url>
 </urlset>
-        <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns:xhtml="http://www.w3.org/1999/xhtml"
-        xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-    <loc>https://www.martin-schenk.es/es</loc>
-    <xhtml:link
-            rel="alternate"
-            hreflang="en"
-            href="https://www.martin-schenk.es/en"/>
-    <xhtml:link
-            rel="alternate"
-            hreflang="de"
-            href="https://www.martin-schenk.es/de"/>
-    <xhtml:link
-            rel="alternate"
-            hreflang="es"
-            href="https://www.martin-schenk.es/es"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-</url>
-<url>
-    <loc>https://www.martin-schenk.es/es/aviso-legal</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-</url>
-<url>
-    <loc>https://www.martin-schenk.es/es/politica-privacidad</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-</url>
-<url>
-    <loc>https://www.martin-schenk.es/es/politica-cookies</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-</url>
-</urlset>
