@@ -30,15 +30,21 @@
 		<meta name="twitter:image" content="{{ asset('/img/logo-martin-schenk-dunkel.svg') }}">
 	@endsection
 	
+	{{-- SEO Meta Tags--}}
 	@yield('meta_description')
 	@yield('social_meta_tags')
 	
 	
 	<!-- hreflang -->
-	<link rel="alternate" hreflang="x-default" href="https://www.martin-schenk.es/en"/>
-	<link rel="alternate" hreflang="en" href="https://www.martin-schenk.es/en"/>
-	<link rel="alternate" hreflang="es" href="https://www.martin-schenk.es/es"/>
-	<link rel="alternate" hreflang="de" href="https://www.martin-schenk.es/de"/>
+	@section('hreflang')
+		<link rel="alternate" hreflang="x-default" href="https://www.martin-schenk.es/en"/>
+		<link rel="alternate" hreflang="en" href="https://www.martin-schenk.es/en"/>
+		<link rel="alternate" hreflang="es" href="https://www.martin-schenk.es/es"/>
+		<link rel="alternate" hreflang="de" href="https://www.martin-schenk.es/de"/>
+	@endsection
+	
+	{{-- hreflang von jeder seite einbinden --}}
+	@yield('hreflang')
 	
 	<title class="">{{ $title.' | ' ?? '' }}  {{ config('app.name', 'Martin Schenk S.L.') }}</title>
 	

@@ -1,6 +1,6 @@
 {{-- Footer Blade --}}
 @php
-	$linkUrl = config('url');
+	$linkUrl = config('app.url');
 @endphp
 
 <footer class="bg-dunkelgruen w-full flex flex-col items-center justify-center p-6 text-white text-sm">

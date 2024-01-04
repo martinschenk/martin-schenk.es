@@ -67,7 +67,7 @@
 		<ul>
 			
 			@php
-				$linkurl = config('url');
+				$linkurl = config('app.url');
 			@endphp
 			
 			<li><a href="{{ $linkurl }}aviso-legal">Aviso Legal</a></li>

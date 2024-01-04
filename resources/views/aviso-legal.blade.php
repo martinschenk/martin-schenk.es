@@ -1,14 +1,41 @@
 <x-guest>
 	
-	{{--show the code above in a loop which uses the https://github.com/mcamara/laravel-localization functions--}}
+	{{-- hier seitenname eingeben--}}
+	@php
+		$pageName = 'aviso-legal';
+    $metaDescription = __('Descubre las políticas y términos legales de Martin Schenk S.L. Conoce nuestros compromisos y derechos en la prestación de servicios web especializados.');
+	@endphp
+	
+	
+	{{-- meta description fuer layout--}}
+	@section('meta_description')
+		<meta name="description"
+		      content="{{ $metaDescription }}">
+	@endsection
+	
+	
+	{{-- meta description fuer layout--}}
+	@section('social_meta_tags')
+		<!-- You can leave this section empty if you don't want social media tags on this page -->
+	@endsection
+	
+	
+	{{-- hreflang für layout --}}
+	@section('hreflang')
+		<link rel="alternate" hreflang="x-default" href="{{ url('/en/' . $pageName) }}"/>
+		@foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
+			<link rel="alternate" hreflang="{{ $localeCode }}"
+			      href="{{ config('app.url') }}/{{ $localeCode }}/{{ $pageName }}"/>
+		@endforeach
+	@endsection
+	
+	
+	{{-- lokalisierte seite einbinden --}}
 	@foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
 		@if(LaravelLocalization::getCurrentLocale() == $localeCode)
-			@include('aviso-legal-'.$localeCode)
+			@include($pageName.'-'.$localeCode)
 		@endif
 	@endforeach
-	
-	{{--if the current locale is another then the declared ones, show the english version.
-	pseudocode: if getCurrentLocale not in getSupportedLocales then show the english version--}}
 	
 	
 	{{-- Check if the current locale is not one of the supported locales, then show the English version --}}
@@ -16,9 +43,8 @@
 		$currentLocale = LaravelLocalization::getCurrentLocale();
 		$supportedLocales = array_keys(LaravelLocalization::getSupportedLocales());
 	@endphp
-	
 	@if(!in_array($currentLocale, $supportedLocales))
-		@include('aviso-legal-en')
+		@include($pageName.'-en')
 	@endif
 
 </x-guest>
