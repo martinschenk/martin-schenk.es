@@ -23,11 +23,11 @@
 
     <!-- Politica Cookies URLs -->
     <url>
-        <loc>https://www.martin-schenk.es/en/politica-cookies</loc>
+        <loc>https://www.martin-schenk.es/en/cookies-policy</loc>
         <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.martin-schenk.es/en/politica-cookies"/>
+                href="https://www.martin-schenk.es/en/cookies-policy"/>
         <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -35,16 +35,16 @@
         <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://www.martin-schenk.es/de/politica-cookies"/>
+                href="https://www.martin-schenk.es/de/cookie-richtlinie"/>
     </url>
 
     <!-- Politica Privacidad URLs -->
     <url>
-        <loc>https://www.martin-schenk.es/en/politica-privacidad</loc>
+        <loc>https://www.martin-schenk.es/en/privacy-policy</loc>
         <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.martin-schenk.es/en/politica-privacidad"/>
+                href="https://www.martin-schenk.es/en/privacy-policy"/>
         <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -52,16 +52,16 @@
         <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://www.martin-schenk.es/de/politica-privacidad"/>
+                href="https://www.martin-schenk.es/de/datenschutz-richtlinie"/>
     </url>
 
     <!-- Aviso Legal URLs -->
     <url>
-        <loc>https://www.martin-schenk.es/en/aviso-legal</loc>
+        <loc>https://www.martin-schenk.es/en/legal-notice</loc>
         <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.martin-schenk.es/en/aviso-legal"/>
+                href="https://www.martin-schenk.es/en/legal-notice"/>
         <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -69,7 +69,7 @@
         <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://www.martin-schenk.es/de/aviso-legal"/>
+                href="https://www.martin-schenk.es/de/impressum"/>
     </url>
 
 

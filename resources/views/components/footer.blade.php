@@ -66,28 +66,7 @@
 				<span class="text-white mx-4">Deutsch</span>
 			@endif
 		
-		
 		</div>
-		
-		{{--@foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
-			@php
-				//dd($properties);
-				if ($properties['name'] == 'English') $languageName = __('Inglés');
-				if ($properties['name'] == 'German') $languageName = __('Alemán');
-				if ($properties['name'] == 'Spanish') $languageName = __('Español');
-				$languageName = __($properties['name']); //$properties['native']
-			@endphp
-			
-			@if(LaravelLocalization::getCurrentLocaleNative() == $properties['native'])
-				<span class="text-white mx-4">{{ LaravelLocalization::getCurrentLocaleNative() }}</span>
-			@else
-				<a class="underline mx-4 text-gruen hover:text-gray-300 cursor-pointer" hreflang="{{ $localeCode }}"
-				   href="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}">
-					--}}{{--{{ \App\Helpers\AppHelper::getTranslation('langName', $languageName) }}--}}{{--
-					{{ $languageName }}
-				</a>
-			@endif
-		@endforeach--}}
 	</div>
 	
 	
@@ -95,13 +74,13 @@
 	<div class="flex items-center justify-center mb-4">
 		{{-- Legal Notice --}}
 		<a class="underline mx-3 text-gruen hover:text-gray-300"
-		   href="{{ $linkUrl }}/{{ $currentLocale }}/aviso-legal">{{ __('Aviso Legal') }}</a>
+		   href="{{ LaravelLocalization::localizeURL(trans('routes.aviso-legal')) }}">{{ __('Aviso Legal') }}</a>
 		{{-- Privacy Policy --}}
 		<a class="underline mx-3 text-gruen hover:text-gray-300"
-		   href="{{ $linkUrl }}/{{ $currentLocale }}/politica-privacidad">{{ __('Política de Privacidad') }}</a>
+		   href="{{ LaravelLocalization::localizeURL(trans('routes.politica-privacidad')) }}">{{ __('Política de Privacidad') }}</a>
 		{{-- Cookie Policy --}}
 		<a class="underline mx-3 text-gruen hover:text-gray-300"
-		   href="{{  $linkUrl }}/{{ $currentLocale }}/politica-cookies">{{ __('Política de Cookies') }}</a>
+		   href="{{ LaravelLocalization::localizeURL(trans('routes.politica-cookies')) }}">{{ __('Política de Cookies') }}</a>
 	</div>
 	
 	

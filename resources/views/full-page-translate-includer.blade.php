@@ -1,6 +1,11 @@
 {{-- Beispiel: aufruf von aviso-legal.blade.php und ruft auf aviso-legal-de.blade.php  --}}
 {{-- wird eingesetzt für Seiten, die komplett übersetzt vorliegen --}}
 
+@php
+	$urlName = __($pageName);
+  $pageNameInEnglish = __('routes.'.$pageName, [], 'en'); //Fallback language (and in php code base is spanish!)
+@endphp
+
 {{-- meta description fuer layout--}}
 @section('meta_description')
 	<meta name="description"
@@ -16,10 +21,9 @@
 
 {{-- hreflang für layout --}}
 @section('hreflang')
-	<link rel="alternate" hreflang="x-default" href="{{ url('/en/' . $pageName) }}"/>
+	<link rel="alternate" hreflang="x-default" href="{{ url('/en/' . $pageNameInEnglish) }}"/>
 	@foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
-		<link rel="alternate" hreflang="{{ $localeCode }}"
-		      href="{{ config('app.url') }}/{{ $localeCode }}/{{ $pageName }}"/>
+		<link rel="alternate" hreflang="{{ $localeCode }}" href="{{ LaravelLocalization::localizeURL(Request::path(), $localeCode) }}" />
 	@endforeach
 @endsection
 
