@@ -7,44 +7,9 @@
 	@endphp
 	
 	
-	{{-- meta description fuer layout--}}
-	@section('meta_description')
-		<meta name="description"
-		      content="{{ $metaDescription }}">
-	@endsection
-	
-	
-	{{-- meta description fuer layout--}}
-	@section('social_meta_tags')
-		<!-- You can leave this section empty if you don't want social media tags on this page -->
-	@endsection
-	
-	
-	{{-- hreflang für layout --}}
-	@section('hreflang')
-		<link rel="alternate" hreflang="x-default" href="{{ url('/en/' . $pageName) }}"/>
-		@foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
-			<link rel="alternate" hreflang="{{ $localeCode }}"
-			      href="{{ config('app.url') }}/{{ $localeCode }}/{{ $pageName }}"/>
-		@endforeach
-	@endsection
-	
-	
-	{{-- lokalisierte seite einbinden --}}
-	@foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
-		@if(LaravelLocalization::getCurrentLocale() == $localeCode)
-			@include($pageName.'-'.$localeCode)
-		@endif
-	@endforeach
-	
-	
-	{{-- Check if the current locale is not one of the supported locales, then show the English version --}}
-	@php
-		$currentLocale = LaravelLocalization::getCurrentLocale();
-		$supportedLocales = array_keys(LaravelLocalization::getSupportedLocales());
-	@endphp
-	@if(!in_array($currentLocale, $supportedLocales))
-		@include($pageName.'-en')
-	@endif
+	@include('full-page-translate-includer', [
+      'pageName' => $pageName,
+      'metaDescription' => $metaDescription
+  ])
 
 </x-guest>
