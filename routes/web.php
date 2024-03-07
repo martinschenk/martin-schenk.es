@@ -5,6 +5,7 @@ use Filament\Notifications\Notification;
 use Illuminate\Support\Facades\Route;
 use Livewire\Livewire;
 use Mcamara\LaravelLocalization\Facades\LaravelLocalization;
+use App\Http\Controllers\EmailSubscriptionController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,6 +17,9 @@ use Mcamara\LaravelLocalization\Facades\LaravelLocalization;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+//startups espanolas subscription emails empfangen und weiterleiten
+Route::post('/subscribe-startups-espanolas', [EmailSubscriptionController::class, 'subscribeStartupsEspanolas']);
 
 
 //seiten die lokalisiert werden sollen
