@@ -9,6 +9,13 @@ class EmailSubscriptionController extends Controller
 {
   public function subscribeStartupsEspanolas(Request $request)
   {
+    $sharedSecret = '73242014'; //same key in form on SE website
+    
+    if ($request->input('shared_secret') !== $sharedSecret) {
+      \Log::error("Invalid shared secret for subscription attempt from email {$request->input('email')}");
+      return response()->json(['error' => 'Invalid request.'], 403);
+    }
+    
     // Validate the incoming request data
     $validatedData = $request->validate([
         'email' => 'required|email',
