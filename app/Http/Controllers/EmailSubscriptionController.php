@@ -37,7 +37,7 @@ class EmailSubscriptionController extends Controller
       \Log::info("Subscription email sent to {$subscriberEmail}.");
       
       // Return a successful response
-      return response()->json(['message' => 'Thank you for subscribing!'], 200);
+      //return response()->json(['message' => 'Thank you for subscribing!'], 200);
     } catch (\Exception $e) {
       // Log the exception
       \Log::error("Failed to send subscription email for {$subscriberEmail}. Error: {$e->getMessage()}");
@@ -49,7 +49,7 @@ class EmailSubscriptionController extends Controller
       });
       
       // Return an error response
-      return response()->json(['error' => 'There was a problem with your subscription.'], 500);
+      //return response()->json(['error' => 'There was a problem with your subscription.'], 500);
     }
   }
   
