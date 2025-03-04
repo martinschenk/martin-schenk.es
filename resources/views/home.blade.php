@@ -373,9 +373,11 @@
 				<div class="flex justify-center flex-wrap py-4">
 					<!-- Logo Container -->
 					<div class="flex flex-wrap justify-center m-3">
-						<!-- OpenAI Logo mit grauem Rahmen -->
+						<!-- OpenAI Logo -->
 						<img class="h-6 xl:h-10 lg:h-10 sm:h-8  m-4 mt-3" src="{{ asset('/img/logo-openai.png') }}" alt="OpenAI">
-						<!-- Laravel Logo mit grauem Rahmen -->
+						<!-- Anthropic Logo -->
+						<img class="h-5 xl:h-5 lg:h-5 sm:h-4 xs:h-3 m-4 mt-6 xl:mt-6 lg:mt-6 sm:mt-5 xs:mt-5" src="{{ asset('/img/logo-anthropic.png') }}" alt="OpenAI">
+						<!-- Laravel Logo -->
 						<img class="h-6 xl:h-10 lg:h-10 sm:h-8  m-4 mt-3" src="{{ asset('/img/logo-laravel.png') }}" alt="Laravel">
 						<!-- Livewire Logo -->
 						<img class="h-5 xl:h-8 lg:h-8 sm:h-6 xs:h-5 m-4" src="{{ asset('/img/logo-livewire.png') }}"

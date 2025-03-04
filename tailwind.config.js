@@ -24,6 +24,9 @@ export default {
             // nunito: ['Nunito', ...defaultTheme.fontFamily.sans],
         },
         extend: {
+            screens: {
+                xs: '480px', // Neuer Breakpoint für extra kleine Bildschirme
+            },
             colors: {
                 transparent: 'transparent',
                 current: 'currentColor',
