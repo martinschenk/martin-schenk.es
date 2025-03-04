@@ -292,10 +292,10 @@
 								<h3 class="">
 									{{ __('Plataforma de alquiler de servidores VPS') }}
 								</h3>
-							</div>
+
 							
 							{{--PhotoSwipe Thumbnails--}}
-							<div class="xxpswp-gallery xxpswp-gallery--single-column w-full flex flex-wrap mt-6" id="gallery-mammuts">
+							{{--<div class="xxpswp-gallery xxpswp-gallery--single-column w-full flex flex-wrap mt-6" id="gallery-mammuts">
 								<a href="/img/mammuts1-1024w1024h.jpg"
 								   class="px-1.5 pb-1.5 w-1/3"
 								   data-pswp-width="1024"
@@ -320,7 +320,7 @@
 								   data-pswp-height="762">
 									<img class="w-full shadow-xl mb-4" src="/img/mammuts4-300w223h.jpg" alt=""/>
 								</a>
-							</div>
+							</div>--}}
 						
 						</div>
 					</div>
@@ -346,6 +346,7 @@
 						</div>
 					</div>
 				</div>
+
 			</div>
 		
 		</section>
