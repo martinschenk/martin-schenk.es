@@ -49,7 +49,7 @@
 				<div class="flex flex-wrap -m-4">
 					
 					<div class="flex flex-col p-4 lg:w-1/2 md:w-1/2 w-full ">
-						<div class="flex-grow border-2 border-gray-300 px-8 py-6 xcursor-pointer">
+						<div class="flex-grow border-2 border-gray-300 px-8 py-6 ">
 							<x-heroicon-o-light-bulb class="text-mittelgruen w-12 h-12 mb-3 inline-block"/>
 							<h3 class="">
 								{{ __('Aplicaciones Web a Medida') }}
@@ -348,7 +348,7 @@
 				</div>
 
 			</div>
-		
+			</div>
 		</section>
 		
 		
